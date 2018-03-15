@@ -2162,6 +2162,7 @@ body:not(.comments-page) div.content .entry
 
     padding-top: 3px;
     padding-bottom: 3px;
+    padding-left: 20px;
 
     border: none;
     color: #555555;
