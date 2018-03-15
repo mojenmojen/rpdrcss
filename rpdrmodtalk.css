@@ -4937,6 +4937,12 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
     background-position: center center;
 }
 
+.tabmenu li:nth-of-type(6)
+{
+    display: none;
+    visibility: hidden;
+}
+
 body
 {
     background: #e9d5b2;
