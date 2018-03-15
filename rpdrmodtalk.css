@@ -602,16 +602,6 @@ ul#image-preview-list .preview
     margin: auto 0;
 }
 
-#search input[type=text],
-.login-form-side input[type=text],
-.login-form-side input[type=password],
-.md textarea,
-body,
-textarea
-{
-    font-family: -apple-system, San Francisco Display, Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
 .title + .expando-button + .expando-button
 {
     display: none;
@@ -4198,7 +4188,7 @@ button:active
 .commentarea .thing .md table,
 .wiki-page-content .md blockquote
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 
     margin: 20px 10px 10px;
 }
@@ -5164,7 +5154,7 @@ a[href='/spoiler']:hover
 textarea,
 body
 {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /*END CUSTOM SUBREDDIT FONT*/
