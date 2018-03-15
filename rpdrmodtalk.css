@@ -879,12 +879,13 @@ body.res #header-bottom-right #mail.havemail
 #header-bottom-right .user .userkarma,
 #header-bottom-right a
 {
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 9px;
+    font-weight: normal;
 
     text-transform: uppercase;
+    letter-spacing: 1px;
 
-    color: #fff;
+    color: #afafaf;
 }
 .tabmenu {
 	margin-left: 20px;
@@ -902,18 +903,14 @@ body.res #header-bottom-right #mail.havemail
 	color: #777777;
 	background: rgba(0,0,0,.8);
 }
+.tabmenu li:hover a,
 .tabmenu li.selected a {
-	color: #005FBE;
-	background-color: #BDEEFF;
-    box-shadow: 0 0 5px #43AFFF,0 0 10px #43AFFF,inset 0 0 1px #43AFFF,inset 0 0 12px 5px rgba(255,255,255,.8);
-	border: none;
-}
-.tabmenu li:hover a {
 	color: #005F8E;
     background-color: #BDEEFF;
     box-shadow: 0 0 5px #43AFFF,0 0 10px #43AFFF,inset 0 0 1px #43AFFF,inset 0 0 12px 5px rgba(255,255,255,.8);
 	border: none;
 }
+
 .res #header-bottom-right #modmail
 {
     top: -4px !important;
