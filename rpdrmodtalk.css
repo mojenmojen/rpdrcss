@@ -2545,10 +2545,11 @@ span.totalvotes
 .pagename a
 {
     position: absolute;
-    top: 250px;
+    top: -200px;
     left: 0;
-    bottom: 0;
+    bottom: 45px;
     right: 0;
+    width: 2400px;
     text-indent: -999px;
 }
 
