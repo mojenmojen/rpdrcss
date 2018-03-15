@@ -20,36 +20,7 @@ ul#image-preview-list .preview img
     background: rgba(151, 113, 66, .8);
 }
 
-#header-bottom-left .tabmenu,
-.tabmenu li,
-.tabmenu li a
-{
-    background-color: transparent;
-}
 
-#header-bottom-left .tabmenu
-{
-    position: absolute;
-    top: 156px;
-    right: 0;
-    left: 0;
-
-    padding-left: 80px;
-
-    text-align: left;
-}
-
-.tabmenu
-{
-    margin-top: 22px;
-}
-
-.tabmenu li
-{
-    width: 102px;
-    height: 36px;
-    margin: 0 !important;
-}
 
 .choice.primary,
 .selected
@@ -57,29 +28,9 @@ ul#image-preview-list .preview img
     font-weight: 600;
 }
 
-.tabmenu li a
-{
-    font-weight: 400;
-    line-height: 48px;
-
-    display: inline-block;
-
-    padding: 0 20px !important;
-
-    -webkit-transition: 150ms;
-            transition: 150ms;
-    text-align: center;
-    text-transform: Uppercase;
-
-    color: #e5e5e5 !important;
-    border-right: none;
-    border-left: none;
-    text-shadow: 0 1px 8px rgba(151, 113, 66, .8);
-}
 
 #hsts_pixel,
 .action-form input:disabled,
-.listing-page .tabmenu li a[href*='/gilded'],
 button[disabled]
 {
     display: none;
@@ -98,24 +49,7 @@ ul.report-reasons
     text-transform: uppercase;
 }
 
-.tabmenu li.selected a,
-.tabmenu li:hover a
-{
-    font-weight: 700 !important;
 
-    color: #fff !important;
-}
-
-.tabmenu li:hover a
-{
-    background-color: rgba(255, 255, 255, .08);
-}
-
-.tabmenu li.selected a
-{
-    border: none !important;
-    background-color: rgba(255, 255, 255, .15);
-}
 
 .commentarea span.score,
 .deepthread,
@@ -127,11 +61,7 @@ ul.report-reasons
     font-weight: 700;
 }
 
-#header .tabmenu li:nth-of-type(8)
-{
-    display: none;
-    visibility: hidden;
-}
+
 
 #header-img
 {
@@ -1829,41 +1759,8 @@ div.sitetable.nestedlisting
     background: 0 0 !important;
 }
 
-.submit-page .tabmenu.formtab .selected a
-{
-    font-size: inherit;
 
-    color: #cecece;
-    border: none;
-    background-color: transparent;
-}
 
-.submit-page ul.tabmenu.formtab
-{
-    font-size: larger;
-
-    display: block;
-
-    padding-left: 10px;
-
-    border-radius: 4px;
-}
-
-.submit-page .tabmenu li a
-{
-    border: none;
-    background: 0 0;
-}
-
-.submit-page .tabmenu
-{
-    margin-top: 0;
-}
-
-body:not(.submit-page) .tabmenu::after
-{
-    display: none;
-}
 
 .submit-page #newlink.submit.content .btn
 {
@@ -2811,19 +2708,6 @@ button
     border-radius: 4px;
 }
 
-body:not(.submit-page) .tabmenu::after
-{
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    left: 0;
-
-    height: 49px;
-
-    content: '';
-
-    background: #666;
-}
 
 div.content
 {
@@ -4286,7 +4170,6 @@ button:active
 
 .morelink,
 .side .titlebox .md h3 a,
-.tabmenu,
 .thing .md table thead tr th,
 .wiki-page-content .md table thead tr th
 {
@@ -5036,11 +4919,6 @@ html[lang=dm] #REScommentSubToggle
 {
     color: #000 !important;
     background: #ccc !important;
-}
-
-html[lang=dm] .tabmenu
-{
-    background: #333;
 }
 
 html[lang=dm] .side .md h2 + ul
