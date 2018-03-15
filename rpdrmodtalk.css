@@ -861,7 +861,10 @@ body.res #header-bottom-right #mail.havemail
 
     background-color: #ff9400;
 }
-
+#header-bottom-left {
+	position: absolute;
+	bottom: 0;
+}
 #header-bottom-right
 {
     top: 192px !important;
