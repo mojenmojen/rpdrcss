@@ -2686,12 +2686,6 @@ span.totalvotes
 
     background-repeat: no-repeat;
 }
-
-span.pagename.redditname a:hover
-{
-    opacity: .8;
-}
-
 .pagename
 {
     font-size: 0;
