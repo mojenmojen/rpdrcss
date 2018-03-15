@@ -6,22 +6,6 @@ ul#image-preview-list .preview img
     vertical-align: middle;
 }
 
-#header::after
-{
-    position: absolute;
-    z-index: -1;
-    top: 178px;
-
-    width: 100%;
-    height: 48px;
-
-    content: ' ';
-
-    background: rgba(151, 113, 66, .8);
-}
-
-
-
 .choice.primary,
 .selected
 {
