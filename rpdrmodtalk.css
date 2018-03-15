@@ -2595,14 +2595,6 @@ span.totalvotes
     border: none;
 }
 
-#header span.pagename.redditname a
-{
-    -webkit-animation-name: godown;
-            animation-name: godown;
-    -webkit-animation-duration: 1.2s;
-            animation-duration: 1.2s;
-}
-
 @keyframes godown
 {
     0%
