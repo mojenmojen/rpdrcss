@@ -910,8 +910,9 @@ body.res #header-bottom-right #mail.havemail
 }
 .tabmenu li:hover a {
 	color: #005F8E;
-    background: 0;
-    text-shadow: 0 0 1px;
+    background-color: #BDEEFF;
+    box-shadow: 0 0 5px #43AFFF,0 0 10px #43AFFF,inset 0 0 1px #43AFFF,inset 0 0 12px 5px rgba(255,255,255,.8);
+	border: none;
 }
 .res #header-bottom-right #modmail
 {
