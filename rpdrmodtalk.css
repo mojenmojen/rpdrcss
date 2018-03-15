@@ -5119,7 +5119,7 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
 
 #header
 {
-    background: url(%%imgheader%%) no-repeat;
+    background: url(%%s10headerb%%) no-repeat;
     background-size: 100% auto;
 }
 
@@ -5277,9 +5277,9 @@ a[href='/spoiler']:hover
 {
     font-size: 20px;
 
-    content: 'RuPaul\'s Drag Race';
+    content: "RuPaul's Drag Race";
 }
-
+    
 .side::before
 {
     display: block;
@@ -5733,7 +5733,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
 .author[href$='/user/OfficialPhiPhiOhara']:after
 {
-    content: ' (Phi Phi O\'Hara)';
+    content: " (Phi Phi O'Hara)";
 
     color: #f42f63;
 }
