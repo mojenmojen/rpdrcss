@@ -10,7 +10,7 @@ span.pagename.redditname a
 {
     position: absolute;
     top: 85px;
-    left: 40px;;
+    left: 40px;
 
     display: block;
 
@@ -26,7 +26,7 @@ span.pagename.redditname a
 #header::after
 {
     position: absolute;
-    z-index: -1;;
+    z-index: -1;
     top: 178px;
 
     width: 100%;
@@ -51,7 +51,7 @@ span.pagename.redditname a
     right: 0;
     left: 0;
 
-    padding-left: 80px;;
+    padding-left: 80px;
 
     text-align: left;
 }
@@ -63,7 +63,7 @@ span.pagename.redditname a
 
 .tabmenu li
 {
-    width: 102px;;
+    width: 102px;
     height: 36px;
     margin: 0 !important;
 }
@@ -118,7 +118,7 @@ ul.report-reasons
 .tabmenu li.selected a,
 .tabmenu li:hover a
 {
-    font-weight: 700 !important;;
+    font-weight: 700 !important;
 
     color: #fff !important;
 }
@@ -130,7 +130,7 @@ ul.report-reasons
 
 .tabmenu li.selected a
 {
-    border: none !important;;
+    border: none !important;
     background-color: rgba(255, 255, 255, .15);
 }
 
@@ -166,7 +166,7 @@ ul.report-reasons
 
 .deepthread::after
 {
-    font-size: 12px;;
+    font-size: 12px;
 
     content: '>';
 
@@ -181,7 +181,7 @@ ul.report-reasons
 .markdownEditor .edit-btn:not(.btn-macro)
 {
     border: 1px solid #c6c6c6;
-    border-radius: 3px;;
+    border-radius: 3px;
     background-color: transparent !important;
 }
 
@@ -193,7 +193,7 @@ ul.report-reasons
 .search-expando-button-label-expanded,
 karmaz_ .search-expando-button-label-collapsed
 {
-    font-size: 10px;;
+    font-size: 10px;
     font-weight: 700;
 
     text-transform: uppercase;
@@ -201,7 +201,7 @@ karmaz_ .search-expando-button-label-collapsed
 
 .sr-bar .separator
 {
-    font-size: 8px;;
+    font-size: 8px;
 
     color: transparent;
 }
@@ -213,7 +213,7 @@ karmaz_ .search-expando-button-label-collapsed
 
 a#sr-more-link[href='https://www.reddit.com/subreddits/']
 {
-    padding: 3px 15px;;
+    padding: 3px 15px;
 
     color: #fff;
     background: rgba(0, 0, 0, .6) !important;
@@ -283,7 +283,7 @@ div#RESStyleSheetTipPane-header
 {
     font-size: 20px;
 
-    height: 25px;;
+    height: 25px;
 
     transition: .3s;
 
@@ -321,7 +321,7 @@ div#RESStyleSheetTipPane-header
 {
     border-top: 1px solid #e1e1e1 !important;
     border-right: 1px solid #e1e1e1 !important;
-    border-bottom: 3px solid;;
+    border-bottom: 3px solid;
     border-left: 1px solid #e1e1e1 !important;
 }
 
@@ -339,13 +339,13 @@ div#RESStyleSheetTipPane-header
 #RESPrefsDropdown
 {
     border: none;
-    border-radius: 6px;;
+    border-radius: 6px;
     background-color: rgba(0, 0, 0, .85) !important;
 }
 
 .RESDropdownList li
 {
-    transition: all .15s ease;;
+    transition: all .15s ease;
 
     color: #fff !important;
     border: none !important;
@@ -355,7 +355,7 @@ div#RESStyleSheetTipPane-header
 .RESDropdownList li a:hover,
 .RESDropdownList li:hover
 {
-    color: #fff !important;;
+    color: #fff !important;
     background-color: rgba(80, 80, 80, .6) !important;
 }
 
@@ -375,7 +375,7 @@ div#RESStyleSheetTipPane-header
 {
     visibility: visible;
 
-    transition: all .15s ease;;
+    transition: all .15s ease;
 
     color: #b3b3b3;
 }
@@ -413,14 +413,14 @@ img.RESImage
 .action-form,
 .nsfw-stamp
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     color: #fff;
 }
 
 .gold-accent
 {
-    border: 0;;
+    border: 0;
     background-color: transparent;
 }
 
@@ -429,7 +429,7 @@ img.RESImage
     padding: 0 8px !important;
 
     border: none !important;
-    border-radius: 20px;;
+    border-radius: 20px;
     background: #d10023;
 }
 
@@ -439,7 +439,7 @@ img.RESImage
     line-height: 25px;
 
     position: absolute;
-    z-index: 999;;
+    z-index: 999;
 
     max-width: 300px;
     margin: 5px 0;
@@ -466,7 +466,7 @@ img.RESImage
 
     padding: 1px 5px;
 
-    border: none !important;;
+    border: none !important;
     border-radius: 20px;
     background: 0 0 !important;
 }
@@ -494,14 +494,14 @@ img.RESImage
 .pretty-button.pressed:after
 {
     font-size: 10px;
-    font-weight: 700;;
+    font-weight: 700;
 
     content: 'Action Done';
 }
 
 ul.report-reasons
 {
-    border: none;;
+    border: none;
     background-color: transparent;
 }
 
@@ -509,7 +509,7 @@ ul.report-reasons
 body .content .over18 .entry .buttons li.reported-stamp,
 body .content .stickied .entry .buttons li.reported-stamp
 {
-    font-size: 9px !important;;
+    font-size: 9px !important;
     font-weight: 700;
 
     padding: 1px 8px;
@@ -567,7 +567,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 
 .linefield .title
 {
-    font-size: 13px;;
+    font-size: 13px;
     font-weight: 700;
 
     text-transform: uppercase;
@@ -585,7 +585,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 
 .fancy-settings h1
 {
-    font-size: 18px;;
+    font-size: 18px;
 
     margin: 10px 5px;
     padding: 20px 30px 5px;
@@ -600,7 +600,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 
     display: block;
 
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 
     transition: .3s;
 
@@ -616,7 +616,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 
 .flairlisthome
 {
-    font-size: 12px;;
+    font-size: 12px;
     font-weight: 700;
 
     text-transform: uppercase;
@@ -626,7 +626,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 .stylesheet-customize-container h2
 {
     font-size: 13px;
-    font-weight: 700;;
+    font-weight: 700;
 
     text-transform: uppercase;
 }
@@ -639,7 +639,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 #img-preview-container
 {
     margin: 25px 10px -25px 0;
-    padding: 10px;;
+    padding: 10px;
 
     border: none;
     border-radius: 20px;
@@ -650,7 +650,7 @@ body .content .stickied .entry .buttons li.reported-stamp
 {
     width: 512px;
 
-    border: none;;
+    border: none;
     background-color: transparent;
 }
 
@@ -691,7 +691,7 @@ ul#image-preview-list li
     margin: 0 0 5px 5px;
     padding: 8px;
 
-    color: #666;;
+    color: #666;
     border: 1px solid #e1e1e1;
     border-radius: 10px;
     background: #fff;
@@ -699,7 +699,7 @@ ul#image-preview-list li
 
 ul#image-preview-list .preview
 {
-    line-height: 98px;;
+    line-height: 98px;
 
     position: absolute;
     top: 0;
@@ -732,7 +732,7 @@ textarea
     margin-top: 2px;
     padding: 5px;
 
-    color: #fff !important;;
+    color: #fff !important;
     border: none;
     border-radius: 0 0 4px 4px;
     background: rgba(0, 0, 0, .85);
@@ -792,7 +792,7 @@ textarea
 {
     display: inline-block;
 
-    text-indent: -9999px;;
+    text-indent: -9999px;
 
     background-position: 0 -128.67px !important;
 }
@@ -903,7 +903,7 @@ body.res #header-bottom-right #mail.havemail
 #modmail.havemail,
 #modmail.nohavemail
 {
-    top: 0 !important;;
+    top: 0 !important;
 
     width: 20px !important;
     height: 20px !important;
@@ -919,21 +919,21 @@ body.res #header-bottom-right #mail.havemail
     width: 20px;
     height: 20px;
 
-    transition: .2s;;
+    transition: .2s;
 
     border-radius: 20px;
 }
 
 .arrow.upmod
 {
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
 
     background-color: #ff4500 !important;
 }
 
 .arrow.downmod
 {
-    margin-top: 5px;;
+    margin-top: 5px;
 
     background-color: #2b9bdb !important;
 }
@@ -946,14 +946,14 @@ body.res #header-bottom-right #mail.havemail
     width: 20px !important;
     height: 20px !important;
 
-    transition: 150ms;;
+    transition: 150ms;
 
     background-position: 0 -482px !important;
 }
 
 .expando-button.expanded
 {
-    -webkit-transform: rotate(45deg);;
+    -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
 }
 
@@ -975,7 +975,7 @@ body.res #header-bottom-right #mail.havemail
     top: 192px !important;
     right: 20px;
 
-    padding: 0 !important;;
+    padding: 0 !important;
 
     background: 0 0;
 }
@@ -987,7 +987,7 @@ body.res #header-bottom-right #mail.havemail
     font-size: 11px;
     font-weight: 700;
 
-    text-transform: uppercase;;
+    text-transform: uppercase;
 
     color: #fff;
 }
@@ -1015,7 +1015,7 @@ body.res #header-bottom-right #mail.havemail
 
     width: 11px;
     height: 48px;
-    margin-bottom: -15px;;
+    margin-bottom: -15px;
     margin-left: -6px;
     padding-right: 8px;
     padding-left: 5px;
@@ -1038,7 +1038,7 @@ body.res #header-bottom-right #mail.havemail
 {
     font-size: 25px;
 
-    top: -15px !important;;
+    top: -15px !important;
     left: -3px !important;
 
     margin-left: -12px;
@@ -1079,7 +1079,7 @@ body:not(.search-page) .menuarea
     font-size: 12px;
     font-weight: 700;
 
-    margin-top: 20px !important;;
+    margin-top: 20px !important;
 
     text-transform: uppercase;
 }
@@ -1089,14 +1089,14 @@ body:not(.search-page) .menuarea
     font-size: 12px;
     font-weight: 700;
 
-    margin-top: 5px !important;;
+    margin-top: 5px !important;
 
     text-transform: uppercase;
 }
 
 .combined-search-page .searchfacets
 {
-    max-width: none !important;;
+    max-width: none !important;
     margin: 0 !important;
 }
 
@@ -1107,7 +1107,7 @@ body:not(.search-page) .menuarea
 
 .combined-search-page .search-result-group
 {
-    max-width: 100%;;
+    max-width: 100%;
     padding-right: 0;
     padding-left: 0;
 }
@@ -1133,7 +1133,7 @@ body:not(.search-page) .menuarea
 
     color: inherit;
     border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;;
+    border-bottom: 1px solid #e1e1e1;
     background: #eee;
 }
 
@@ -1151,7 +1151,7 @@ body:not(.search-page) .menuarea
 
 .combined-search-page .search-icon
 {
-    width: 30px;;
+    width: 30px;
     height: 30px;
 
     background-size: 30px 30px;
@@ -1162,7 +1162,7 @@ body:not(.search-page) .menuarea
     float: left;
 
     margin-top: -45px;
-    margin-left: -25px;;
+    margin-left: -25px;
 
     border: none;
     background: 0 0;
@@ -1179,7 +1179,7 @@ body:not(.search-page) .menuarea
     font-size: 1em;
     line-height: 1.25em;
 
-    width: 800px;;
+    width: 800px;
     padding: 10px 0;
 
     color: #4f4f4f;
@@ -1200,7 +1200,7 @@ body:not(.search-page) .menuarea
 
     padding: 8px 0 0;
 
-    text-transform: uppercase;;
+    text-transform: uppercase;
 
     color: grey;
 }
@@ -1223,7 +1223,7 @@ body:not(.search-page) .menuarea
     padding-bottom: 10px;
     padding-left: 20px;
 
-    text-align: left;;
+    text-align: left;
 
     border: none;
     border-radius: 0 0 10px 10px;
@@ -1239,7 +1239,7 @@ body:not(.search-page) .menuarea
 
 .search-page #noresults
 {
-    margin-left: 15px !important;;
+    margin-left: 15px !important;
     padding-bottom: 20px !important;
 }
 
@@ -1253,7 +1253,7 @@ body:not(.search-page) .menuarea
     font-weight: 700;
 
     position: absolute;
-    top: 418px;;
+    top: 418px;
 
     margin: -45px 5px 5px;
     padding: 5px 10px;
@@ -1265,7 +1265,7 @@ body:not(.search-page) .menuarea
 {
     position: absolute;
     z-index: 9999;
-    top: 65px;;
+    top: 65px;
 
     padding-right: 20px;
     padding-bottom: 20px;
@@ -1282,14 +1282,14 @@ body:not(.search-page) .menuarea
 
     position: absolute;
     top: 100px;
-    right: 13px;;
+    right: 13px;
 
     color: #999;
 }
 
 .search-page .searchfacets
 {
-    padding-left: 20px;;
+    padding-left: 20px;
 
     color: #434343;
     border: none;
@@ -1304,7 +1304,7 @@ body:not(.search-page) .menuarea
 
 #previoussearch label
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     position: absolute;
     top: 95px;
@@ -1326,7 +1326,7 @@ body:not(.search-page) .menuarea
 .search-page .searchpane
 {
     position: relative;
-    top: -85px;;
+    top: -85px;
 
     height: 50px;
     margin: auto auto -45px;
@@ -1352,7 +1352,7 @@ body:not(.search-page) .menuarea
     margin-left: 30px;
 
     border: none;
-    outline: 0;;
+    outline: 0;
     background: 0 0;
 }
 
@@ -1381,14 +1381,14 @@ body:not(.search-page) .menuarea
     height: 100%;
     padding: 4px 4px 0;
 
-    transition: .2s;;
+    transition: .2s;
 
     opacity: .5;
 }
 
 .commentarea .comment a.expand:hover
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     text-decoration: none;
 
@@ -1415,7 +1415,7 @@ body:not(.search-page) .menuarea
 
     max-width: 300px;
     margin-top: 30px;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
     margin-left: -10px !important;
     padding: 10px 20px;
 
@@ -1464,7 +1464,7 @@ body:not(.search-page) .menuarea
     line-height: inherit;
 
     margin-top: 3px;
-    margin-left: -12px;;
+    margin-left: -12px;
     padding: 0;
 
     color: #666;
@@ -1494,7 +1494,7 @@ body.comments-page .link
     padding: 5px !important;
 
     cursor: pointer;
-    transition: .25s ease;;
+    transition: .25s ease;
     text-align: center;
     text-transform: uppercase;
 
@@ -1511,7 +1511,7 @@ body.comments-page div.content
 body.comments-page .link
 {
     border: none;
-    border-radius: 5px 5px 0 0;;
+    border-radius: 5px 5px 0 0;
     background: #fff;
 }
 
@@ -1525,7 +1525,7 @@ body.comments-page .sitetable
     overflow: visible;
 
     margin-top: -160px;
-    margin-right: -10px;;
+    margin-right: -10px;
     margin-left: -10px;
     padding-top: 165px;
     padding-left: 29px;
@@ -1539,7 +1539,7 @@ body.comments-page .sitetable
     position: relative;
     top: -110px;
 
-    clear: left;;
+    clear: left;
 
     margin-top: -160px;
     margin-bottom: -90px;
@@ -1559,7 +1559,7 @@ body.comments-page .sitetable
     font-weight: 700;
 
     position: relative;
-    z-index: 1;;
+    z-index: 1;
 
     text-transform: uppercase !important;
 }
@@ -1574,7 +1574,7 @@ body.comments-page .sitetable
     font-size: 12px;
 
     position: relative;
-    z-index: 1;;
+    z-index: 1;
 
     margin-left: 22px !important;
 
@@ -1584,7 +1584,7 @@ body.comments-page .sitetable
 .commentarea .thing
 {
     margin: 0 0 8px;
-    padding: 16px 16px 1px;;
+    padding: 16px 16px 1px;
 
     border-radius: 2px;
     background-color: #fff;
@@ -1616,7 +1616,7 @@ body.comments-page .sitetable
     margin-left: 2px !important;
     padding: 4px;
 
-    border: 1px solid #fff !important;;
+    border: 1px solid #fff !important;
     box-shadow: none;
 }
 
@@ -1633,7 +1633,7 @@ div.sitetable.nestedlisting
 
 .wiki-page div.content
 {
-    margin-right: 335px !important;;
+    margin-right: 335px !important;
 
     border: 0;
     background: 0 0;
@@ -1667,7 +1667,7 @@ div.sitetable.nestedlisting
 
 .wiki-page .wiki-page-content .md.wiki h4
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     padding: 15px 0;
 }
@@ -1684,14 +1684,14 @@ div.sitetable.nestedlisting
 {
     margin: 0;
 
-    color: #b3b3b3;;
+    color: #b3b3b3;
     border-radius: 0;
     background-color: transparent;
 }
 
 .wiki-page .pageactions .wikiaction-current
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     color: #444;
 }
@@ -1699,7 +1699,7 @@ div.sitetable.nestedlisting
 .wiki-page .pageactions .wikiaction-current:hover,
 .wiki-page .pageactions .wikiaction:hover
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     color: #666;
     background: 0 0;
@@ -1774,7 +1774,7 @@ div.sitetable.nestedlisting
 
     text-align: center;
 
-    color: #000;;
+    color: #000;
     border: none;
     border-radius: 4px;
 }
@@ -1824,7 +1824,7 @@ div.sitetable.nestedlisting
 {
     font-size: 12px;
 
-    margin: -10px 10px 12px;;
+    margin: -10px 10px 12px;
     padding: 9px;
 
     border: none;
@@ -1847,13 +1847,13 @@ div.sitetable.nestedlisting
     margin-top: 20px !important;
     margin-bottom: 50px !important;
 
-    border: none !important;;
+    border: none !important;
     background: 0 0 !important;
 }
 
 .submit-page .tabmenu.formtab .selected a
 {
-    font-size: inherit;;
+    font-size: inherit;
 
     color: #cecece;
     border: none;
@@ -1873,7 +1873,7 @@ div.sitetable.nestedlisting
 
 .submit-page .tabmenu li a
 {
-    border: none;;
+    border: none;
     background: 0 0;
 }
 
@@ -1915,7 +1915,7 @@ body:not(.submit-page) .tabmenu::after
 .formtabs-content
 {
     width: auto;
-    margin-top: 15px;;
+    margin-top: 15px;
     padding: 10px;
 
     border-top: 0 solid !important;
@@ -1931,7 +1931,7 @@ body:not(.submit-page) .tabmenu::after
     font-size: 14px;
     font-weight: 700;
 
-    display: inline-block;;
+    display: inline-block;
 
     color: #555;
 }
@@ -1946,7 +1946,7 @@ body:not(.submit-page) .tabmenu::after
     margin-right: 30px;
     margin-bottom: 20px;
 
-    transition: .25s ease;;
+    transition: .25s ease;
     text-align: center;
 
     color: #fff !important;
@@ -1961,7 +1961,7 @@ div .thing .tagline .author.moderator:before,
 div .thing .tagline .author.submitter,
 div .thing .tagline .author.submitter:before
 {
-    font-size: 10px;;
+    font-size: 10px;
     font-weight: Bold;
     line-height: 20px;
 
@@ -1984,7 +1984,7 @@ div .thing .tagline .author.submitter:before
 {
     font-size: 10px;
 
-    margin-right: 7px;;
+    margin-right: 7px;
     padding: 0 7px 0 10px;
 
     content: 'OP ';
@@ -1997,7 +1997,7 @@ div .thing .tagline .author.submitter
 {
     padding: 0 10px 0 0;
 
-    transition: .3s;;
+    transition: .3s;
 
     border-radius: 20px;
     background: #27408b !important;
@@ -2005,7 +2005,7 @@ div .thing .tagline .author.submitter
 
 div .thing .tagline .author.submitter:hover
 {
-    text-decoration: none;;
+    text-decoration: none;
 
     background: #4169e1 !important;
 }
@@ -2015,7 +2015,7 @@ div.thing .tagline .author.moderator:before
 {
     font-size: 10px;
 
-    margin-right: 7px;;
+    margin-right: 7px;
     padding: 0 7px 0 10px;
 
     border-radius: 20px 0 0 20px;
@@ -2026,14 +2026,14 @@ body div .thing .tagline .author.moderator
 {
     padding: 0 10px 0 0;
 
-    transition: .3s;;
+    transition: .3s;
 
     border-radius: 20px;
 }
 
 div.thing .tagline .author.moderator:before
 {
-    content: 'Mod ';;
+    content: 'Mod ';
 
     background: #282 !important;
 }
@@ -2045,7 +2045,7 @@ body div .thing .tagline .author.moderator
 
 body div .thing .tagline .author.moderator:hover
 {
-    text-decoration: none;;
+    text-decoration: none;
 
     background: #282 !important;
 }
@@ -2057,7 +2057,7 @@ body div .thing .tagline .author.moderator:hover
 
 div.thing .tagline .author.admin:before
 {
-    content: 'Admin ';;
+    content: 'Admin ';
 
     background-color: #fe506e !important;
 }
@@ -2069,7 +2069,7 @@ body div .thing .tagline .author.admin
 
 body div .thing .tagline .author.admin:hover
 {
-    text-decoration: none;;
+    text-decoration: none;
 
     background: #fe506e !important;
 }
@@ -2101,7 +2101,7 @@ a.author.moderator:after
 
 body:not(.comments-page) div.content .entry
 {
-    padding: 13px;;
+    padding: 13px;
 
     border-bottom: 1px solid #e1e1e1;
 }
@@ -2113,7 +2113,7 @@ body:not(.comments-page) div.content .entry
 
 .res .RES-keyNav-activeElement
 {
-    transition: all .15s ease;;
+    transition: all .15s ease;
 
     outline: #eee dashed 0 !important;
 }
@@ -2136,7 +2136,7 @@ body:not(.comments-page) div.content .entry
 .entry.RES-keyNav-activeElement div.md,
 .new-comment .usertext-body .md
 {
-    border: 0 !important;;
+    border: 0 !important;
     outline: 0 !important;
 }
 
@@ -2146,7 +2146,7 @@ body:not(.comments-page) div.content .entry
     font-size: 14px !important;
     font-weight: 700 !important;
 
-    margin-left: 20px;;
+    margin-left: 20px;
     padding: 10px !important;
 
     text-align: left !important;
@@ -2180,7 +2180,7 @@ body:not(.comments-page) div.content .entry
 
 #sr-header-area
 {
-    font-size: 9px;;
+    font-size: 9px;
     font-weight: 400;
 
     padding-top: 3px;
@@ -2212,7 +2212,7 @@ body:not(.comments-page) div.content .entry
 .res #srList,
 .res #srList:before
 {
-    position: fixed;;
+    position: fixed;
     left: 50%;
 
     width: 500px;
@@ -2229,7 +2229,7 @@ body:not(.comments-page) div.content .entry
 
 .res #srList
 {
-    z-index: 2147483647;;
+    z-index: 2147483647;
 
     display: block !important;
 
@@ -2247,7 +2247,7 @@ body:not(.comments-page) div.content .entry
 .res #srList:not([style*='display: block']):after,
 .res #srList:not([style*='display: block']):before
 {
-    pointer-events: none;;
+    pointer-events: none;
 
     opacity: 0;
 }
@@ -2269,7 +2269,7 @@ body:not(.comments-page) div.content .entry
 
     transition: .2s opacity;
 
-    border-radius: 4px;;
+    border-radius: 4px;
     background: rgba(0, 0, 0, .8);
 }
 
@@ -2285,7 +2285,7 @@ body:not(.comments-page) div.content .entry
 
     width: 100vw;
     height: 100vh;
-    margin-left: -35px;;
+    margin-left: -35px;
     padding: 50px 70px 0 0;
 
     content: '✕';
@@ -2316,7 +2316,7 @@ body:not(.comments-page) div.content .entry
     height: 25px;
     padding: 0 10px;
 
-    color: #ccc;;
+    color: #ccc;
     border-top: solid 1px #444;
     border-bottom: 0;
 }
@@ -2337,7 +2337,7 @@ body:not(.comments-page) div.content .entry
 
     height: 50px;
 
-    content: 'SUBSCRIBED SUBREDDITS';;
+    content: 'SUBSCRIBED SUBREDDITS';
 
     color: #fff;
 }
@@ -2417,7 +2417,7 @@ body:not(.comments-page) div.content .entry
 .res #RESSubredditGroupDropdown li + .RESShortcutsEditButtons
 {
     margin: 0;
-    padding: 0;;
+    padding: 0;
 
     border: 0;
 }
@@ -2480,7 +2480,7 @@ div.score
 h2
 {
     font-size: 18px;
-    font-weight: 400;;
+    font-weight: 400;
 
     color: #252525;
 }
@@ -2491,7 +2491,7 @@ span.totalvotes
     font-size: 14px;
     font-weight: 500 !important;
 
-    padding: 0 16px;;
+    padding: 0 16px;
 
     text-transform: uppercase;
 
@@ -2525,7 +2525,7 @@ span.totalvotes
     position: absolute;
     top: 375px;
 
-    width: 300px;;
+    width: 300px;
     padding: 0;
 
     border: none !important;
@@ -2538,7 +2538,7 @@ span.totalvotes
 {
     font-size: 11px;
 
-    padding: 14px 16px 0;;
+    padding: 14px 16px 0;
 
     text-align: left;
 
@@ -2554,7 +2554,7 @@ span.totalvotes
     padding: 10px;
 
     transition: all .15s ease 0s !important;
-    text-align: center;;
+    text-align: center;
 
     color: #fff;
     border: none;
@@ -2565,7 +2565,7 @@ span.totalvotes
 
 .linkinfo .shortlink
 {
-    font-size: 0;;
+    font-size: 0;
 
     margin-top: 20px;
 
@@ -2574,7 +2574,7 @@ span.totalvotes
 
 .comment .collapsed
 {
-    padding-top: 2px;;
+    padding-top: 2px;
     padding-bottom: 10px;
     padding-left: 24px;
 }
@@ -2589,7 +2589,7 @@ span.totalvotes
 {
     height: 225px;
 
-    -webkit-transition: .3s;;
+    -webkit-transition: .3s;
             transition: .3s;
 
     border: none;
@@ -2598,7 +2598,7 @@ span.totalvotes
 #header span.pagename.redditname a
 {
     -webkit-animation-name: godown;
-            animation-name: godown;;
+            animation-name: godown;
     -webkit-animation-duration: 1.2s;
             animation-duration: 1.2s;
 }
@@ -2607,14 +2607,14 @@ span.totalvotes
 {
     0%
     {
-        -webkit-transform: translateY(-60px);;
+        -webkit-transform: translateY(-60px);
                 transform: translateY(-60px);
 
         opacity: 0;
     }
     100%
     {
-        -webkit-transform: translateY(0);;
+        -webkit-transform: translateY(0);
                 transform: translateY(0);
 
         opacity: 1;
@@ -2625,14 +2625,14 @@ span.totalvotes
 {
     0%
     {
-        -webkit-transform: translateY(-60px);;
+        -webkit-transform: translateY(-60px);
                 transform: translateY(-60px);
 
         opacity: 0;
     }
     100%
     {
-        -webkit-transform: translateY(0);;
+        -webkit-transform: translateY(0);
                 transform: translateY(0);
 
         opacity: 1;
@@ -2643,14 +2643,14 @@ span.totalvotes
 {
     0%
     {
-        -webkit-transform: translateY(-60px);;
+        -webkit-transform: translateY(-60px);
                 transform: translateY(-60px);
 
         opacity: 0;
     }
     100%
     {
-        -webkit-transform: translateY(0);;
+        -webkit-transform: translateY(0);
                 transform: translateY(0);
 
         opacity: 1;
@@ -2661,14 +2661,14 @@ span.totalvotes
 {
     0%
     {
-        -webkit-transform: translateY(-60px);;
+        -webkit-transform: translateY(-60px);
                 transform: translateY(-60px);
 
         opacity: 0;
     }
     100%
     {
-        -webkit-transform: translateY(0);;
+        -webkit-transform: translateY(0);
                 transform: translateY(0);
 
         opacity: 1;
@@ -2712,7 +2712,7 @@ span.pagename.redditname a:hover
     font-weight: 400;
 
     padding-top: 5px;
-    padding-bottom: 5px;;
+    padding-bottom: 5px;
 
     text-align: center;
 }
@@ -2777,7 +2777,7 @@ button
 {
     display: inline-block;
 
-    width: auto;;
+    width: auto;
     margin-top: 10px;
     margin-right: 5px;
     margin-left: 0;
@@ -2795,7 +2795,7 @@ button
 
 .flat-list
 {
-    display: inline;;
+    display: inline;
 
     list-style-type: none;
 }
@@ -2812,7 +2812,7 @@ body > .content .link .rank
 {
     font-size: 12px;
 
-    margin-top: 3px;;
+    margin-top: 3px;
 
     color: #666;
 }
@@ -2829,13 +2829,13 @@ body > .content .link .rank
 {
     font-weight: 700;
 
-    transition: .2s;;
+    transition: .2s;
     text-decoration: none;
 }
 
 button
 {
-    font-size: 12px;;
+    font-size: 12px;
     line-height: 2.16;
 
     padding: 0 1.06667em;
@@ -2867,14 +2867,14 @@ body:not(.submit-page) .tabmenu::after
 
 #sr-header-area
 {
-    z-index: 9999;;
+    z-index: 9999;
 
     width: 100%;
 }
 
 div.content
 {
-    font-size: 12px;;
+    font-size: 12px;
 
     margin: 15px 335px 10px 16px;
 
@@ -2908,7 +2908,7 @@ body:not(.comments-page) > .content .link .midcol
 .link .title .domain
 {
     font-size: 0;
-    font-weight: 400;;
+    font-weight: 400;
 
     color: #999;
 }
@@ -2922,7 +2922,7 @@ body:not(.comments-page) > .content .link .midcol
 {
     font-size: 12px;
 
-    margin-top: -10px;;
+    margin-top: -10px;
     margin-left: 1px;
 }
 
@@ -2944,7 +2944,7 @@ body:not(.comments-page) > .content .link .midcol
     line-height: 2.5em;
 
     width: 280px;
-    height: auto;;
+    height: auto;
     margin-top: 0;
 
     text-align: center;
@@ -2963,7 +2963,7 @@ body:not(.comments-page) > .content .link .midcol
     z-index: 4;
     top: 240px;
 
-    width: 317px;;
+    width: 317px;
     margin-right: 25px;
 }
 
@@ -2971,7 +2971,7 @@ body:not(.search-page) #search input[type=text]
 {
     padding: 9px;
 
-    transition: .3s;;
+    transition: .3s;
     text-align: center;
 
     border: 1px solid #e1e1e1;
@@ -2989,7 +2989,7 @@ body:not(.search-page) #search input[type=text]:focus
 
     animation-name: search;
     animation-duration: .4s;
-    animation-play-state: running;;
+    animation-play-state: running;
     animation-timing-function: ease;
     animation-iteration-count: 1;
     text-align: left;
@@ -3068,7 +3068,7 @@ body:not(.search-page) #search input[type=text]:focus
 
     padding: 3px;
 
-    transition: .2s;;
+    transition: .2s;
     letter-spacing: 0;
     text-transform: uppercase;
 
@@ -3089,7 +3089,7 @@ body:not(.search-page) #search input[type=text]:focus
     position: absolute;
     top: 314px;
 
-    width: 300px;;
+    width: 300px;
 
     background-image: none !important;
 }
@@ -3098,7 +3098,7 @@ body:not(.search-page) #search input[type=text]:focus
 {
     position: absolute;
     top: 285px;
-    right: 16px;;
+    right: 16px;
 
     width: 300px;
 }
@@ -3107,7 +3107,7 @@ body:not(.search-page) #search input[type=text]:focus
 {
     position: absolute;
     top: 330px;
-    right: 16px;;
+    right: 16px;
 
     width: 300px;
 }
@@ -3124,13 +3124,13 @@ body:not(.search-page) #search input[type=text]:focus
 
 .side md
 {
-    padding-right: 5px;;
+    padding-right: 5px;
     padding-left: 5px;
 }
 
 .side #moderation_tools
 {
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
     padding-left: 15px;
 }
 
@@ -3141,7 +3141,7 @@ body:not(.search-page) #search input[type=text]:focus
 
 .infobar
 {
-    border: 1px solid #ebebeb;;
+    border: 1px solid #ebebeb;
     background: #f2f2f2;
 }
 
@@ -3171,7 +3171,7 @@ body:not(.search-page) #search input[type=text]:focus
 .next-suggestions,
 .nextprev
 {
-    display: block;;
+    display: block;
 
     margin: 10px !important;
     padding: 10px !important;
@@ -3246,7 +3246,7 @@ div.reddit-entry
 .titlebox span.subscribers
 {
     position: relative;
-    top: 10px;;
+    top: 10px;
 
     color: #999;
 }
@@ -3330,7 +3330,7 @@ div.leavemoderator
     margin: 0;
 
     color: #fff;
-    border-radius: 5px 5px 0 0;;
+    border-radius: 5px 5px 0 0;
     background: #444;
 }
 
@@ -3347,7 +3347,7 @@ div.leavemoderator
 
     width: 0;
     height: 0;
-    margin-left: -7px;;
+    margin-left: -7px;
 
     content: ' ';
     pointer-events: none;
@@ -3358,7 +3358,7 @@ div.leavemoderator
 
 .side .md h2 + ul
 {
-    margin: 0 0 20px;;
+    margin: 0 0 20px;
     padding: 10px 10px 10px 26px;
 
     list-style-position: outside;
@@ -3370,7 +3370,7 @@ div.leavemoderator
 
 .side .md h2 + ul li
 {
-    font-size: 95%;;
+    font-size: 95%;
 
     margin-bottom: 10px;
 }
@@ -3407,7 +3407,7 @@ body.res .RESshortcutside:active
     font-size: 12px !important;
     font-weight: 700;
 
-    display: block;;
+    display: block;
 
     width: 276px;
     margin: 1.5em 0;
@@ -3441,7 +3441,7 @@ body.res .RESshortcutside:active
     text-align: center;
 
     color: #4169e1;
-    border: 1px solid #4169e1;;
+    border: 1px solid #4169e1;
     border-radius: 2px;
     background-color: transparent;
 }
@@ -3451,14 +3451,14 @@ body.res .RESshortcutside:active
     vertical-align: middle;
 
     color: #009884;
-    border: 1px solid #27408b;;
+    border: 1px solid #27408b;
     border-radius: 2px;
     background-color: transparent;
 }
 
 .side .sidecontentbox .content
 {
-    padding: 8px 0;;
+    padding: 8px 0;
 
     border: none;
 }
@@ -3535,7 +3535,7 @@ body.res .RESshortcutside:active
 
     display: inline-block;
 
-    margin-right: 8px;;
+    margin-right: 8px;
     padding: 4px 8px;
 
     border-radius: 20px 0 0 20px;
@@ -3598,7 +3598,7 @@ body.res .RESshortcutside:active
 
 .titlebox .tagline
 {
-    max-height: 50px;;
+    max-height: 50px;
 
     text-align: center;
 }
@@ -3616,7 +3616,7 @@ body.res .RESshortcutside:active
     padding: 2px 10px;
 
     color: #fff;
-    border: 0;;
+    border: 0;
     border-radius: 20px;
     background: #4169e1;
 }
@@ -3631,7 +3631,7 @@ body.res .RESshortcutside:active
 
     padding: 2px 10px;
 
-    transition: .3s;;
+    transition: .3s;
 
     color: #fff;
     border-radius: 20px;
@@ -3689,7 +3689,7 @@ body.res .RESshortcutside:active
 
 .flairselector.drop-choices.active
 {
-    padding: 20px !important;;
+    padding: 20px !important;
 
     border-radius: 8px !important;
 }
@@ -3720,7 +3720,7 @@ body.res .RESshortcutside:active
 
 .flairselector h2
 {
-    font-size: 12px !important;;
+    font-size: 12px !important;
     font-weight: 700;
 
     margin-bottom: 4px;
@@ -3738,7 +3738,7 @@ body.res .RESshortcutside:active
 .footer .flat-vert li a,
 form#image-upload.image-upload
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     text-transform: uppercase;
 }
@@ -3769,7 +3769,7 @@ body.comments-page .sitetable
     content: '';
     cursor: default;
     transition: all .25s ease;
-    pointer-events: none;;
+    pointer-events: none;
 
     background-color: rgba(255, 255, 255, .75);
 }
@@ -3778,7 +3778,7 @@ body.comments-page .sitetable
 {
     visibility: visible !important;
 
-    border: 1px solid #d8d8d8;;
+    border: 1px solid #d8d8d8;
     background-color: #fff;
 }
 
@@ -3786,7 +3786,7 @@ body.comments-page .sitetable
 {
     padding: 5px;
 
-    border-bottom: 1px solid #e5e5e5;;
+    border-bottom: 1px solid #e5e5e5;
     background-color: #fff;
 }
 
@@ -3807,7 +3807,7 @@ body.comments-page .sitetable
 
 .flairselector li
 {
-    width: 182px;;
+    width: 182px;
     padding: 3px 0;
 }
 
@@ -3833,13 +3833,13 @@ body.comments-page .sitetable
 
 .flairselector li.selected
 {
-    border: none;;
+    border: none;
     background-color: #e5ebf8;
 }
 
 .login-form-side
 {
-    margin-top: -10px;;
+    margin-top: -10px;
     padding: 16px;
 
     border: none;
@@ -3851,7 +3851,7 @@ body.comments-page .sitetable
     font-size: 11px;
 
     box-sizing: border-box;
-    width: 258px;;
+    width: 258px;
 
     border: 1px solid #999;
 }
@@ -3871,7 +3871,7 @@ body.comments-page .sitetable
 
     margin-right: 15px !important;
 
-    -webkit-transform: translateY(-50%);;
+    -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 
     border-radius: 5px;
@@ -3889,7 +3889,7 @@ body .stickied .thumbnail.self
 {
     padding: 10px 0;
 
-    border-radius: 15px;;
+    border-radius: 15px;
     background-repeat: no-repeat !important;
 }
 
@@ -3936,7 +3936,7 @@ body:not(.comments-page) .over18 .tagline
     height: 25px;
     margin-right: 4px;
 
-    color: #fff !important;;
+    color: #fff !important;
     background: 0 0 !important;
 }
 
@@ -3944,7 +3944,7 @@ body:not(.comments-page) .over18 .tagline
 {
     display: block;
 
-    margin-top: 3px;;
+    margin-top: 3px;
     padding: 1px 0;
 }
 
@@ -3974,7 +3974,7 @@ li.searchfacet
 
 #preview-table > table
 {
-    width: 900px;;
+    width: 900px;
     margin: 5px 5px 5px 25px;
     padding: 5px;
 
@@ -4005,7 +4005,7 @@ form#image-upload.image-upload
 {
     font-size: 14px;
 
-    margin-top: 300px;;
+    margin-top: 300px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -4092,7 +4092,7 @@ form#image-upload.image-upload
             animation-name: toast;
     -webkit-animation-duration: 8s;
             animation-duration: 8s;
-    -webkit-animation-timing-function: ease;;
+    -webkit-animation-timing-function: ease;
             animation-timing-function: ease;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
@@ -4369,7 +4369,7 @@ button:active
 .commentarea .md blockquote,
 .wiki-page-content .md blockquote
 {
-    font-size: 14px;;
+    font-size: 14px;
     line-height: 20px;
 
     padding: 10px;
@@ -4387,7 +4387,7 @@ button:active
     font-size: 14px;
     line-height: 20px;
 
-    padding: 0;;
+    padding: 0;
 
     border-top: solid 1px #eaeaea;
     border-right: solid 1px #eaeaea;
@@ -4399,7 +4399,7 @@ button:active
 .commentarea .md ul li,
 .commentarea .thing .md ol li
 {
-    padding: 5px;;
+    padding: 5px;
 
     border-bottom: solid 1px #eaeaea;
     background-color: #f8f8f8;
@@ -4458,7 +4458,7 @@ button:active
 
 .side .md h2 + ol
 {
-    margin: 0 0 20px;;
+    margin: 0 0 20px;
     padding: 10px 10px 10px 26px;
 
     list-style-position: outside;
@@ -4482,7 +4482,7 @@ html[lang=dm] #siteTable .thing .md blockquote,
 html[lang=dm] .commentarea .md blockquote,
 html[lang=dm] .wiki-page-content .md blockquote
 {
-    font-size: 14px;;
+    font-size: 14px;
     line-height: 20px;
 
     padding: 10px;
@@ -4525,7 +4525,7 @@ html[lang=dm] .commentarea .md ul li,
 html[lang=dm] .commentarea .thing .md ol li,
 html[lang=dm] .wiki-page-content .md ol li
 {
-    padding: 5px;;
+    padding: 5px;
 
     border-bottom: solid 1px #555;
     background-color: #222;
@@ -4537,7 +4537,7 @@ html[lang=dm] .commentarea .md ul,
 html[lang=dm] .commentarea .thing .md ol,
 html[lang=dm] .wiki-page-content .md ol
 {
-    font-size: 14px;;
+    font-size: 14px;
     line-height: 20px;
 
     border-top: solid 1px #555;
@@ -4548,7 +4548,7 @@ html[lang=dm] .wiki-page-content .md ol
 html[lang=dm] .content .entry .buttons li.reported-stamp,
 html[lang=dm] body .content .stickied .entry .buttons li.reported-stamp
 {
-    color: #d1d1d1 !important;;
+    color: #d1d1d1 !important;
     background: #222 !important;
 }
 
@@ -4601,7 +4601,7 @@ html[lang=dm] .combined-search-page .search-result
 
 html[lang=dm] .combined-search-page .search-result-group .search-result-group-header
 {
-    border-top: 1px solid #666;;
+    border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     background: #222;
 }
@@ -4635,7 +4635,7 @@ html[lang=dm] body
 
 html[lang=dm] div.content
 {
-    border: none;;
+    border: none;
     background-color: #333;
 }
 
@@ -4682,7 +4682,7 @@ html[lang=dm] div.leavemoderator
 
 html[lang=dm] .side .usertext-body
 {
-    padding: 0;;
+    padding: 0;
 
     background-image: none;
 }
@@ -4694,7 +4694,7 @@ html[lang=dm] .icon-menu a
 
 html[lang=dm] .sidecontentbox .title h1
 {
-    font-weight: 700;;
+    font-weight: 700;
 
     color: #fff;
 }
@@ -4831,7 +4831,7 @@ html[lang=dm] .commentarea .thing
 
 html[lang=dm] button
 {
-    color: #000;;
+    color: #000;
     background-color: #999;
 }
 
@@ -4848,7 +4848,7 @@ html[lang=dm] .tagline a
 html[lang=dm] .shortlink .input
 {
     color: #fff;
-    border: 1px solid #666 !important;;
+    border: 1px solid #666 !important;
     background-color: #222;
 }
 
@@ -4905,7 +4905,7 @@ html[lang=dm] .roundfield
 
 html[lang=dm] .md code
 {
-    border: 1px solid #666 !important;;
+    border: 1px solid #666 !important;
     background-color: #222;
 }
 
@@ -4913,13 +4913,13 @@ html[lang=dm] .md pre
 {
     padding: 0;
 
-    border: none;;
+    border: none;
     background-color: transparent !important;
 }
 
 html[lang=dm] .wiki-page div.content
 {
-    border: none;;
+    border: none;
     background-color: transparent;
 }
 
@@ -4930,7 +4930,7 @@ html[lang=dm] .livePreview .md p
 
 html[lang=dm] .wiki-page .infobar
 {
-    border: none;;
+    border: none;
     background: 0 0;
 }
 
@@ -4944,7 +4944,7 @@ html[lang=dm] .wiki-page .wikititle
 
 html[lang=dm] body:not(.search-page) #search input[type=text]
 {
-    color: #fff;;
+    color: #fff;
     border: 1px solid #444;
     background: #222 !important;
 }
@@ -4968,7 +4968,7 @@ html[lang=dm] .side .titlebox
 
 html[lang=dm] ::-moz-selection
 {
-    color: #fff;;
+    color: #fff;
     background: #666;
 }
 
@@ -4985,7 +4985,7 @@ html[lang=dm] .footer-parent
 
 html[lang=dm] ul#image-preview-list li
 {
-    color: #fff;;
+    color: #fff;
     border: none;
     background: #333;
 }
@@ -5003,7 +5003,7 @@ html[lang=dm] .wiki-page .wiki-page-content .md.wiki h4
 
 html[lang=dm] .comments-page .content .infobar
 {
-    color: #fff;;
+    color: #fff;
     background: #444;
 }
 
@@ -5029,7 +5029,7 @@ html[lang=dm] textarea
     transition: .3s;
 
     color: #fff !important;
-    border: 1px solid #666;;
+    border: 1px solid #666;
     background-color: #222 !important;
 }
 
@@ -5057,14 +5057,14 @@ html[lang=dm] .deepthread a
 
 html[lang=dm] .commentarea .comment a.expand:hover
 {
-    color: #333;;
+    color: #333;
     background: #999;
 }
 
 html[lang=dm] .markdownEditor .edit-btn:not(.btn-macro)
 {
     border: none !important;
-    border-radius: 4px !important;;
+    border-radius: 4px !important;
     background-color: #ccc !important;
 }
 
@@ -5079,7 +5079,7 @@ html[lang=dm] .expando-button:hover
 
 html[lang=dm] #REScommentSubToggle
 {
-    color: #000 !important;;
+    color: #000 !important;
     background: #ccc !important;
 }
 
@@ -5101,7 +5101,7 @@ html[lang=dm] .side .sidecontentbox a
 html[lang=dm] .RES-keyNav-activeElement,
 html[lang=dm] .RES-keyNav-activeElement .md-container
 {
-    border-color: #aaa;;
+    border-color: #aaa;
     background-color: #444 !important;
 }
 
@@ -5112,7 +5112,7 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
     font-weight: 700;
 
     color: #97784a;
-    border-width: 1px;;
+    border-width: 1px;
     border-color: #97784a;
     border-radius: 3px;
 }
@@ -5236,7 +5236,7 @@ body
     font-size: 11px;
 
     color: #000;
-    border-width: 1px;;
+    border-width: 1px;
     border-color: #000;
     background-color: #add5ab;
 }
@@ -5249,7 +5249,7 @@ html:lang(ns) .link:not(.linkflair-one)
 a[href='#spoiler'],
 a[href='/spoiler']
 {
-    font-weight: 400;;
+    font-weight: 400;
 
     color: #593488 !important;
     border: 1px solid #fff !important;
@@ -5267,7 +5267,7 @@ a[href='/spoiler']:hover
 
 .titlebox h1.redditname a
 {
-    font-family: broadway;;
+    font-family: broadway;
     font-size: 0;
 
     content: '';
@@ -5358,7 +5358,7 @@ body
 .author[href$=travishl]:after
 {
     font-size: 0;
-    line-height: 30px;;
+    line-height: 30px;
 
     position: relative;
     top: -6px;
@@ -5417,7 +5417,7 @@ body
 
     width: 14px;
     height: 14px;
-    margin-right: 3px;;
+    margin-right: 3px;
 
     content: '';
 
@@ -5458,7 +5458,7 @@ div[data-author=willambelli] > div > form p:first-child:before
     width: 55px;
     height: 50px;
     margin-right: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
 
     content: '';
 
@@ -5943,7 +5943,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
 .spoiler .entry .title a.title
 {
-    display: inline-block;;
+    display: inline-block;
 
     min-width: 220px;
 
@@ -5972,7 +5972,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
 .spoiler .entry .title a.title:hover
 {
-    color: inherit !important;;
+    color: inherit !important;
     background: 0 0 !important;
 }
 
@@ -5983,7 +5983,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
 a[href$='/spoiler']
 {
-    color: #000 !important;;
+    color: #000 !important;
     background: #000 !important;
 }
 
