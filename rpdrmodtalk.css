@@ -890,12 +890,11 @@ body.res #header-bottom-right #mail.havemail
 .tabmenu {
 	margin-left: 20px;
 	display: block;
-}
-.tabmenu li {
-	font-weight: normal;
-	margin: 10px 3px;
-	text-transform: uppercase;
+	vertical-align: top;
 	font-size: 8px;
+	margin: 10px 3px;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 .tabmenu li a {
 	border-radius: 2px;
