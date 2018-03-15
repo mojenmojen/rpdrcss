@@ -2163,15 +2163,16 @@ body:not(.comments-page) div.content .entry
 
 #sr-header-area
 {
-    font-size: 9px;
-    font-weight: 400;
+    font-size: 8px;
 
     padding-top: 3px;
     padding-bottom: 3px;
 
-    color: #fff;
     border: none;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: transparent;
+   
+    z-index: 9999;
+    width: 100%;
 }
 
 #sr-header-area .drop-choices.srdrop,
@@ -2827,13 +2828,6 @@ body:not(.submit-page) .tabmenu::after
     content: '';
 
     background: #666;
-}
-
-#sr-header-area
-{
-    z-index: 9999;
-
-    width: 100%;
 }
 
 div.content
