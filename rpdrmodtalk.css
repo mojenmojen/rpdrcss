@@ -867,7 +867,7 @@ body.res #header-bottom-right #mail.havemail
 }
 #header-bottom-right
 {
-    top: 192px !important;
+    top: 250px !important;
     right: 20px;
 
     padding: 0 !important;
@@ -886,7 +886,6 @@ body.res #header-bottom-right #mail.havemail
 
     color: #fff;
 }
-
 .res #header-bottom-right #modmail
 {
     top: -4px !important;
