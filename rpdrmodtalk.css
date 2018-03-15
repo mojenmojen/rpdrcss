@@ -5101,9 +5101,7 @@ a[href='/spoiler']:hover
 
 .titlebox h1.redditname a
 {
-    font-family: broadway;
     font-size: 0;
-
     content: '';
 }
 
