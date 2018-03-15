@@ -5084,7 +5084,7 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
 #header
 {
     background: url(%%s10headerc%%) no-repeat;
-    background-size: 100% auto;
+    background-size: contain;
 }
 
 body
