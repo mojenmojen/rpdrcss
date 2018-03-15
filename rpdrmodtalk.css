@@ -184,7 +184,7 @@ karmaz_ .search-expando-button-label-collapsed
 
 .sr-bar .separator
 {
-    font-size: 8px;
+    font-size: 7px;
 
     color: transparent;
 }
@@ -361,11 +361,6 @@ div#RESStyleSheetTipPane-header
     transition: all .15s ease;
 
     color: #b3b3b3;
-}
-
-.sr-bar a.gold
-{
-    color: gold;
 }
 
 .icon-menu a
@@ -2169,6 +2164,7 @@ body:not(.comments-page) div.content .entry
     padding-bottom: 3px;
 
     border: none;
+    color: #555555;
     background-color: transparent;
    
     z-index: 9999;
