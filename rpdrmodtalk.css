@@ -3885,13 +3885,13 @@ body:not(.comments-page) .over18 .tagline
 #RESShortcutsSort,
 #RESShortcutsTrash
 {
-    line-height: 25px !important;
+    line-height: 20px;
 
-    height: 25px;
-    margin-right: 4px;
+    height: 20px;
+    margin-right: 8px;
 
-    color: #fff !important;
-    background: 0 0 !important;
+    color: #777777;
+    background: transparent;
 }
 
 .link .flat-list
