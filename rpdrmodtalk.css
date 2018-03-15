@@ -2195,7 +2195,8 @@ body:not(.comments-page) div.content .entry
 .res #RESSubredditGroupDropdown,
 .res #srList
 {
-    font-size: 9px border-radius: 6px;;
+    font-size: 9px;
+    border-radius: 6px;
 
     top: 30px !important;
 
