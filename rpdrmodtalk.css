@@ -2447,17 +2447,6 @@ span.totalvotes
 {
     width: 20px !important;
 }
-
-#header
-{
-    height: 225px;
-
-    -webkit-transition: .3s;
-            transition: .3s;
-
-    border: none;
-}
-
 @keyframes godown
 {
     0%
@@ -4939,8 +4928,13 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
 
 #header
 {
+    height: 225px;
+
+    border: none;
+
     background: url(%%s10headere%%) no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center center;
 }
 
 body
