@@ -3300,7 +3300,14 @@ body.res .RESshortcutside:active
     margin: 96px 16px 0;
     padding: 0;
 }
-
+div.content {
+	padding: 16px;
+    border: 1px solid #3A94D7;
+    border-radius: 6px;
+    background: linear-gradient(to left, rgba(0, 17, 14, 1), rgba(6, 0, 5, 1));
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, .75), inset 0 0 2px 0 #4293D5;
+    color: #fff
+}
 .entry .buttons li a,
 .entry .buttons li + li
 {
