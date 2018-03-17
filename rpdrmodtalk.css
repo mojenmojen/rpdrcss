@@ -2789,8 +2789,14 @@ body:not(.comments-page) > .content .link .midcol
     z-index: 4;
     top: 290px;
 
-    width: 317px;
+    width: 300px;
     margin-right: 25px;
+    
+    border: 1px solid #3A94D7;
+    border-radius: 6px;
+    background: linear-gradient(to left,rgba(1,14,27,1),rgba(14,52,82,1));
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
+    color: #fff;
 }
 
 body:not(.search-page) #search input[type=text]
@@ -2800,13 +2806,11 @@ body:not(.search-page) #search input[type=text]
     transition: .3s;
     text-align: center;
 
-    border: 1px solid #e1e1e1;
     border-radius: 6px;
-}
-
-body:not(.search-page) #search input[type=text]:hover
-{
-    border: 1px solid #a0a0a0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to left, rgba(0, 17, 14, 1), rgba(6, 0, 5, 1));
+    border: 1px;
 }
 
 body:not(.search-page) #search input[type=text]:focus
@@ -2820,7 +2824,6 @@ body:not(.search-page) #search input[type=text]:focus
     animation-iteration-count: 1;
     text-align: left;
 
-    border-color: #aaa;
     outline: 0;
 }
 
