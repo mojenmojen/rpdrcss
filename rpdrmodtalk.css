@@ -2890,27 +2890,37 @@ body:not(.search-page) #search input[type=text]:focus
 
 .morelink
 {
-    font-size: 14px !important;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
 
     padding: 3px;
 
     transition: .2s;
-    letter-spacing: 0;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    
+	background: linear-gradient(to left,rgba(1,14,27,1),rgba(16, 48, 72, 1));
+	border: 1px solid #3A94D7;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;    
+}
+.morelink a {
+	color: #efefef;
+}
+.morelink:hover {
+	background: #BDEEFF !important;
+    box-shadow: 0 0 5px #43AFFF, 0 0 10px #43AFFF, inset 0 0 1px #43AFFF, inset 0 0 12px 5px rgba(255, 255, 255, .8);
 
-    border: none;
-    border-radius: 3.5px;
+}
+.morelink:hover a {
+    text-decoration: none!important;
+    color: #005F8E!important;
+    background: 0;
+    text-shadow: 0 0 1px!important;
 }
 
-.morelink a,
-.morelink a:hover,
-.morelink a:visited
-{
-    color: #fff;
-}
-
-.disabled .morelink,
-.disabled .morelink:hover
+.disabled .morelink
 {
     position: absolute;
     top: 314px;
@@ -4170,8 +4180,6 @@ button:active
 {
     background: #27408b;
 }
-
-.morelink,
 .side .titlebox .md h3 a,
 .thing .md table thead tr th,
 .wiki-page-content .md table thead tr th
@@ -4179,13 +4187,11 @@ button:active
     background: #97784a;
 }
 
-.morelink:hover,
 .side .titlebox .md h3 a:hover
 {
     background: #b21111;
 }
 
-.morelink:active,
 .side .titlebox .md h3 a:active
 {
     background: #222;
