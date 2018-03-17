@@ -5149,7 +5149,7 @@ a[href='/spoiler']:hover
     content: '';
 
     border-radius: 5px 5px 0 0;
-    background: url(%%sidebarimg%%) no-repeat;
+    background: url(%%s10sidebartemp%%) no-repeat;
     background-size: 300px;
 }
 
