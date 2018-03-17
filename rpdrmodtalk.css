@@ -2787,7 +2787,7 @@ body:not(.comments-page) > .content .link .midcol
 {
     position: absolute;
     z-index: 4;
-    top: 240px;
+    top: 290px;
 
     width: 317px;
     margin-right: 25px;
@@ -2933,7 +2933,7 @@ body:not(.search-page) #search input[type=text]:focus
 .side .submit-link
 {
     position: absolute;
-    top: 285px;
+    top: 335px;
     right: 16px;
 
     width: 300px;
@@ -2942,7 +2942,7 @@ body:not(.search-page) #search input[type=text]:focus
 .side .submit-text
 {
     position: absolute;
-    top: 330px;
+    top: 380px;
     right: 16px;
 
     width: 300px;
