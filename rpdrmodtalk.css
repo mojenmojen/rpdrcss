@@ -4126,7 +4126,7 @@ form#image-upload.image-upload
 .sidecontentbox a.helplink,
 button
 {
-    background: #97784a;
+    background: #011c2d;
 }
 
 #progressIndicator a#NERStaticLink,
@@ -4191,7 +4191,7 @@ button:active
 .thing .md table thead tr th,
 .wiki-page-content .md table thead tr th
 {
-    background: #97784a;
+    background: #011c2d;
 }
 
 .side .titlebox .md h3 a:hover
@@ -5014,7 +5014,7 @@ body
     font-weight: 400;
     font-style: oblique;
 
-    color: #97784a;
+    color: #011c2d;
 }
 
 .linkflair-one .linkflairlabel,
@@ -5076,7 +5076,7 @@ body
 
 .side .md > ul > li
 {
-    color: #97784a;
+    color: #011c2d;
 }
 
 .side .md > ul > li > p
