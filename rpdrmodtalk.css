@@ -2612,16 +2612,11 @@ button
     border-radius: 3px !important;
 }
 
-.titlebox h1.redditname
-{
-    width: 100%;
-
-    text-align: center;
-}
-
 .titlebox .redditname
 {
-    height: 25px;
+    height: 106px;
+    background: url(%%sidebartitle%%) no-repeat;
+    background-size: cover;
 }
 
 .res .titlebox .fancy-toggle-button
@@ -3140,11 +3135,6 @@ div.leavemoderator
 .side .md ul
 {
     margin: 15px 0;
-}
-
-.titlebox h1.redditname
-{
-    font-weight: 400;
 }
 
 .side .md h1,
@@ -5127,13 +5117,6 @@ a[href='/spoiler']:hover
     font-size: 0;
 
     content: '';
-}
-
-.titlebox h1.redditname a::before
-{
-    font-size: 20px;
-
-    content: "RuPaul's Drag Race";
 }
     
 .side::before
