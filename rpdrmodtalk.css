@@ -85,6 +85,7 @@ ul.report-reasons
 .side #search_showmore
 {
     color: #bbb;
+    font-size: 9px;
 }
 
 .search-expando-button-label-expanded,
@@ -2766,8 +2767,8 @@ body:not(.comments-page) > .content .link .midcol
 #searchexpando
 {
     font-size: 11px;
-    font-weight: 700;
     line-height: 2.5em;
+    letter-spacing: 0.75px;
 
     width: 280px;
     height: auto;
@@ -2776,11 +2777,14 @@ body:not(.comments-page) > .content .link .midcol
     text-align: center;
     text-transform: uppercase;
 
-    color: #fff;
+    color: #efefef;
     border: none;
     border-radius: 0 0 4px 4px;
     background: rgba(0, 0, 0, .85);
     box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+}
+#searchexpando select {
+	margin-left: 5px;
 }
 
 .side #search
