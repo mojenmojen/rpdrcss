@@ -2766,7 +2766,7 @@ body:not(.comments-page) > .content .link .midcol
     border: 1px solid #3A94D7;
     border-radius: 6px;
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
-    background: #fff;
+    background: #050005;
 }
 
 #searchexpando
