@@ -1770,6 +1770,11 @@ div.sitetable.nestedlisting
     width: 97%;
     height: 42px;
     margin-left: 10px;
+    border: 1px solid #3A94D7;
+    border-radius: 6px;
+    background: linear-gradient(to left,rgba(1,14,27,1),rgba(14,52,82,1));
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
+    color: #fff;
 }
 
 .md-container
