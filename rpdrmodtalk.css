@@ -1977,8 +1977,6 @@ a.author.moderator:after
 body:not(.comments-page) div.content .entry
 {
     padding: 13px;
-
-    border-bottom: 1px solid #e1e1e1;
 }
 
 .comments-page .link
@@ -2759,8 +2757,9 @@ body:not(.comments-page) > .content .link .midcol
     margin: 150px 16px 100px;
     padding: 0;
 
-    border: 1px solid #e1e1e1;
-    border-radius: 5px;
+    border: 1px solid #3A94D7;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
     background: #fff;
 }
 
