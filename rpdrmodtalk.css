@@ -882,7 +882,7 @@ body.res #header-bottom-right #mail.havemail
 	display: block;
 	vertical-align: top;
 	font-size: 8px;
-	margin: 10px 3px;
+	margin: 10px 16px;
 	font-weight: normal;
 	text-transform: uppercase;
 }
@@ -3299,6 +3299,13 @@ body.res .RESshortcutside:active
 {
     margin: 96px 16px 0;
     padding: 0;
+}
+.content .link {
+	position: relative;
+    margin: 4px 0;
+    padding: 12px 40px 12px 12px;
+    border-radius: 6px;
+    background: linear-gradient(to bottom,rgba(4,1,6,.5),rgba(4,20,32,.5)),linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(5,19,29,0.7) 100%);
 }
 div.content {
 	padding: 16px;
