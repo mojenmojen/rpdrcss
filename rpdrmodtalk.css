@@ -3060,7 +3060,13 @@ div.leavemoderator
 	color: #fff;
 	text-shadow: 0 0 10px #fff, 0 0 20px #ff1177;
 }
-
+.side .md p {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #a6d7f7;
+}
 .side .md .-blocks,
 .side .md .-lists,
 .side .md blockquote,
