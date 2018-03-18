@@ -2631,7 +2631,6 @@ button
 
 .morelink .nub,
 .rank-spacer,
-.users-online:before,
 body > .content .link .rank
 {
     display: none;
@@ -2980,11 +2979,6 @@ body:not(.search-page) #search input[type=text]:focus
     padding: 0 10px 10px;
 }
 
-.users-online
-{
-    color: #535353;
-}
-
 .flair,
 .linkflairlabel
 {
@@ -2999,12 +2993,6 @@ body:not(.search-page) #search input[type=text]:focus
 
     margin: 10px !important;
     padding: 10px !important;
-}
-
-.titlebox .users-online:before,
-.titlelebox .word
-{
-    display: none;
 }
 
 .next-suggestions a,
@@ -3053,57 +3041,11 @@ div.reddit-entry
     opacity: .7;
 }
 
-.users-online
-{
-    margin-bottom: 2em;
-}
-
-.titlebox .number,
-.titlebox span.subscribers
-{
-    font-size: 12px;
-
-    position: relative;
-}
-
-.titlebox .users-online,
-.titlebox span.subscribers
-{
-    position: relative;
-    top: 10px;
-
-    color: #999;
-}
-
 div.leavemoderator
 {
     margin-left: 18px;
 
     background: 0 0;
-}
-
-.titlebox .users-online
-{
-    font-size: 12px;
-
-    position: relative;
-    top: 15px;
-}
-
-.titlebox .users-online .number
-{
-    font-style: italic;
-}
-
-.titlebox .users-online .number:before
-{
-    content: '';
-}
-
-.titlebox .number,
-.titlebox .users-online
-{
-    cursor: text;
 }
 
 .side .md .-blocks,
@@ -4964,7 +4906,20 @@ body
 {
     background: #121212;
 }
-
+.titlebox .users-online,
+.titlebox span.subscribers
+{
+    position: relative;
+    color: #f777e9;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    line-height: 1.8em;
+}
+.titlebox .users-online:before {
+	display: none;
+}
 .titlebox .number:after
 {
     content: ' shady ladies subscribed';
