@@ -2596,7 +2596,7 @@ button
 .titlebox .redditname
 {
     background: url(%%sidebartitle%%) no-repeat;
-    background-size: 300px;
+    background-size: 276px;
     height: 106px;
 }
 .titlebox h1.redditname a
@@ -2604,6 +2604,9 @@ button
    	font-size: 36px;
    	color: transparent;
 	padding: 0px 40px 50px 40px;   
+}
+.titlebox form.toggle.res-sr-style-toggle {
+	margin-left: 68px !important;
 }
 .titlebox form.toggle {
     text-transform: uppercase;
@@ -3044,7 +3047,6 @@ div.reddit-entry
 div.leavemoderator
 {
     margin-left: 18px;
-
     background: 0 0;
 }
 
