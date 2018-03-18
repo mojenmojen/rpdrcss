@@ -2611,11 +2611,17 @@ button
 }
 .titlebox .redditname
 {
-    padding-top: 80px;
     background: url(%%sidebartitle%%) no-repeat;
     background-size: 300px;
+    height: 106px;
 }
 
+.titlebox h1.redditname a
+{
+   	font-size: 36px;
+   	color: transparent;
+	padding: 0px 40px 50px 40px;   
+}
 .res .titlebox .fancy-toggle-button
 {
     display: inline-block;
@@ -5106,14 +5112,6 @@ a[href='/spoiler']:hover
 
     color: #fff !important;
 }
-
-.titlebox h1.redditname a
-{
-    font-size: 0;
-
-    content: '';
-}
-    
 .side::before
 {
     display: block;
