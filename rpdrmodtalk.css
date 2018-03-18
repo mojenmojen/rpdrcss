@@ -2763,6 +2763,9 @@ body:not(.comments-page) > .content .link .midcol
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
     background: #050005;
 }
+.side .spacer {
+	margin: 0;
+}
 
 #searchexpando
 {
@@ -5124,7 +5127,7 @@ a[href='/spoiler']:hover
     display: block;
 
     width: 300px;
-    padding-top: 322px;
+    padding-top: 300px;
 
     content: '';
 
