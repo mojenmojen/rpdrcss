@@ -3217,7 +3217,7 @@ div.leavemoderator
 .fancy-toggle-button .add:hover,
 body.res .RESshortcutside:hover
 {
-    background: #d16868;
+    background: #f777e9;
 }
 
 .RESDashboardToggle:active,
@@ -4155,7 +4155,7 @@ button
 body.res .side .RESshortcutside.remove:hover,
 button:hover
 {
-    background: #b21111;
+    background: #f777e9;
 }
 
 .RESDashboardToggle.remove:active,
@@ -4179,7 +4179,7 @@ button:active
 
 .side .titlebox .md h3 a:hover
 {
-    background: #b21111;
+    background: #f777e9;
 }
 
 .side .titlebox .md h3 a:active
