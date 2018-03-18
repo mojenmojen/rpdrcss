@@ -2569,14 +2569,6 @@ button
     font-weight: 700;
 }
 
-.fancy-toggle-button .add,
-.fancy-toggle-button .remove
-{
-    padding: 5px 20px;
-
-    border-radius: 20px;
-}
-
 .RESDashboardToggle,
 .RESDashboardToggle.remove,
 .RESshortcutside,
@@ -2593,18 +2585,9 @@ button
 
     border: none !important;
     background-image: none !important;
-}
-
-.RESDashboardToggle,
-.RESDashboardToggle.remove,
-.RESshortcutside,
-.RESshortcutside.remove,
-.res .fancy-toggle-button .add,
-.res .fancy-toggle-button .remove
-{
     padding: 5px 8px !important;
-
-    border-radius: 3px !important;
+    border-radius: 6px !important;
+    
 }
 .titlebox {
 	text-align: center;
@@ -2639,12 +2622,10 @@ button
 
 .titlebox .fancy-toggle-button
 {
-    display: inline-block;
-
-    width: 100%;
     margin: 4px auto 0;
-
     transition: .3s;
+    border: 1px solid #3A94D7;
+    border-radius: 6px;
 }
 
 .flat-list
@@ -3228,7 +3209,8 @@ div.leavemoderator
 .RESshortcutside,
 .fancy-toggle-button .add
 {
-    background: #b21111;
+    background: #011c2d;
+    border: 1px solid #3A94D7 !important;
 }
 
 .RESDashboardToggle:hover,
