@@ -2616,12 +2616,16 @@ button
     background-size: 300px;
     height: 106px;
 }
-
 .titlebox h1.redditname a
 {
    	font-size: 36px;
    	color: transparent;
 	padding: 0px 40px 50px 40px;   
+}
+.titlebox form.toggle {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a6d7f7 !important;
 }
 .res .titlebox .fancy-toggle-button
 {
