@@ -2608,6 +2608,7 @@ button
 }
 .titlebox {
 	text-align: center;
+	padding: 0px 12px 0px 12px;
 }
 .titlebox .redditname
 {
