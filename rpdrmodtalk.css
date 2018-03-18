@@ -3056,6 +3056,10 @@ div.leavemoderator
     margin-left: 18px;
     background: 0 0;
 }
+.side .md a {
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #ff1177;
+}
 
 .side .md .-blocks,
 .side .md .-lists,
