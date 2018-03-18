@@ -2610,22 +2610,16 @@ button
     letter-spacing: 1px;
     color: #a6d7f7 !important;
 }
-.res .titlebox .fancy-toggle-button
-{
-    display: inline-block;
-
-    width: auto;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-left: 0;
-}
 
 .titlebox .fancy-toggle-button
 {
-    margin: 4px auto 0;
+	width: 30% !important;
+	margin-left: 35% !important;
+	margin-bottom: 10px !important;
     transition: .3s;
     border: 1px solid #3A94D7;
     border-radius: 6px;
+    display: block;
 }
 
 .flat-list
