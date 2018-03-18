@@ -1782,11 +1782,6 @@ div.sitetable.nestedlisting
     text-align: left;
 }
 
-.titlebox
-{
-    text-align: center;
-}
-
 .submit-page .content h1,
 .submit-page .side
 {
@@ -2611,12 +2606,14 @@ button
 
     border-radius: 3px !important;
 }
-
+.titlebox {
+	text-align: center;
+}
 .titlebox .redditname
 {
-    height: 106px;
+    padding-top: 80px;
     background: url(%%sidebartitle%%) no-repeat;
-    background-size: cover;
+    background-size: 300px;
 }
 
 .res .titlebox .fancy-toggle-button
@@ -2956,11 +2953,6 @@ body:not(.search-page) #search input[type=text]:focus
     right: 16px;
 
     width: 300px;
-}
-
-.titlebox
-{
-    padding: 12px;
 }
 
 .side .titlebox .md h3 a
