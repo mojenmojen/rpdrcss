@@ -4964,20 +4964,18 @@ body
     font-size: 10px;
     font-weight: 400;
     font-style: oblique;
-
-    color: #011c2d;
+    color: #a6d7f7;
 }
 
-.linkflair-one .linkflairlabel,
-.titlebox .md h4,
-.titlebox .md h5,
-.titlebox .md h6
+.linkflair-one .linkflairlabel
 {
     font-weight: 700;
-
     border-radius: 3px;
 }
-
+.titlebox .md hr {
+	background: #a6d7f7;
+	margin-bottom: 15px;
+}
 .titlebox .md h4,
 .titlebox .md h6
 {
@@ -4995,17 +4993,16 @@ body
 .titlebox .md h5
 {
     font-size: 12px;
-
     padding: 2px 2px 2px 10px;
-
-    color: #043f61;
+    color: #a6d7f7;
+    font-weight: normal;
 }
 
 .side .md h5 + ul,
 .side .md h6 + ul
 {
     margin-top: -10px;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .side .md h5 + ul:hover,
@@ -5027,12 +5024,14 @@ body
 
 .side .md > ul > li
 {
-    color: #011c2d;
+    color: #a6d7f7;
 }
-
 .side .md > ul > li > p
 {
-    color: #000;
+	text-align: left;
+	text-transform: none;
+    color: #afafaf;
+    letter-spacing: 0.5px;
 }
 
 .linkflair-one .linkflairlabel
