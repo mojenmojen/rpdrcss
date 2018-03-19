@@ -3219,6 +3219,13 @@ body.res .RESshortcutside:active
 .sidecontentbox .content {
 	border: none;
 }
+.sidecontentbox ul.content>li {
+	margin-bottom: 15px;
+}
+.sidecontentbox ul.content>li>a {
+	color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff1177;
+}
 .sidecontentbox .collapse-button
 {
     font-size: 10px;
