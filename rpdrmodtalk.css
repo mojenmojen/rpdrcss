@@ -3208,6 +3208,14 @@ body.res .RESshortcutside:active
 {
     display: none;
 }
+
+.account-activity-box {
+	text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff1177;
+}
 .sidecontentbox
 {
     padding: 15px;
