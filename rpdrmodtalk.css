@@ -1855,12 +1855,9 @@ div .thing .tagline .author.submitter:before
 
 .sidecontentbox a.helplink:hover
 {
-    text-decoration: none;
-}
-
-.sidecontentbox a.helplink:active
-{
-    background-color: #ae9df4;
+	color: #005F8E !important;
+  	background: #BDEEFF !important;
+    box-shadow: 0 0 5px #43AFFF, 0 0 10px #43AFFF, inset 0 0 1px #43AFFF, inset 0 0 12px 5px rgba(255, 255, 255, .8);
 }
 
 div .thing .tagline .author.submitter:before
