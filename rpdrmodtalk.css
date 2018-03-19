@@ -3216,6 +3216,19 @@ body.res .RESshortcutside:active
 .sidecontentbox .content {
 	border: none;
 }
+.sidecontentbox .content a.reddit-link-title {
+	color: #a6d7f7;
+}
+.sidecontentbox .content .linkflairlabel {
+    font-weight: normal;
+    max-width: none;
+    padding: 2px 10px;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    background: #001d4b;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #228dff, 0 0 40px #228DFF;
+}
 .sidecontentbox ul.content>li {
 	margin-bottom: 15px;
 }
