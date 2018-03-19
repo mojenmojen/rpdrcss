@@ -900,7 +900,6 @@ body.res #header-bottom-right #mail.havemail
     box-shadow: 0 0 5px #43AFFF,0 0 10px #43AFFF,inset 0 0 1px #43AFFF,inset 0 0 12px 5px rgba(255,255,255,.8);
 	border: none;
 }
-
 .res #header-bottom-right #modmail
 {
     top: -4px !important;
@@ -1759,9 +1758,31 @@ div.sitetable.nestedlisting
     border: none !important;
     background: 0 0 !important;
 }
-
-
-
+.submit-page .tabmenu.formtab {
+	text-align: center;
+}
+.submit-page .tabmenu.formtab a {
+    color: #afafaf;
+    font-size: 100%;
+    background-color: rgba(0,0,0,.8);
+	border: 1px solid #3A94D7;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.submit-page .tabmenu.formtab .selected a {
+    color: #005F8E;
+    font-size: 130%;
+    background-color: #5f99cf;
+    border: none;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.submit-page .tabmenu li:hover a {
+	color: #005F8E;
+    background-color: #BDEEFF;
+    box-shadow: 0 0 5px #43AFFF, 0 0 10px #43AFFF, inset 0 0 1px #43AFFF, inset 0 0 12px 5px rgba(255,255,255,.8);
+    border-radius: 6px;
+}
 
 .submit-page #newlink.submit.content .btn
 {
@@ -1776,6 +1797,8 @@ div.sitetable.nestedlisting
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
     color: #fff;
 }
+
+
 
 .md-container
 {
