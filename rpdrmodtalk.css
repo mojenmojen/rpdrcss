@@ -4981,7 +4981,7 @@ body
 .titlebox .md h4,
 .titlebox .md h6
 {
-  	font-size: 14px;
+  	font-size: 11px;
     padding: 5px;
     color: #fff;
     border: 1px solid #3A94D7;
@@ -4989,6 +4989,7 @@ body
     background: linear-gradient(to left,rgba(1,14,27,1),rgba(14,52,82,1));
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .titlebox .md h5
