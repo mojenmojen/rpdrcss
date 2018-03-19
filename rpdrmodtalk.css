@@ -1144,7 +1144,13 @@ body:not(.search-page) .menuarea
     min-width: 1000px;
     margin: 100px auto 300px;
 }
-
+.rising-page #noresults {
+	margin-right: 0;
+    color: #a6d7f7;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-align: center;
+}
 .search-page #noresults
 {
     margin-left: 15px !important;
