@@ -1752,7 +1752,7 @@ div.sitetable.nestedlisting
 	padding: 6px;
 	background: #dedede;
 }
-.submit-page .usertext .help-toggle
+.submit-page .usertext .help-toggle,
 .submit-page .usertext a.reddiquette {
 	float: left;
 }
@@ -2404,7 +2404,6 @@ h2
     color: #252525;
 }
 
-.side div.score,
 span.totalvotes
 {
     font-size: 14px;
@@ -2417,80 +2416,53 @@ span.totalvotes
     color: #444;
 }
 
-.linkinfo .date,
-.linkinfo .shortlink
-{
-    font-weight: 700;
-
-    text-transform: uppercase;
-}
-
-.linkinfo .score .number
-{
-    font-size: 14px;
-
-    text-align: left;
-}
-
-.linkinfo .totalvotes
-{
-    font-size: 100%;
-}
 
 .linkinfo
 {
     font-family: inherit !important;
 
     position: absolute;
-    top: 375px;
+    top: 425px;
 
-    width: 300px;
-    padding: 0;
-
-    border: none !important;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .08);
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #3A94D7;
+    border-radius: 6px;
+    background: #11161b;
 }
 
-.linkinfo .date
+.linkinfo
 {
-    font-size: 11px;
+    font-size: 9px;
+    text-align: center;
+    color: #696969;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 
-    padding: 14px 16px 0;
-
-    text-align: left;
-
-    color: #666;
 }
-
+.linkinfo .score {
+	color: #42a0f7;
+}
+.linkinfo .views {
+	color: #f25ede;
+}
+.linkinfo .shortlink
+{
+    font-size: 0;
+    text-align: center;
+}
 .linkinfo .shortlink input
 {
     font-family: monospace !important;
     font-size: 13px;
-
-    width: 280px;
-    padding: 10px;
-
-    transition: all .15s ease 0s !important;
+	padding: 8px;
     text-align: center;
 
     color: #fff;
     border: none;
-    border-radius: 0 0 4px 4px;
+    border-radius: 6px;
     background: #444;
-    box-shadow: none !important;
 }
-
-.linkinfo .shortlink
-{
-    font-size: 0;
-
-    margin-top: 20px;
-
-    text-align: center;
-}
-
 .comment .collapsed
 {
     padding-top: 2px;
