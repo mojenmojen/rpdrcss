@@ -1675,16 +1675,15 @@ div.sitetable.nestedlisting
 
 .formtabs-content .infobar
 {
-    font-size: 15px;
-    font-weight: 700;
-
-    padding: 20px;
-
+   font-size: 15px;
+    padding: 10px;
     text-align: center;
-
-    color: #000;
-    border: none;
+    color: #a6d7f7;
     border-radius: 4px;
+    background: #000e17;
+    letter-spacing: 0.5px;
+    border: 1px solid #3A94D7;
+    margin-bottom: 15px;
 }
 
 #sr-more-link
@@ -1738,7 +1737,25 @@ div.sitetable.nestedlisting
     border: none;
     background-color: #fff;
 }
-
+.submit-page .roundfield {
+	background: #bebebe;
+}
+.submit-page .roundfield input[type=text],
+.submit-page .roundfield input[type=url]
+ {
+	border-radius: 6px;
+	padding: 6px;
+}
+.submit-page .roundfield textarea {
+	color: #222;
+	border-radius: 6px;
+	padding: 6px;
+	background: #dedede;
+}
+.submit-page .usertext .help-toggle
+.submit-page .usertext a.reddiquette {
+	float: left;
+}
 .submit-page .content .spacer
 {
     margin-left: 0;
