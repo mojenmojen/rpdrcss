@@ -124,11 +124,6 @@ a
     color: #666;
 }
 
-.thing .title:visited
-{
-    color: #331f6d;
-}
-
 .flairselector li:hover
 {
     width: 400px !important;
@@ -187,11 +182,6 @@ div#RESStyleSheetTipPane-header
 
     border: none;
     border-bottom: 1px solid #ccc;
-}
-
-.commentarea textarea:not(:focus):not(:hover)
-{
-    background-color: #f8f8f8 !important;
 }
 
 .commentarea textarea:hover,
@@ -419,19 +409,13 @@ body .content .stickied .entry .buttons li.reported-stamp
 {
     margin: 0 -10px;
 }
-
-.res-commentBoxes .nestedlisting > .comment
-{
-    margin: 0 0 8px !important;
-}
-
 .res-commentBoxes .nestedlisting .comment
 {
     overflow: visible !important;
+    border: none !important;
+    background-color: transparent !important;
 }
 
-.commentarea .menuarea,
-.menuarea,
 .res #srList,
 .res h1.redditname
 {
@@ -981,25 +965,14 @@ body.res #header-bottom-right #mail.havemail
 {
     border: 0;
 }
-
-body:not(.search-page) .menuarea
-{
-    font-size: 12px;
-    font-weight: 700;
-
-    margin-top: 20px !important;
-
-    text-transform: uppercase;
-}
-
 .comments-page .menuarea
 {
-    font-size: 12px;
-    font-weight: 700;
-
+    font-size: 9px !important;
+    font-weight: normal !important;
     margin-top: 5px !important;
-
     text-transform: uppercase;
+    margin: 0;
+    padding-left: 16px;
 }
 
 .combined-search-page .searchfacets
@@ -1340,7 +1313,10 @@ body:not(.search-page) .menuarea
     background: #fff;
     box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
 }
-
+.panestack-title {
+	margin: 0 16px;
+	border-bottom: 1px solid #3A94D7;
+}
 .panestack-title a.title-button
 {
     position: relative;
@@ -1388,12 +1364,7 @@ body:not(.search-page) .menuarea
     box-shadow: none;
 }
 
-.commentarea .thing,
-.commentarea > .usertext,
-body.comments-page .link
-{
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .08);
-}
+
 
 .RESSubscriptionButton
 {
@@ -1417,133 +1388,13 @@ body.comments-page .link
     border-radius: 2px;
 }
 
-body.comments-page div.content
-{
-    background: 0 0 !important;
-}
-
-body.comments-page .link
-{
-    border: none;
-    border-radius: 5px 5px 0 0;
-    background: #fff;
-}
-
-body.comments-page .sitetable
-{
-    position: relative;
-}
-
-.commentarea > .usertext
-{
-    overflow: visible;
-
-    margin-top: -160px;
-    margin-right: -10px;
-    margin-left: -10px;
-    padding-top: 165px;
-    padding-left: 29px;
-
-    border-radius: 0 0 2px 2px;
-    background-color: #f8f8f8;
-}
-
-.res .commentarea > .usertext
-{
-    position: relative;
-    top: -110px;
-
-    clear: left;
-
-    margin-top: -160px;
-    margin-bottom: -90px;
-    padding-top: 136px;
-}
-
-.commentarea .panestack-title
-{
-    margin: 16px 0 -16px 22px;
-
-    border-bottom: 0;
-}
-
-.commentarea span.title
-{
-    font-size: 13px;
-    font-weight: 700;
-
-    position: relative;
-    z-index: 1;
-
-    text-transform: uppercase !important;
-}
-
-.commentarea .panestack-title .title
-{
-    color: #4d5763;
-}
-
-.commentarea .menuarea
-{
-    font-size: 12px;
-
-    position: relative;
-    z-index: 1;
-
-    margin-left: 22px !important;
-
-    text-transform: uppercase;
-}
-
-.commentarea .thing
-{
-    margin: 0 0 8px;
-    padding: 16px 16px 1px;
-
-    border-radius: 2px;
-    background-color: #fff;
-}
-
-.res .commentarea .thing
-{
-    padding: 15px 15px 0 !important;
-}
-
-.commentarea .thing.collapsed
-{
-    padding: 10px 15px !important;
-}
-
-.res .commentarea .entry .flat-list
-{
-    padding-bottom: 8px;
-}
-
 .comment .flat-list li a[onclick*=reply]
 {
     font-weight: 700;
 }
 
-.commentarea .child .thing
-{
-    margin-top: 15px;
-    margin-left: 2px !important;
-    padding: 4px;
 
-    border: 1px solid #fff !important;
-    box-shadow: none;
-}
 
-body.comments-page div.content
-{
-    border: none !important;
-}
-
-div.child,
-div.sitetable.nestedlisting
-{
-    box-shadow: none;
-}
 
 .wiki-page div.content
 {
@@ -2024,6 +1875,46 @@ a.author.moderator:after
 {
     margin-bottom: 0;
 }
+.comment {
+	background-color: transparent !important;
+}
+.comment,
+.comment .comment .comment,
+.comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment,
+.res-commentBoxes .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    position: relative;
+    margin: 4px 0 0;
+    padding: 8px 8px 8px 24px !important;
+    border: 0 !important;
+    border-radius: 6px;
+    background-color: transparent !important;
+}
+
+.comment .comment,
+.comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    position: relative;
+    padding: 8px 8px 8px 24px !important;
+    border: 0 !important;
+    border-radius: 6px;
+    background-color: transparent !important
+}
 
 body:not(.comments-page) div.content .entry
 {
@@ -2033,6 +1924,7 @@ body:not(.comments-page) div.content .entry
 .comments-page .link
 {
     padding: 20px 10px;
+    background: transparent;
 }
 
 .res .RES-keyNav-activeElement
@@ -2677,12 +2569,6 @@ body > .content .link .rank
     color: #666;
 }
 
-.entry .buttons li a,
-.entry .buttons li + li
-{
-    color: #666;
-}
-
 .comment .flat-list li a:hover,
 .link .domain a:hover,
 .link .entry .buttons li a:hover
@@ -2710,19 +2596,6 @@ button
     border: 0;
     border-radius: 4px;
 }
-
-
-div.content
-{
-    font-size: 12px;
-
-    margin: 15px 335px 10px 16px;
-
-    border: 1px solid #e1e1e1;
-    border-radius: 4px;
-    background-color: #fff;
-}
-
 .midcol
 {
     margin-left: 0;
@@ -2832,6 +2705,7 @@ body:not(.search-page) #search input[type=text]
     letter-spacing: 2px;
     background: linear-gradient(to left, rgba(0, 17, 14, 1), rgba(6, 0, 5, 1));
     border: 1px;
+    color: #afafaf;
 }
 
 body:not(.search-page) #search input[type=text]:focus
@@ -3003,10 +2877,6 @@ body:not(.search-page) #search input[type=text]:focus
     top: -2px;
 }
 
-.commentarea
-{
-    padding: 0 10px 10px;
-}
 
 .flair,
 .linkflairlabel
@@ -3074,6 +2944,25 @@ div.leavemoderator
 {
     margin-left: 18px;
     background: 0 0;
+}
+.res .entry.RES-keyNav-activeElement.res-selected,
+.res .entry.RES-keyNav-activeElement.res-selected .md-container {
+    background-color: transparent !important
+}
+.RES-keyNav-activeElement {
+	border-color: #a6d7f7 !important;
+}
+.entry .md {
+	color: #dedede;
+}
+.entry .md a {
+	color: #fff;
+	text-shadow: 0 0 10px #ff1177;
+}
+.entry .tagline a {
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 12px #ff1177;
+
 }
 .side .md a {
 	color: #fff;
@@ -3299,27 +3188,14 @@ body.res .RESshortcutside:active
 
 .content
 {
-    margin: 96px 16px 0;
-    padding: 0;
-}
-.content .link {
-	position: relative;
-    margin: 4px 0;
-    padding: 12px 40px 12px 12px;
-    border-radius: 6px;
-    background: linear-gradient(to bottom,rgba(4,1,6,.5),rgba(4,20,32,.5)),linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(5,19,29,0.7) 100%);
-}
-div.content {
-	padding: 16px;
+	margin: 15px 335px 10px 16px;
     border: 1px solid #3A94D7;
     border-radius: 6px;
-    background: linear-gradient(to left, rgba(0, 17, 14, 1), rgba(6, 0, 5, 1));
-    box-shadow: 0 0 15px 1px rgba(0, 0, 0, .75), inset 0 0 2px 0 #4293D5;
-    color: #fff
 }
 .entry .buttons li a,
 .entry .buttons li + li
 {
+	color: #666;
     font-weight: 400;
 }
 
@@ -3591,10 +3467,6 @@ form#image-upload.image-upload
     font-size: 10px;
 }
 
-body.comments-page .sitetable
-{
-    z-index: 3;
-}
 
 .side .flairselector:before
 {
@@ -3735,6 +3607,12 @@ body .stickied .thumbnail.self
     border-radius: 15px;
     background-repeat: no-repeat !important;
 }
+.thing .title {
+	color: #a6d7f7 !important;
+}
+.thing .title:visited {
+	color: #1950ae !important;
+}
 
 .stickied a.title:link,
 .stickied a.title:visited,
@@ -3743,7 +3621,7 @@ body:not(.comments-page) .stickied .entry .buttons li + li,
 body:not(.comments-page) .stickied .link .tagline,
 body:not(.comments-page) .stickied .tagline
 {
-    color: #2b8b27 !important;
+    color: #f777e9 !important;
 }
 
 .over18 a.title:link,
@@ -4190,106 +4068,7 @@ button:active
     background: #222;
 }
 
-#siteTable .thing .md blockquote,
-#siteTable .thing .md ol,
-#siteTable .thing .md table,
-#siteTable .thing .md ul,
-.commentarea .md blockquote,
-.commentarea .md ul,
-.commentarea .thing .md ol,
-.commentarea .thing .md table,
-.wiki-page-content .md blockquote
-{
-    font-family: Helvetica, Arial, sans-serif;
 
-    margin: 20px 10px 10px;
-}
-
-#siteTable .thing .md blockquote,
-.commentarea .md blockquote,
-.wiki-page-content .md blockquote
-{
-    font-size: 14px;
-    line-height: 20px;
-
-    padding: 10px;
-
-    color: #2f2f2f;
-    border-left: solid 2px #666;
-    background-color: #f2f2f2;
-}
-
-#siteTable .thing .md ol,
-#siteTable .thing .md ul,
-.commentarea .md ul,
-.commentarea .thing .md ol
-{
-    font-size: 14px;
-    line-height: 20px;
-
-    padding: 0;
-
-    border-top: solid 1px #eaeaea;
-    border-right: solid 1px #eaeaea;
-    border-left: solid 1px #eaeaea;
-}
-
-#siteTable .thing .md ol li,
-#siteTable .thing .md ul li,
-.commentarea .md ul li,
-.commentarea .thing .md ol li
-{
-    padding: 5px;
-
-    border-bottom: solid 1px #eaeaea;
-    background-color: #f8f8f8;
-}
-
-#siteTable .thing .md ol li:nth-child(odd),
-#siteTable .thing .md ul li:nth-child(odd),
-.commentarea .md ul:nth-child(odd),
-.commentarea .thing .md ol li:nth-child(odd)
-{
-    background-color: #f2f2f2;
-}
-
-#siteTable .thing .md ul,
-.commentarea .md ul
-{
-    list-style: none;
-}
-
-#siteTable .thing .md ol,
-.commentarea .thing .md ol
-{
-    list-style-position: inside;
-}
-
-#siteTable .thing .md table thead tr th,
-.commentarea .thing .md table thead tr th
-{
-    font-size: 14px;
-    font-weight: 400;
-
-    padding: 10px 20px;
-
-    color: #fff;
-    border: none;
-}
-
-#siteTable .thing .md table tbody tr,
-.commentarea .thing .md table thead tr th
-{
-    border-bottom: solid 1px #eaeaea;
-}
-
-#siteTable .thing .md table tbody tr td,
-.commentarea .thing .md table tbody tr td
-{
-    padding: 10px 20px;
-
-    border: none;
-}
 
 .res #RESShortcutsViewport
 {
@@ -5129,10 +4908,6 @@ a[href='/spoiler']:hover
     background-size: 300px;
 }
 
-.commentarea textarea:not(:focus)
-{
-    background: url(%%commentbox%%);
-}
 
 .side .md table
 {
