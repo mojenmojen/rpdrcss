@@ -1945,7 +1945,10 @@ body:not(.comments-page) div.content .entry
 
     outline: #eee dashed 0 !important;
 }
-
+.RESUserTag {
+	margin-right: 5px;
+	margin-top: 5px;
+}
 .res .entry
 {
     transition: all .1s ease;
@@ -2575,10 +2578,8 @@ body > .content .link .rank
 .link .tagline
 {
     font-size: 12px;
-
     margin-top: 3px;
-
-    color: #666;
+    color: #989898;
 }
 
 .comment .flat-list li a:hover,
@@ -5390,7 +5391,9 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
     color: #f42f63;
 }
-
+.link .flair {
+	vertical-align: middle;
+}
 .flair
 {
     top: 4px;
