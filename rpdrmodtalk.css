@@ -3628,6 +3628,8 @@ body .stickied .thumbnail.self
 
 .stickied a.title:link,
 .stickied a.title:visited,
+.tagline .stickied-tagline, 
+.search-result-meta .stickied-tagline,
 body:not(.comments-page) .stickied .entry .buttons li a,
 body:not(.comments-page) .stickied .entry .buttons li + li,
 body:not(.comments-page) .stickied .link .tagline,
