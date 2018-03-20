@@ -276,6 +276,9 @@ div#RESStyleSheetTipPane-header
 textarea
 {
     border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 6px;
+    background-color: #afafaf;
+    
 }
 
 a.madeVisible
@@ -954,6 +957,7 @@ body.res #header-bottom-right #mail.havemail
 .RESDialogSmall.livePreview
 {
     margin: 15px 0;
+    background: #afafaf;
 }
 
 .new-comment .usertext-body
@@ -1314,8 +1318,16 @@ body.res #header-bottom-right #mail.havemail
     box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
 }
 .panestack-title {
-	margin: 0 16px;
 	border-bottom: 1px solid #3A94D7;
+	font-size: 12px !important;
+    margin: 10px 20px 10px 0;
+    color: #dedede;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.panestack-title .title {
+	font-size: 14px !important;
+	margin: 10px 20px 10px 16px;
 }
 .panestack-title a.title-button
 {
@@ -4884,14 +4896,15 @@ a[href='/spoiler']
     color: #593488 !important;
     border: 1px solid #fff !important;
     background: #593488 !important;
-    text-shadow: none;
+    text-shadow: none !important;
+    border-radius: 6px;
+    padding: 0 5px;
 }
 
 a[href='#spoiler']:hover,
 a[href='/spoiler']:hover
 {
     cursor: default;
-
     color: #fff !important;
 }
 .side::before
