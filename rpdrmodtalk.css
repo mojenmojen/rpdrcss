@@ -2465,7 +2465,7 @@ span.totalvotes
     left: 0;
     bottom: 45px;
     right: 0;
-    width: 2400px;
+    width: 100%;
     text-indent: -999px;
 }
 
