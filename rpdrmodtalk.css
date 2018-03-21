@@ -2463,7 +2463,11 @@ span.totalvotes
         opacity: 1;
     }
 }
-
+.subreddit-rules-page .md-container .md h2,
+.subreddit-rules-page .md-container .md h4,
+.subreddit-rules-page p {
+	color: #a6d7f7;
+}
 .pagename a
 {
     position: absolute;
