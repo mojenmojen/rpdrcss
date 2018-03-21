@@ -2318,7 +2318,12 @@ div.score
 {
     line-height: 20px;
 }
-
+.md del {
+	color: #afafaf;
+}
+.md blockquote {
+	color: #a6d7f7;
+}
 h2
 {
     font-size: 18px;
