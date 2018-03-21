@@ -5672,6 +5672,9 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
     width: 87px;
     height: 26px;
 }
+.spoiler-stamp {
+	color: #a6d7f7;
+}
 
 .spoiler .entry .title a.title
 {
