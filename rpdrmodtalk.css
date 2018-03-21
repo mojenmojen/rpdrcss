@@ -79,7 +79,6 @@ ul.report-reasons
 {
     border: 1px solid #c6c6c6;
     border-radius: 3px;
-    background-color: transparent !important;
 }
 
 .side #search_showmore
@@ -1314,14 +1313,14 @@ body.res #header-bottom-right #mail.havemail
     max-width: 300px;
     margin-top: 30px;
     margin-bottom: 15px;
-    margin-left: -10px !important;
+    margin-left: 10px !important;
     padding: 10px 20px;
 
     text-transform: uppercase;
 
     border: 0;
     border-radius: 4px;
-    background: #fff;
+    background: #dedede;
     box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
 }
 .panestack-title {
@@ -1579,7 +1578,9 @@ body.res #header-bottom-right #mail.havemail
 
     outline: 0;
 }
-
+.markdownEditor-wrapper {
+	color: #afafaf;
+}
 .roundfield .title
 {
     color: #666;
@@ -2929,7 +2930,9 @@ body:not(.search-page) #search input[type=text]:focus
 {
     border: 1px solid #e1e1e1;
 }
-
+.usertext.border .usertext-body {
+	background-color: transparent !important;
+}
 .link .usertext-body .md
 {
     border: none !important;
@@ -5576,7 +5579,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
     height: 36px;
 }
 
-.flair-zvixen {
+.flair-zvixenu {
     background-position: 0 -1057px;
     width: 77px;
     height: 36px;
