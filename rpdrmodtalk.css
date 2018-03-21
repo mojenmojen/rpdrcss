@@ -553,6 +553,12 @@ div#images
     padding-right: 20px;
 }
 
+ul.image-preview-list .description {
+	color: #afafaf;
+}
+ul.image-preview-list .description pre {
+	color: #a6d7f7;
+}
 ul#image-preview-list
 {
     margin: 20px -15px -15px;
@@ -631,7 +637,7 @@ ul#image-preview-list .preview
 .thumbnail.nsfw,
 .thumbnail.self
 {
-    background: url(%%spritesheet%%) !important;
+    background: url(%%spritesheet4%%) !important;
     background-size: 50px 502px !important;
 }
 
@@ -2465,8 +2471,9 @@ span.totalvotes
     left: 0;
     bottom: 45px;
     right: 0;
-    width: 100%;
+    width: 100vw;
     text-indent: -999px;
+    cursor: pointer;
 }
 
 
@@ -3643,7 +3650,15 @@ body:not(.comments-page) .over18 .entry .buttons li + li,
 body:not(.comments-page) .over18 .link .tagline,
 body:not(.comments-page) .over18 .tagline
 {
-    color: #d10023 !important;
+    color: #fa6e3c !important;
+}
+.over18 .thumbnail img {
+	display: none;
+}
+.over18 .thumbnail {
+	background: url(%%s10nsfwa%%);
+	height: 75px;
+	background-size: 100%;
 }
 
 .res #RESShortcutsEditContainer,
