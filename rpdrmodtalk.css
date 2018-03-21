@@ -2992,7 +2992,7 @@ div.leavemoderator
 }
 .entry .md a {
 	color: #fff;
-	text-shadow: 0 0 10px #ff1177;
+	text-shadow: 0 0 10px #fff, 0 0 20px #ff1177, 0 0 30px #ff1177, 0 0 40px #ff1177;
 }
 .entry .tagline a {
 	color: #fff;
