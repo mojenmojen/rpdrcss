@@ -4132,6 +4132,14 @@ button:active
     color: #fff;
 }
 
+.organic-listing .link, 
+.organic-listing .link.compressed, 
+.organic-listing .link.promotedlink,
+link.promotedlink.promoted {
+	background: linear-gradient(to right,rgba(18,18,18,1),rgba(18,18,18,1)) !important;
+	border-radius: 6px;
+}
+
 html[lang=dm] .linkinfo .shortlink input
 {
     background: #444;
