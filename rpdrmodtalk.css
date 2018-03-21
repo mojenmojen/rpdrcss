@@ -1916,6 +1916,7 @@ a.author.moderator:after
     border: 0 !important;
     border-radius: 6px;
     background-color: transparent !important;
+    background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1)) !important;
 }
 
 .comment .comment,
@@ -1933,7 +1934,8 @@ a.author.moderator:after
     padding: 8px 8px 8px 24px !important;
     border: 0 !important;
     border-radius: 6px;
-    background-color: transparent !important
+    background-color: transparent !important;
+    background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1)) !important;
 }
 
 body:not(.comments-page) div.content .entry
@@ -4775,7 +4777,7 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
 
     border: none;
 
-    background: url(%%s10headerf%%) no-repeat;
+    background: url(%%s10headerg%%) no-repeat;
     background-size: cover;
     background-position: center center;
 }
