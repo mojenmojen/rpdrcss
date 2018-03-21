@@ -86,6 +86,9 @@ ul.report-reasons
     color: #bbb;
     font-size: 9px;
 }
+.search-expando.collapsed:before {
+	background: none !important;
+}
 
 .search-expando-button-label-expanded,
 karmaz_ .search-expando-button-label-collapsed
@@ -1011,7 +1014,6 @@ body.res #header-bottom-right #mail.havemail
 
     border-bottom: 1px solid #e1e1e1;
 }
-
 .combined-search-page .search-result-group .search-result-group-header
 {
     font-weight: 700;
@@ -1021,18 +1023,13 @@ body.res #header-bottom-right #mail.havemail
     padding: 15px 30px;
 
     text-transform: uppercase;
+    letter-spacing: 1px;
 
     color: inherit;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
-    background: #eee;
+    background: #afafaf;
 }
-
-.combined-search-page .searchpane
-{
-    background: #444;
-}
-
 .combined-search-page #search input[type=text]
 {
     max-width: none;
@@ -1064,7 +1061,11 @@ body.res #header-bottom-right #mail.havemail
 {
     width: auto;
 }
-
+.search-result-body .md p,
+.search-result-body .md h1,
+.search-result-body .md h2 {
+	color: #dedede !important;
+}
 .combined-search-page .search-result .search-result-body
 {
     font-size: 1em;
@@ -1074,12 +1075,6 @@ body.res #header-bottom-right #mail.havemail
     padding: 10px 0;
 
     color: #4f4f4f;
-}
-
-.combined-search-page .search-result a,
-.combined-search-page .search-result a > mark
-{
-    color: inherit;
 }
 
 .combined-search-page .search-result .search-result-meta,
@@ -1201,14 +1196,9 @@ body.res #header-bottom-right #mail.havemail
 
 #previoussearch label
 {
-    font-weight: 700;
-
-    position: absolute;
+	color: #afafaf;
+	letter-spacing: 1px;
     top: 95px;
-
-    display: block;
-
-    margin: 5px 0;
 }
 
 .search-page #search input[type=submit],
@@ -1223,11 +1213,6 @@ body.res #header-bottom-right #mail.havemail
 .search-page .searchpane
 {
     position: relative;
-    top: -85px;
-
-    height: 50px;
-    margin: auto auto -45px;
-
     border: none;
     border-radius: 8px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
@@ -1240,15 +1225,12 @@ body.res #header-bottom-right #mail.havemail
 
 .search-page #search input[type=text]
 {
-    font-size: 27px;
-
+    font-size: 24px;
     position: relative;
     top: 2px;
-
     width: 100% !important;
     margin-left: 30px;
-
-    border: none;
+	border-radius: 6px;
     outline: 0;
     background: 0 0;
 }
@@ -2994,14 +2976,16 @@ div.leavemoderator
 	color: #fff;
 	text-shadow: 0 0 10px #fff, 0 0 20px #ff1177, 0 0 30px #ff1177, 0 0 40px #ff1177;
 }
-.entry .tagline a {
-	color: #fff;
+.entry .tagline a,
+.side .md a,
+.search-result-footer a {
+	color: #fff !important;
 	text-shadow: 0 0 10px #fff, 0 0 12px #ff1177;
 
 }
-.side .md a {
-	color: #fff;
-	text-shadow: 0 0 10px #fff, 0 0 20px #ff1177;
+.combined-search-page .search-result a,
+.search-result-header a {
+	color: #a6d7f7;
 }
 .side .md p {
 	text-align: center;
