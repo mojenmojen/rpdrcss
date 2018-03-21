@@ -130,12 +130,6 @@ a
 
     border-radius: 20px;
 }
-
-.flair
-{
-    cursor: default;
-}
-
 .loadFlat
 {
     font-size: 10px;
@@ -510,11 +504,10 @@ body .content .stickied .entry .buttons li.reported-stamp
 
     text-transform: uppercase;
 }
-
-.pretty-form
-{
-    padding: 20px 0;
+.flairrow .tagline {
+	width: 400px;
 }
+
 
 #img-preview-container
 {
@@ -534,11 +527,16 @@ body .content .stickied .entry .buttons li.reported-stamp
     background-color: transparent;
 }
 
-.flairlist.usertable
+.flairlist .usertable
 {
     margin-top: 35px;
+    color: #afafaf !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-
+.flairlist .usertable span.header.tagline {
+	margin-left: 310px;
+}
 .sheets
 {
     margin-right: 20px;
@@ -2606,7 +2604,7 @@ button
     text-transform: uppercase;
 
     color: #fff;
-    border: 0;
+    border: 1px solid #3A94D7;
     border-radius: 4px;
 }
 .midcol
@@ -3435,8 +3433,7 @@ body.res .RESshortcutside:active
 {
     display: inline-block;
 }
-
-.side .flairselector
+.flairselector
 {
     position: fixed;
     top: 150px !important;
@@ -3705,9 +3702,10 @@ li.searchfacet
 
 .pretty-form
 {
+	color: #afafaf;
     font-size: larger;
-
     margin-left: 25px;
+    padding: 20px 0;
 }
 
 #preview-table > table
@@ -5396,178 +5394,97 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 }
 .flair
 {
-    top: 4px;
-
+    cursor: default;
+/*     top: 4px; */
     padding: 0;
-
     border: 0;
-    background: url(%%spritesheetAS3M4UN6%%) no-repeat -9999px;
+    background: url(%%s10flairtest2%%) no-repeat -9999px;
+    text-indent: -9999em;
+    white-space: nowrap;
 }
 
-
-
-
-
-.flair-asa
-{
-    width: 260px;
-    height: 28px;
-
-    background-position: -5px -5px;
+.flair-zaquaria {
+    background-position: -0px -5px;
+    width: 97px;
+    height: 36px;
 }
 
-.flair-asau
-{
-    width: 211px;
-    height: 27px;
-
-    background-position: -5px -43px;
+.flair-zasia {
+    background-position: -0px -47px;
+    width: 115px;
+    height: 34px;
 }
 
-.flair-chichi
-{
-    width: 259px;
-    height: 28px;
-
-    background-position: -5px -80px;
+.flair-zblair {
+    background-position: -0px -87px;
+    width: 132px;
+    height: 36px;
 }
 
-.flair-chichiu
-{
-    width: 211px;
-    height: 27px;
-
-    background-position: -5px -118px;
+.flair-zcracker {
+    background-position: -0px -129px;
+    width: 120px;
+    height: 36px;
 }
 
-.flair-dela
-{
-    width: 259px;
-    height: 28px;
-
-    background-position: -5px -155px;
+.flair-zdusty {
+    background-position: -0px -171px;
+    width: 158px;
+    height: 34px;
 }
 
-.flair-delau
-{
-    width: 211px;
-    height: 28px;
-
-    background-position: -5px -193px;
+.flair-zeureka {
+    background-position: -0px -212px;
+    width: 91px;
+    height: 34px;
 }
 
-.flair-kennedy
-{
-    width: 259px;
-    height: 28px;
-
-    background-position: -5px -231px;
+.flair-zkalorie {
+    background-position: -0px -252px;
+    width: 226px;
+    height: 36px;
 }
 
-.flair-kennedyu
-{
-    width: 211px;
-    height: 28px;
-
-    background-position: -5px -269px;
+.flair-zkameron {
+    background-position: -0px -295px;
+    width: 154px;
+    height: 34px;
 }
 
-.flair-milk
-{
-    width: 259px;
-    height: 28px;
-
-    background-position: -5px -307px;
+.flair-zmayhem {
+    background-position: -0px -336px;
+    width: 132px;
+    height: 34px;
 }
 
-.flair-milku
-{
-    width: 211px;
-    height: 27px;
-
-    background-position: -5px -345px;
+.flair-zmonet {
+    background-position: -0px -376px;
+    width: 140px;
+    height: 36px;
 }
 
-.flair-morgan
-{
-    width: 261px;
-    height: 28px;
-
-    background-position: -5px -382px;
+.flair-zmonique {
+    background-position: -0px -417px;
+    width: 132px;
+    height: 36px;
 }
 
-.flair-morganu
-{
-    width: 211px;
-    height: 28px;
-
-    background-position: -5px -420px;
+.flair-zvanessa {
+    background-position: -0px -459px;
+    width: 175px;
+    height: 36px;
 }
 
-.flair-mystery
-{
-    width: 262px;
-    height: 28px;
-
-    background-position: -5px -458px;
+.flair-zvixen {
+    background-position: -0px -500px;
+    width: 102px;
+    height: 36px;
 }
-
-.flair-mysteryu
-{
-    width: 211px;
-    height: 28px;
-
-    background-position: -5px -496px;
-}
-
-.flair-shangela
-{
-    width: 261px;
-    height: 28px;
-
-    background-position: -5px -534px;
-}
-
-.flair-shangelau
-{
-    width: 211px;
-    height: 27px;
-
-    background-position: -5px -572px;
-}
-
-.flair-thorgy
-{
-    width: 262px;
-    height: 28px;
-
-    background-position: -5px -609px;
-}
-
-.flair-thorgyu
-{
-    width: 211px;
-    height: 28px;
-
-    background-position: -5px -647px;
-}
-
-.flair-trixie
-{
-    width: 261px;
-    height: 28px;
-
-    background-position: -5px -685px;
-}
-
-.flair-trixieu
-{
-    width: 211px;
-    height: 27px;
-
-    background-position: -5px -723px;
-}
-
+.flair-zyuhua {
+    background-position: -1px -542px;
+    width: 143px;
+    height: 34px;
+} 
 
 .spoiler .entry .title a.title
 {
