@@ -526,8 +526,7 @@ body .content .stickied .entry .buttons li.reported-stamp
     border: none;
     background-color: transparent;
 }
-
-.flairlist .usertable
+.usertable
 {
     margin-top: 35px;
     color: #afafaf !important;
@@ -961,6 +960,7 @@ body.res #header-bottom-right #mail.havemail
 .new-comment .usertext-body
 {
     border: none !important;
+    background-color: transparent;
 }
 
 .organic-listing
@@ -3416,14 +3416,6 @@ body.res .RESshortcutside:active
 {
     background: #2d499d;
 }
-
-.flairselector.drop-choices.active
-{
-    padding: 20px !important;
-
-    border-radius: 8px !important;
-}
-
 .flairselector .flairselection
 {
     margin-bottom: 17px;
@@ -3505,6 +3497,14 @@ form#image-upload.image-upload
 
     border: 1px solid #d8d8d8;
     background-color: #fff;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    width: 334px !important;
+    transform: translate(-50%, -50%)
+
 }
 
 .flairselector h2
@@ -5389,13 +5389,10 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
     color: #f42f63;
 }
-.link .flair {
-	vertical-align: middle;
-}
 .flair
 {
+	vertical-align: middle;
     cursor: default;
-/*     top: 4px; */
     padding: 0;
     border: 0;
     background: url(%%s10flairtest2%%) no-repeat -9999px;
