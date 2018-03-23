@@ -406,11 +406,6 @@ body .content .stickied .entry .buttons li.reported-stamp
     border-radius: 20px;
     background: #666 !important;
 }
-
-.commentarea .nestedlisting
-{
-    margin: 0 -10px;
-}
 .res-commentBoxes .nestedlisting .comment
 {
     overflow: visible !important;
