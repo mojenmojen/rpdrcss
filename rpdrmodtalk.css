@@ -5047,7 +5047,7 @@ body
 .author[href$='/user/pandoraboxx']:before,
 .author[href$='/user/RuPaulBOTS_OFFICIAL']:before,
 .author[href$='/user/Msjasminemasters']:before,
-.author[href$='/user/JaymesMansfield']:before,
+.author[href$='/user/Jaymesmansfield']:before,
 .author[href$='/user/welovekatya']:before,
 .author[href$='/user/noextrai']:before,
 .author[href$='/user/willambelli']:before,
@@ -5072,7 +5072,7 @@ body
 
 div[data-author=FormerFkingReigning] > div > form p:first-child:before,
 div[data-author=JasmineMasters76] > div > form p:first-child:before,
-div[data-author=JaymesMansfield] > div > form p:first-child:before,
+div[data-author=Jaymesmansfield] > div > form p:first-child:before,
 div[data-author=JoshuaEadsBrown] > div > form p:first-child:before,
 div[data-author=MagnoliaIsMe] > div > form p:first-child:before,
 div[data-author=MimiImfurst] > div > form p:first-child:before,
@@ -5223,7 +5223,7 @@ div[data-author=FormerFkingReigning] > div > form p:first-child:before
     background-position: -1265px;
 }
 
-div[data-author=JaymesMansfield] > div > form p:first-child:before
+div[data-author=Jaymesmansfield] > div > form p:first-child:before
 {
     background-position: -1320px;
 }
@@ -5398,7 +5398,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
     color: #f42f63;
 }
 
-.author[href$='/user/JaymesMansfield']:after
+.author[href$='/user/Jaymesmansfield']:after
 {
     content: ' (Jaymes Mansfield)';
 
