@@ -5020,6 +5020,7 @@ body
 }
 
 /* VERIFIED AND QUEEN FLAIR */
+.author[href$='/user/officialmonetxchange']:before,
 .author[href$='/user/BZBOfficial']:before,
 .author[href$='/user/ajalikespotatosalad']:before,
 .author[href$='/user/mvisage']:before,
@@ -5413,6 +5414,10 @@ div[data-author=Jaymesmansfield] > div > form p:first-child:before
 }
 .author[href$='/user/BZBOfficial']:after {
 	content: ' (Bebe Zahara Benet)';
+	color: #f42f63;
+}
+.author[href$='/user/officialmonetxchange']:after {
+	content: ' (Monét X Change)';
 	color: #f42f63;
 }
 .flair
