@@ -429,10 +429,6 @@ body .content .stickied .entry .buttons li.reported-stamp
     color: #fff;
 }
 
-.flat-list li a.gold
-{
-    color: gold;
-}
 
 .tabpane-content
 {
@@ -2566,8 +2562,15 @@ button
 .flat-list
 {
     display: inline;
-
     list-style-type: none;
+}
+
+.flat-list li a.gold
+{
+    color: gold;
+}
+.flat-list li b {
+	color: #afafaf;
 }
 
 .morelink .nub,
