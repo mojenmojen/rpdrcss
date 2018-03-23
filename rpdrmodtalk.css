@@ -5701,7 +5701,7 @@ div[data-author=JaymesMansfield] > div > form p:first-child:before
 
     content: '';
 
-    background-image: url(%%spoil%%);
+    background-image: url(%%s10spoilertitle%%);
     background-size: 220px 20px;
 }
 
