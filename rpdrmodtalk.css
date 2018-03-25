@@ -5270,7 +5270,7 @@ body
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%s10flairs02%%) no-repeat -9999px;
+    background: url(%%s10flairs03%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -5453,6 +5453,26 @@ body
     background-position: -4px -1212px;
     width: 132px;
     height: 33px;
+}
+.flair-applefanboylol {
+	background-position: -2px -1496px;
+	width: 211px;
+	height: 34px;
+}
+.flair-leftoflinus {
+	background-position: -2px -1536px;
+	width: 226px;
+	height: 34px;
+}
+.flair-saintrorem {
+	background-position: -1px -1572px;
+	width: 124px;
+	height: 34px;
+}
+.flair-fuzzyhead999 {
+	background-position: -1px -1610px;
+	width: 103px;
+	height: 34px;
 }
 .flair-asa,
 .flair-asau {
