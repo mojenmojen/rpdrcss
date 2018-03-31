@@ -2656,13 +2656,99 @@ body:not(.comments-page) > .content .link .midcol
 {
     width: 300px;
     margin: 150px 16px 100px;
-    padding: 0;
+	padding-top: 310px;
 
     border: 1px solid #3A94D7;
     border-radius: 6px;
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
     background: #050005;
 }
+input[name=uh] ~ a:after {
+	content: '';
+	position: absolute;
+    top: 175px;
+    right: -2px;
+	width: 298px;
+	height: 298px;
+	margin-top: 1px;
+	border-radius: 5px 5px 0 0;
+	background-size: 100%;
+}
+.res-navTop input[name=uh] ~ a:after {
+    top: 175px;
+}
+body:not(.loggedin) .side:before {
+	padding-top: 300px;
+    content: url(%%s10sidebartemp5%%);
+}
+.res .comments-page .loggedin .side:before,
+.loggedin .side:before {
+    content: '';
+    position: absolute;
+    top: 425px;
+    height: 300px;
+    width: 300px;
+    z-index: 99;
+}
+.comments-page.res-navTop input[name=uh] ~a:after,
+.comments-page input[name=uh] ~a:after {
+	top: 175px;
+	margin-top: 126px;
+}
+input[name="uh"][value^="a"] ~ a:after,
+input[name="uh"][value^="b"] ~ a:after,
+input[name="uh"][value^="c"] ~ a:after,
+input[name="uh"][value^="d"] ~ a:after,
+input[name="uh"][value^="e"] ~ a:after,
+input[name="uh"][value^="f"] ~ a:after {
+    background-image: url(%%sidebars10e01img0%%);
+}
+input[name="uh"][value^="g"] ~ a:after,
+input[name="uh"][value^="h"] ~ a:after,
+input[name="uh"][value^="i"] ~ a:after,
+input[name="uh"][value^="j"] ~ a:after,
+input[name="uh"][value^="k"] ~ a:after,
+input[name="uh"][value^="l"] ~ a:after {
+    background-image: url(%%sidebars10e01img1%%);
+}
+input[name="uh"][value^="m"] ~ a:after,
+input[name="uh"][value^="n"] ~ a:after,
+input[name="uh"][value^="o"] ~ a:after,
+input[name="uh"][value^="p"] ~ a:after,
+input[name="uh"][value^="q"] ~ a:after,
+input[name="uh"][value^="r"] ~ a:after {
+    background-image: url(%%sidebars10e01img2%%);
+}
+input[name="uh"][value^="s"] ~ a:after,
+input[name="uh"][value^="t"] ~ a:after,
+input[name="uh"][value^="u"] ~ a:after,
+input[name="uh"][value^="v"] ~ a:after,
+input[name="uh"][value^="w"] ~ a:after,
+input[name="uh"][value^="x"] ~ a:after {
+    background-image: url(%%sidebars10e01img3%%);
+}
+input[name="uh"][value^="y"] ~ a:after,
+input[name="uh"][value^="z"] ~ a:after,
+input[name="uh"][value^="0"] ~ a:after,
+input[name="uh"][value^="1"] ~ a:after,
+input[name="uh"][value^="2"] ~ a:after,
+input[name="uh"][value^="3"] ~ a:after {
+    background-image: url(%%sidebars10e01img4%%);
+}
+input[name="uh"][value^="4"] ~ a:after,
+input[name="uh"][value^="5"] ~ a:after,
+input[name="uh"][value^="6"] ~ a:after {
+	background-image: url(%%sidebars10e01img5%%);
+}
+input[name="uh"][value^="7"] ~ a:after,
+input[name="uh"][value^="8"] ~ a:after,
+input[name="uh"][value^="9"] ~ a:after {
+    background-image: url(%%sidebars10e01img6%%);
+}
+
+
+
+
 .side .spacer {
 	margin: 0;
 }
@@ -4930,21 +5016,6 @@ a[href='/spoiler']:hover
     cursor: default;
     color: #fff !important;
 }
-.side::before
-{
-    display: block;
-
-    width: 300px;
-    padding-top: 300px;
-
-    content: '';
-
-    border-radius: 5px 5px 0 0;
-    background: url(%%s10sidebartemp5%%) no-repeat;
-    background-size: 300px;
-}
-
-
 .side .md table
 {
     width: 250px;
