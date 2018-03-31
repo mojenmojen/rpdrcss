@@ -2746,9 +2746,9 @@ input[name="uh"][value^="9"] ~ a:after {
     background-image: url(%%sidebars10e01img6%%);
 }
 
-
-
-
+.crosspost-preview {
+	background: #121212 !important;
+}
 .side .spacer {
 	margin: 0;
 }
