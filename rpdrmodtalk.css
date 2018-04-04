@@ -1143,7 +1143,9 @@ body.res #header-bottom-right #mail.havemail
 
     border-bottom: none;
 }
-
+.search-page input[name=uh] ~ a:after {
+	display: none
+}
 .search-page div#moresearchinfo
 {
     position: absolute;
