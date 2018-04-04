@@ -3009,6 +3009,9 @@ body:not(.search-page) #search input[type=text]:focus
 .usertext.border .usertext-body {
 	background-color: transparent !important;
 }
+.usertext .markhelp {
+	background: #afafaf;
+}
 .link .usertext-body .md
 {
     border: none !important;
