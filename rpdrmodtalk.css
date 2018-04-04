@@ -5632,7 +5632,12 @@ body
     color: #121212 !important;
     background-color: #121212;
 }
-
+.thumbnail.spoiler {
+	background-image: url(%%s10spoilerthumbnail%%);
+	background-repeat: no-repeat;
+	background-position: 0;
+	background-size: 100%;
+}
 .spoiler .entry .title a.title:before
 {
     font-size: 0;
