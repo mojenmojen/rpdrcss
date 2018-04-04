@@ -2792,6 +2792,7 @@ input[name="uh"][value^="9"] ~ a:after {
     background: linear-gradient(to left,rgba(1,14,27,1),rgba(14,52,82,1));
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;
     color: #fff;
+    z-index: 9999999;
 }
 
 body:not(.search-page) #search input[type=text]
