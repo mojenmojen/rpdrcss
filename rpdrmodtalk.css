@@ -2699,55 +2699,68 @@ body:not(.loggedin) .side:before {
 }
 input[name="uh"][value^="a"] ~ a:after,
 input[name="uh"][value^="b"] ~ a:after,
-input[name="uh"][value^="c"] ~ a:after,
+input[name="uh"][value^="c"] ~ a:after {
+    background-image: url(%%sidebars10e01img0%%);
+}
 input[name="uh"][value^="d"] ~ a:after,
 input[name="uh"][value^="e"] ~ a:after,
 input[name="uh"][value^="f"] ~ a:after {
-    background-image: url(%%sidebars10e01img0%%);
+    background-image: url(%%sidebars10e02img0%%);
 }
 input[name="uh"][value^="g"] ~ a:after,
 input[name="uh"][value^="h"] ~ a:after,
-input[name="uh"][value^="i"] ~ a:after,
+input[name="uh"][value^="i"] ~ a:after {
+    background-image: url(%%sidebars10e01img1%%);
+}
 input[name="uh"][value^="j"] ~ a:after,
 input[name="uh"][value^="k"] ~ a:after,
 input[name="uh"][value^="l"] ~ a:after {
-    background-image: url(%%sidebars10e01img1%%);
+    background-image: url(%%sidebars10e02img1%%);
 }
 input[name="uh"][value^="m"] ~ a:after,
 input[name="uh"][value^="n"] ~ a:after,
-input[name="uh"][value^="o"] ~ a:after,
+input[name="uh"][value^="o"] ~ a:after {
+    background-image: url(%%sidebars10e01img2%%);
+}
 input[name="uh"][value^="p"] ~ a:after,
 input[name="uh"][value^="q"] ~ a:after,
 input[name="uh"][value^="r"] ~ a:after {
-    background-image: url(%%sidebars10e01img2%%);
+    background-image: url(%%sidebars10e02img2%%);
 }
 input[name="uh"][value^="s"] ~ a:after,
 input[name="uh"][value^="t"] ~ a:after,
-input[name="uh"][value^="u"] ~ a:after,
+input[name="uh"][value^="u"] ~ a:after {
+    background-image: url(%%sidebars10e01img3%%);
+}
 input[name="uh"][value^="v"] ~ a:after,
 input[name="uh"][value^="w"] ~ a:after,
 input[name="uh"][value^="x"] ~ a:after {
-    background-image: url(%%sidebars10e01img3%%);
+    background-image: url(%%sidebars10e02img3%%);
 }
 input[name="uh"][value^="y"] ~ a:after,
 input[name="uh"][value^="z"] ~ a:after,
-input[name="uh"][value^="0"] ~ a:after,
+input[name="uh"][value^="0"] ~ a:after {
+    background-image: url(%%sidebars10e01img4%%);
+}
 input[name="uh"][value^="1"] ~ a:after,
 input[name="uh"][value^="2"] ~ a:after,
 input[name="uh"][value^="3"] ~ a:after {
-    background-image: url(%%sidebars10e01img4%%);
+    background-image: url(%%sidebars10e02img4%%);
 }
 input[name="uh"][value^="4"] ~ a:after,
-input[name="uh"][value^="5"] ~ a:after,
+input[name="uh"][value^="5"] ~ a:after {
+    background-image: url(%%sidebars10e01img5%%);  
+}
 input[name="uh"][value^="6"] ~ a:after {
-	background-image: url(%%sidebars10e01img5%%);
+    background-image: url(%%sidebars10e02img5%%);
 }
 input[name="uh"][value^="7"] ~ a:after,
-input[name="uh"][value^="8"] ~ a:after,
-input[name="uh"][value^="9"] ~ a:after {
+input[name="uh"][value^="8"] ~ a:after {
     background-image: url(%%sidebars10e01img6%%);
 }
-
+input[name="uh"][value^="9"] ~ a:after {
+    background-image: url(%%sidebars10e02img6%%);
+}
 .crosspost-preview {
 	background: #121212 !important;
 }
