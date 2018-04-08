@@ -5692,3 +5692,56 @@ a[href$='/spoiler']:hover
 {
     color: #fff !important;
 }
+
+.flair-phedre2 { 
+    width: 138px;height: 34px;
+    background: url(%%animatedflairs%%) no-repeat;
+    opacity:0.99999999;
+        -webkit-backface-visibility: phedre2 hidden;
+    -webkit-transform: phedre2 translateZ(0) scale(1.0, 1.0);
+    -webkit-animation: phedre2 3.0s steps(3) infinite;
+    -moz-animation: phedre2 3.0s steps(3) infinite; 
+    -ms-animation: phedre2 3.0s steps(3) infinite;
+    -o-animation: phedre2 3.0s steps(3) infinite;
+    animation: phedre2 3.0s steps(3) infinite; 
+    text-indent: -9999px; 
+} 
+@-webkit-keyframes phedre2 {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
+@-moz-keyframes phedre2    {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
+@-ms-keyframes phedre2     {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
+@-o-keyframes phedre2      {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
+
+/*
+.flair-phedre2 {
+    width: 138px;
+    height: 34px;
+    background-color:transparent!important;
+    background: url(%%animatedflairs%%) no-repeat;
+    border: 0;
+    overflow:hidden;
+    -webkit-animation: phedre2 3.0s steps(3) infinite;
+    -moz-animation: phedre2 3.0s steps(3) infinite;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    animation: phedre2 3.0s steps(3) infinite;
+    text-indent: -9999px;
+    padding: 0px !important;
+    content:"";
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+@-webkit-keyframes phedre2 {
+    from { background-position: 0 0px; }
+    to { background-position: 0 -102px; }
+    
+}
+@keyframes phedre2 {
+    from { background-position: 0 0; }
+    to { background-position: 0 -102px; }
+   
+}
+@keyframes phedre2         {
+    from { background-position: -0px -0px; } 
+    to { background-position: -0px -102px; }
+}*/
