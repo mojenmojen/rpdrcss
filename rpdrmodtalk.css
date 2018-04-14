@@ -5368,8 +5368,10 @@ body
 	content: ' (Monét X Change)';
 	color: #f42f63;
 }
-.flair
-{
+.flair-plain:before { 
+	content: normal; 
+}
+.flair {
 	vertical-align: middle;
     cursor: default;
     padding: 0;
@@ -5378,7 +5380,16 @@ body
     text-indent: -9999em;
     white-space: nowrap;
 }
-
+.flair-plain {
+	font-size: 1em;
+    color: #a6d7f7;
+    padding: 2px 4px;	
+    background-color: #121212;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 1px solid #a6d7f7;
+    text-indent: 0;
+}
 .flair-zaquaria {
     background-position: -0px -5px;
     width: 97px;
