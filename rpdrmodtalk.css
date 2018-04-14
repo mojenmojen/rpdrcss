@@ -2690,7 +2690,7 @@ body:not(.loggedin) .side:before {
     top: 425px;
     height: 300px;
     width: 300px;
-    z-index: 99;
+    z-index: 0;
 }
 .comments-page.res-navTop input[name=uh] ~a:after,
 .comments-page input[name=uh] ~a:after {
