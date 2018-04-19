@@ -5658,6 +5658,11 @@ body
     width: 87px;
     height: 26px;
 }
+.flair-cat {
+    background-position: -2px -1645px;
+    width: 132px;
+    height: 34px;
+}
 .spoiler-stamp {
 	color: #a6d7f7;
 }
@@ -5680,10 +5685,10 @@ body
 	background-size: 100%;
 }
 .spoiler .entry .title a.title:before
-{
+{ 
     font-size: 0;
 
-    position: absolute;
+    position: absolute; 
 
     display: block;
 
@@ -5730,7 +5735,7 @@ a[href$='/spoiler']:hover
     -o-animation: phedre2 3.0s steps(3) infinite;
     animation: phedre2 3.0s steps(3) infinite; 
     text-indent: -9999px; 
-} 
+}  
 @-webkit-keyframes phedre2 {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
 @-moz-keyframes phedre2    {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
 @-ms-keyframes phedre2     {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
