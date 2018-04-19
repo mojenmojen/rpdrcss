@@ -2683,14 +2683,21 @@ body:not(.loggedin) .side:before {
 	padding-top: 300px;
     content: url(%%s10sidebartemp5%%);
 }
-.res .comments-page .loggedin .side:before,
-.loggedin .side:before {
+.res .comments-page .loggedin .side:before {
     content: '';
     position: absolute;
     top: 425px;
     height: 300px;
     width: 300px;
     z-index: 0;
+}
+.loggedin .side:before {
+    content: '';
+    position: absolute;
+    top: 535px;
+    height: 325px;
+    width: 300px;
+    z-index: 9999999;
 }
 .comments-page.res-navTop input[name=uh] ~a:after,
 .comments-page input[name=uh] ~a:after {
