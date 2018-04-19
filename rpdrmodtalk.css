@@ -2680,8 +2680,13 @@ input[name=uh] ~ a:after {
     top: 175px;
 }
 body:not(.loggedin) .side:before {
-	padding-top: 300px;
-    content: url(%%s10sidebartemp5%%);
+	content: '';
+	position: absolute;
+	top: 425px;
+	height: 300px;
+	width: 300px;
+    background-size: 100%;
+    background-image: url(%%s10sidebartemp5%%);
 }
 .res .comments-page .loggedin .side:before {
     content: '';
