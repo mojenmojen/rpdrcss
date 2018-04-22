@@ -5402,7 +5402,7 @@ body
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%s10flairs06%%) no-repeat -9999px;
+    background: url(%%s10flairsep05%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -5615,6 +5615,26 @@ body
 	width: 103px;
 	height: 34px;
 }
+.flair-cat {
+    background-position: -2px -1650px;
+    width: 132px;
+    height: 34px;
+}
+.flair-ryanxcx {
+	background-position: -1px -1689px;
+	width: 178px;
+	height: 34px;
+}
+.flair-unnouveauvoyage {
+	background-position: -2px -1729px;
+	width: 154px;
+	height: 34px;
+}
+.flair-vladislavtpoker {
+	background-position: -4px -1771px;
+	width: 144px;
+	height: 34px;
+}
 .flair-asa,
 .flair-asau {
     background-position: -2px -1251px;
@@ -5683,11 +5703,6 @@ body
     background-position: -2px -1460px;
     width: 87px;
     height: 26px;
-}
-.flair-cat {
-    background-position: -2px -1645px;
-    width: 132px;
-    height: 34px;
 }
 .spoiler-stamp {
 	color: #a6d7f7;
