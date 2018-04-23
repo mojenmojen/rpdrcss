@@ -1612,7 +1612,9 @@ body.res #header-bottom-right #mail.havemail
 {
     margin-left: 0;
 }
-
+.submit-page input[name=uh] ~ a:after {
+	display: none
+}
 .submit-page .content
 {
     width: 700px;
