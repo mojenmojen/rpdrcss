@@ -2765,7 +2765,9 @@ input[name="uh"][value^="q"] ~ a:after {
 input[name="uh"][value^="r"] ~ a:after {
     background-image: url(%%sidebars10e02img2%%);
 }
-input[name="uh"][value^="s"] ~ a:after,
+input[name="uh"][value^="s"] ~ a:after {
+   background-image: url(%%sidebars10e05img0%%);   
+}
 input[name="uh"][value^="t"] ~ a:after {
    background-image: url(%%sidebars10e04img6%%);   
 }
@@ -2779,17 +2781,27 @@ input[name="uh"][value^="w"] ~ a:after {
 input[name="uh"][value^="x"] ~ a:after {
     background-image: url(%%sidebars10e02img3%%);
 }
-input[name="uh"][value^="y"] ~ a:after,
-input[name="uh"][value^="z"] ~ a:after,
+input[name="uh"][value^="y"] ~ a:after {
+   background-image: url(%%sidebars10e05img1%%);   
+}
+input[name="uh"][value^="z"] ~ a:after {
+	background-image: url(%%sidebars10e05img2%%);   
+}
 input[name="uh"][value^="0"] ~ a:after {
     background-image: url(%%sidebars10e01img4%%);
 }
-input[name="uh"][value^="1"] ~ a:after,
-input[name="uh"][value^="2"] ~ a:after,
+input[name="uh"][value^="1"] ~ a:after {
+	background-image: url(%%sidebars10e05img3%%);   
+}
+input[name="uh"][value^="2"] ~ a:after {
+	background-image: url(%%sidebars10e05img4%%);   
+}
 input[name="uh"][value^="3"] ~ a:after {
     background-image: url(%%sidebars10e02img4%%);
 }
-input[name="uh"][value^="4"] ~ a:after,
+input[name="uh"][value^="4"] ~ a:after {
+	background-image: url(%%sidebars10e05img5%%);   
+}
 input[name="uh"][value^="5"] ~ a:after {
     background-image: url(%%sidebars10e01img5%%);  
 }
