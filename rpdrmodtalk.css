@@ -5783,3 +5783,9 @@ a[href$='/spoiler']:hover
 @-moz-keyframes phedre2    {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
 @-ms-keyframes phedre2     {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
 @-o-keyframes phedre2      {from { background-position: -0px -0px; } to { background-position: -0px -102px; }}
+
+.flair-regina {
+    background-position: -4px -1810px;
+    width: 120px;
+    height: 33px;
+}
