@@ -5166,6 +5166,7 @@ body
 }
 
 /* VERIFIED AND QUEEN FLAIR */
+.author[href$='/user/eurekaohara']:before,
 .author[href$='/user/officialmonetxchange']:before,
 .author[href$='/user/BZBOfficial']:before,
 .author[href$='/user/ajalikespotatosalad']:before,
