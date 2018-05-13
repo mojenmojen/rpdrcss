@@ -2718,7 +2718,7 @@ input[name="uh"][value^="b"] ~ a:after{
     background-image: url(%%sidebars10e03img0%%);   
 }
 input[name="uh"][value^="c"] ~ a:after {
-    background-image: url(%%sidebars10e01img0%%);
+    background-image: url(%%sidebars10e07img3%%);
 }
 input[name="uh"][value^="d"] ~ a:after {
     background-image: url(%%sidebars10e04img1%%);       
@@ -2810,12 +2810,14 @@ input[name="uh"][value^="5"] ~ a:after {
 input[name="uh"][value^="6"] ~ a:after {
     background-image: url(%%sidebars10e02img5%%);
 }
-input[name="uh"][value^="7"] ~ a:after,
+input[name="uh"][value^="7"] ~ a:after {
+	background-image: url(%%sidebars10e07img2%%);
+}
 input[name="uh"][value^="8"] ~ a:after {
-    background-image: url(%%sidebars10e01img6%%);
+    background-image: url(%%sidebars10e07img0%%);
 }
 input[name="uh"][value^="9"] ~ a:after {
-    background-image: url(%%sidebars10e02img6%%);
+    background-image: url(%%sidebars10e07img1%%);
 }
 .crosspost-preview {
 	background: #121212 !important;
