@@ -5419,7 +5419,7 @@ body
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%s10flairsep07%%) no-repeat -9999px;
+    background: url(%%s10flairsep08%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -5603,9 +5603,9 @@ body
     height: 34px;
 }
 .flair-nothingsmaan {
-    background-position: 0 -1174px;
-    width: 138px;
-    height: 34px;
+    background-position: -2px -1848px;
+    width: 159px;
+	height: 34px;
 }
 .flair-phedre {
     background-position: -4px -1212px;
