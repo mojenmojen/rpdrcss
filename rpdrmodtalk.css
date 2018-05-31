@@ -2721,7 +2721,7 @@ input[name="uh"][value^="c"] ~ a:after {
     background-image: url(%%sidebars10e07img3%%);
 }
 input[name="uh"][value^="d"] ~ a:after {
-    background-image: url(%%sidebars10e04img1%%);       
+    background-image: url(%%sidebars10e09img2%%);       
 }
 input[name="uh"][value^="e"] ~ a:after{
     background-image: url(%%sidebars10e03img1%%);   
@@ -2745,7 +2745,7 @@ input[name="uh"][value^="k"] ~ a:after {
     background-image: url(%%sidebars10e08img2%%);       
 }
 input[name="uh"][value^="l"] ~ a:after {
-    background-image: url(%%sidebars10e06img4%%);
+    background-image: url(%%sidebars10e09img4%%);
 }
 input[name="uh"][value^="m"] ~ a:after {
    background-image: url(%%sidebars10e06img1%%);        
@@ -2763,7 +2763,7 @@ input[name="uh"][value^="q"] ~ a:after {
     background-image: url(%%sidebars10e06img2%%);       
 }
 input[name="uh"][value^="r"] ~ a:after {
-    background-image: url(%%sidebars10e02img2%%);
+    background-image: url(%%sidebars10e09img0%%);
 }
 input[name="uh"][value^="s"] ~ a:after {
    background-image: url(%%sidebars10e05img0%%);   
@@ -2796,10 +2796,10 @@ input[name="uh"][value^="1"] ~ a:after {
 	background-image: url(%%sidebars10e05img3%%);   
 }
 input[name="uh"][value^="2"] ~ a:after {
-	background-image: url(%%sidebars10e05img4%%);   
+	background-image: url(%%sidebars10e09img3%%);   
 }
 input[name="uh"][value^="3"] ~ a:after {
-    background-image: url(%%sidebars10e02img4%%);
+    background-image: url(%%sidebars10e09img1%%);
 }
 input[name="uh"][value^="4"] ~ a:after {
 	background-image: url(%%sidebars10e06img0%%);   
@@ -5421,7 +5421,7 @@ body
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%s10flairsep08%%) no-repeat -9999px;
+    background: url(%%s10flairsep10%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
