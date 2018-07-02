@@ -2765,9 +2765,7 @@ input[name="uh"][value^="q"] ~ a:after {
 input[name="uh"][value^="r"] ~ a:after {
     background-image: url(%%sidebars10e09img0%%);
 }
-input[name="uh"][value^="s"] ~ a:after {
-   background-image: url(%%sidebars10e05img0%%);   
-}
+input[name="uh"][value^="s"] ~ a:after,
 input[name="uh"][value^="t"] ~ a:after {
    background-image: url(%%sidebars10e04img6%%);   
 }
@@ -4933,7 +4931,7 @@ html[lang=dm] .RES-keyNav-activeElement .md-container
 
     border: none;
 
-    background: url(%%s10headerg%%) no-repeat;
+    background: url(%%s10headerwinner-opt%%) no-repeat;
     background-size: cover;
     background-position: center center;
 }
