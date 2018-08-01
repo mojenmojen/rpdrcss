@@ -5417,7 +5417,7 @@ body
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%s10flairs-offseason%%) no-repeat -9999px;
+    background: url(%%s10flairs-offseason-v02%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -5654,6 +5654,11 @@ body
 	background-position: -1px -1890px;
 	width: 192px;
 	height: 34px;
+}
+.flair-manson {
+	background-position: -1px -1931px;
+	width: 43px;
+	height: 45px;
 }
 .flair-asa,
 .flair-asau {
