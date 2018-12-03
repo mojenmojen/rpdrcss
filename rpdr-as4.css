@@ -30,7 +30,7 @@ a {
 ::selection {
     background: #0079d3;
     text-shadow: none;
-    color: #fff;
+    color: #d184d2;
 }
 :focus {
     outline: none!important;
@@ -81,9 +81,9 @@ body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_butt
 }
 #header {
     margin: 0;
-    height: 196px;
+    height: 275px;
     border: none;
-    background: url(%%headerimg%%) 50% 50% / cover no-repeat;
+    background: url(%%header-gia-farrah%%) 50% 50% / cover no-repeat;
     z-index: 1;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
 }
@@ -105,11 +105,13 @@ body:not(.loggedin) #sr-header-area .width-clip {
 }
 #sr-header-area .sr-bar a, #sr-more-link, #sr-header-area .separator, #sr-header-area .dropdown.srdrop .selected {
     background: none;
-    color: rgba(255, 255, 255, 0.4);
+    /* color: rgba(255, 255, 255, 0.4); */
+    color: #d184d2;
     transition: all .15s ease;
 }
 #sr-header-area:hover .sr-bar a, #sr-header-area:hover #sr-more-link, #sr-header-area:hover .seperator, #sr-header-area:hover .dropdown.srdrop .selected {
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: #d184d2;
 }
 #sr-header-area .sr-bar a:hover, #sr-more-link:hover, #sr-header-area .dropdown.srdrop .selected:hover {
     background: none;
@@ -320,15 +322,15 @@ body:not(.loggedin) #header-bottom-right {
 }
 #header-bottom-left {
     position: absolute;
-    top: 100px;
+    bottom: 0px;
     left: 16px;
     right: 384px;
 }
 #header .tabmenu {
     margin: 12px 0 0;
     display: block;
-    height: 42px;
-    line-height: 42px;
+    height: 25px;
+    line-height: 25px;
     border: none;
 }
 #header .tabmenu:before {
@@ -338,14 +340,15 @@ body:not(.loggedin) #header-bottom-right {
     left: -16px;
     right: -384px;
     background: rgba(0, 0, 0, 0.24);
-    height: 42px;
+    height: 25px;
     z-index: -1;
 }
 #header .tabmenu li a {
     margin: 0 16px;
     padding: 0;
     text-transform: uppercase;
-    font: 400 14px/32px Lato, Arial, sans-serif;
+    letter-spacing: 1px;
+    font: 400 10px/28px Lato, Arial, sans-serif;
     color: rgba(255, 255, 255, 0.7);
     display: inline-block;
 }
