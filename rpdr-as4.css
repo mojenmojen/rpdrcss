@@ -173,14 +173,14 @@ a.random.choice {
 }
 #header-bottom-right {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 250px !important;
+    right: 20px;
     width: auto;
     max-width: 340px;
-    height: 24px;
+    height: 25px;
     background: none;
     font-size: 11px;
-    padding: 5px 8px 4px 2px;
+    padding: 6px 8px 4px 2px;
 }
 body:not(.loggedin) #header-bottom-right {
     max-width: 340px;
