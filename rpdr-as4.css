@@ -297,7 +297,7 @@ body:not(.loggedin) #header-bottom-right {
 .loggedin .logout a {
     background-position: -48px 0;
 }
-#header-img.default-header, #header-img {
+/*#header-img.default-header, #header-img {
     z-index: 99;
     width: 0;
     padding-left: 42px;
@@ -309,16 +309,19 @@ body:not(.loggedin) #header-bottom-right {
 }
 #header-img.default-header:hover, #header-img:hover {
     background-position: -122px 0;
-}
+}*/
 #header .pagename {
     font-size: 0;
 }
 #header .pagename a {
-    display: inline-block;
-    line-height: 42px;
-    color: #fff;
-    font: normal 700 42px/42px Lato, Arial, sans-serif;
-    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -200px;
+    left: 0;
+    bottom: 45px;
+    right: 0;
+    width: 100vw;
+    text-indent: -999px;
+    cursor: pointer;
 }
 #header-bottom-left {
     position: absolute;
@@ -3428,8 +3431,3 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
     opacity: 0;
 }
 }
-
-/*
-    End of Naut
-    Add your customizations and addons below!
--------------------------------------------------------------------------- */
