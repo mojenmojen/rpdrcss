@@ -1,0 +1,12 @@
+icy blue: #7cb3dc
+dark blue accent: #425580
+icy pink: #d184d2
+dark pink accent: #d14ece
+
+header background pastel: #d1c5e9
+
+text name background: #ba88dd
+text name foreground: #fefff8
+
+ice blue: #c7eafe
+ice white: #f3f8fe
