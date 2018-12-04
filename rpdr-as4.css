@@ -1439,7 +1439,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 .side {
     margin: 282px 16px 108px 0;
-    padding-top: 310px;
+    padding-top: 275px;
     background: none;
     width: 320px;
 }
@@ -1447,13 +1447,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
     margin: 0 0 16px;
 }
 .side:before {
-    height: 192px;
-    background: url(%%sidebarimg%%);
+    height: 320px;
+    background: url(%%farrah1%%);
     content: "";
     display: block;
     position: absolute;
-    /*top: 100px;*/
-    top: 535px;
+    top: 500px;
     width: 320px;
     z-index: 1;
     border-radius: 2px;
@@ -2327,6 +2326,9 @@ body.mod-toolbox .tb-action-button {
 }
 .comments-page .side, .other-discussions-page .side {
     margin-top: 400px;
+}
+.comments-page .side:before {
+    margin-top: 135px;
 }
 .comments-page .side .linkinfo, .other-discussions-page .side .linkinfo {
     position: absolute;
