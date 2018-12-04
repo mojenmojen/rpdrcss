@@ -1446,14 +1446,21 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .side .spacer {
     margin: 0 0 16px;
 }
+/***sidebar slideshows***/
+@keyframes farrah-sidebar {
+    from { background-position-y: 0; } 
+    to { background-position-y: -960px; } 
+}
+
 .side:before {
+    width: 320px;
     height: 320px;
-    background: url(%%farrah1%%);
+    background: url(%%sidebar-sprite-farrah%%);
+    animation: farrah-sidebar 9s steps(3) infinite;
     content: "";
     display: block;
     position: absolute;
     top: 500px;
-    width: 320px;
     z-index: 1;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
