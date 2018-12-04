@@ -1448,15 +1448,18 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 /***sidebar slideshows***/
 @keyframes farrah-sidebar {
-    from { background-position-y: 0; } 
-    to { background-position-y: -960px; } 
+    15.99% { background-position-y: 0 }
+    16% { background-position-y: -320px }
+    31.99% { background-position-y: -320px }
+    32% { background-position-y: -640px }
+    99.99% { background-position-y: -640px }
 }
 
 .side:before {
     width: 320px;
     height: 320px;
     background: url(%%sidebar-sprite-farrah%%);
-    animation: farrah-sidebar 9s steps(3) infinite;
+    animation: farrah-sidebar 3s infinite;
     content: "";
     display: block;
     position: absolute;
