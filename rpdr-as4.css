@@ -2605,7 +2605,10 @@ body.mod-toolbox .tb-action-button {
     line-height: 2;
 }
 .submit-page #header {
-    height: 144px;
+    /* height: 144px; */
+}
+.submit-page input[name=uh] ~ a:after {
+    display: none
 }
 .submit-page #header-bottom-left {
     top: 86px;
@@ -2643,14 +2646,18 @@ body.mod-toolbox .tb-action-button {
     font-weight: 700;
     transition: all .15s ease;
     font-size: 16px;
+    letter-spacing: 2px;
     border: none;
     border-bottom: 4px solid transparent;
+    background-color: #c7eafe;
+    color: #aaaaaa;
 }
 .submit-page #newlink.submit.content .tabmenu.formtab .selected a {
     font-size: 16px;
     background: none;
     color: #fff;
     border-bottom: 4px solid;
+    background-color: #d184d2;
 }
 .submit-page #newlink.submit.content .tabmenu.formtab a:hover {
     color: #fff;
@@ -2666,7 +2673,9 @@ body.mod-toolbox .tb-action-button {
 }
 .submit-page .roundfield span.title {
     color: #292f34;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 .submit-page #url-field button {
     background: #c3cfd6;
@@ -2698,10 +2707,12 @@ body.mod-toolbox .tb-action-button {
     height: auto;
     margin-top: 16px;
     cursor: pointer;
-    text-transform: capitalize;
     font: 17px Lato, Arial, sans-serif;
     padding: 16px;
     margin-bottom: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #425580;
 }
 .submit-page #newlink.submit.content .btn:hover {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.48);
@@ -2712,6 +2723,7 @@ body.mod-toolbox .tb-action-button {
 body #newlink-with-image-upload .file-upload-button {
     padding-right: 18px;
     line-height: 37px;
+    background-color: #7cb3dc;
 }
 #new-link-image-input > div:first-of-type {
     display: inline-block;
