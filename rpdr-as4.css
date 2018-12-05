@@ -3668,3 +3668,74 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
     opacity: 0;
 }
 }
+
+/*** as4 queen flairs ***/
+.flair {
+    vertical-align: middle;
+    cursor: default;
+    padding: 0;
+    border: 0;
+    background: url(%%as4-flairsheet%%) no-repeat -9999px;
+    text-indent: -9999em;
+    white-space: nowrap;
+}
+.flair-gia {
+    background-position: 0 0;
+    width: 112px;
+    height: 29px;
+    /* background-position: -116px 0; */
+}
+.flair-farrah {
+    background-position: 0 -33px;
+    width: 135px;
+    height: 29px;
+    /* background-position: -139px -33px; */
+}
+.flair-jasmine {
+    background-position: 0 -66px;
+    width: 155px;
+    height: 29px;
+    /* background-position: -159px -66px; */
+}
+.flair-latrice {
+    background-position: 0 -99px;
+    width: 148px;
+    height: 29px;
+    /* background-position: -152px -99px; */
+}
+.flair-monet {
+    background-position: 0 -132px;
+    width: 160px;
+    height: 29px;
+    /* background-position: -164px -132px; */
+}
+.flair-monique {
+    background-position: 0 -165px;
+    width: 153px;
+    height: 29px;
+    /* background-position: -157px -165px; */
+}
+.flair-naomi {
+    background-position: 0 -198px;
+    width: 141px;
+    height: 29px;
+    /* background-position: -145px -198px; */
+}
+.flair-manila {
+    background-position: 0 -231px;
+    width: 140px;
+    height: 29px;
+    /* background-position: -144px -231px; */
+}
+.flair-trinity {
+    background-position: 0 -264px;
+    width: 151px;
+    height: 29px;
+    /* background-position: -155px -264px; */
+}
+.flair-valentina {
+    background-position: 0 -297px;
+    width: 120px;
+    height: 29px;
+    /* background-position: -124px -297px; */
+}
