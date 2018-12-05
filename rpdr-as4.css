@@ -5,7 +5,7 @@
     Last modified: 21 June 2018
     Find out more on /r/Naut
 
-    Last Updated for AS4 by fuzzyhead999 on 2018-12-02
+    Modified for /r/rupaulsdragrace by /u/fuzzyhead999
 -------------------------------------------------------------------------- */
 
 *, :before, :after {
@@ -19,7 +19,7 @@ body {
     min-width: 920px;
 }
 a {
-    color: #24a0ed;
+    color: #425580;
     transition: color .15s ease;
 }
 ::-moz-selection {
@@ -47,7 +47,7 @@ body .content .text:hover, body .content textarea:hover, body .content input[typ
     border-color: #738491;
 }
 body .content .text:focus, body .content textarea:focus, body .content input[type=text]:focus, body .content input[type=password]:focus, .side .spacer input:active, body .content input[type=url]:focus {
-    border-color: #24a0ed;
+    border-color: #425580;
     color: #292f34;
 }
 body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_button {
@@ -559,7 +559,7 @@ body > .content .link .rank, .rank-spacer {
     background: #e85881 url(%%spritesheet%%) -96px -104px;
 }
 .thumbnail[data-href-url*="reddit.com"] {
-    background: #24a0ed url(%%spritesheet%%) -152px -104px;
+    background: #425580 url(%%spritesheet%%) -152px -104px;
 }
 .thumbnail[data-href-url*="reddit.com"] img {
     display: none;
@@ -582,16 +582,16 @@ body > .content .link .rank, .rank-spacer {
     overflow: visible;
 }
 body .content .sitetable .link .title a:hover {
-    color: #24a0ed;
+    color: #425580;
 }
 .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
-    color: #24a0ed;
+    color: #425580;
 }
 .content .thing .title:visited, .content .thing.visited .title {
     color: #738491;
 }
 .thing .title.loggedin.click:visited, .thing .title.click:visited {
-    color: #24a0ed;
+    color: #425580;
 }
 .link .domain {
     visibility: hidden;
@@ -604,7 +604,7 @@ body .content .sitetable .link .title a:hover {
     transition: all .15s ease;
 }
 .link .domain a:hover {
-    color: #24a0ed;
+    color: #425580;
     text-decoration: none;
 }
 .approval-checkmark, .oc-tag {
@@ -727,7 +727,7 @@ body .content .sitetable .link .title a:hover {
     cursor: help;
 }
 .link .entry .tagline a:hover {
-    color: #24a0ed;
+    color: #425580;
     text-decoration: none;
 }
 .link .entry .tagline a.author {
@@ -751,13 +751,13 @@ body .content .sitetable .link .title a:hover {
     text-decoration: none;
 }
 .tagline .userattrs .moderator {
-    background: #27b062;
+    background: #d14ece;
 }
 .tagline .userattrs .admin {
     background: #F44336;
 }
 .tagline .userattrs .submitter {
-    background: #24a0ed;
+    background: #425580;
 }
 .tagline .userattrs .friend {
     background: #ff4500;
@@ -794,7 +794,7 @@ body .content .sitetable .link .title a:hover {
     transition: all .15s ease;
 }
 .link .entry .buttons li a:hover {
-    color: #24a0ed;
+    color: #425580;
     text-decoration: none;
 }
 .entry .buttons li.nsfw-stamp, .entry .buttons li.spoiler-stamp {
@@ -817,7 +817,7 @@ body .content .sitetable .link .title a:hover {
     cursor: help;
 }
 .link .entry .buttons li a.comments {
-    color: #24a0ed;
+    color: #425580;
     font-weight: 700!important;
     transition: all .25s ease-in-out!important;
 }
@@ -915,11 +915,11 @@ body .content .sitetable .link .title a:hover {
     background: #738491;
 }
 .linkflair-mod .linkflairlabel {
-    background: #27b062;
+    background: #d14ece;
     color: #fff;
 }
 .linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {
-    background: #27b062 url(%%spritesheet%%) -208px -104px;
+    background: #d14ece url(%%spritesheet%%) -208px -104px;
 }
 body .content .thing.spam {
     background-color: #FFE9E6;
@@ -999,18 +999,18 @@ b {
     border: none;
 }
 .thing.link.stickied a.title, .thing.link.stickied li a, .thing.link.stickied .entry li .comments {
-    color: #27b062!important;
+    color: #d14ece!important;
 }
 .thing.link.stickied .expando-button:hover {
-    background-color: #27b062!important;
-    border-color: #27b062!important;
+    background-color: #d14ece!important;
+    border-color: #d14ece!important;
 }
 .tagline .stickied-tagline {
     color: #b3b3b3;
     cursor: help;
 }
 .stickied.comment > .entry a, .stickied.comment .tagline .stickied-tagline {
-    color: #27b062;
+    color: #d14ece;
 }
 .content .spacer {
     margin: 0;
@@ -1086,7 +1086,7 @@ body > .content .link.compressed .midcol {
 .flairselector h2 {
     margin-bottom: 4px;
     background: none;
-    color: #24a0ed;
+    color: #425580;
     text-align: left;
     text-transform: capitalize;
     font-weight: 400;
@@ -1115,7 +1115,7 @@ body > .content .link.compressed .midcol {
 .flairoptionpane ul li .linkflair a.title {
     font-size: 18px!important;
     opacity: 100!important;
-    color: #24a0ed!important;
+    color: #425580!important;
 }
 .flairselector form {
     padding-top: 12px;
@@ -1132,7 +1132,7 @@ body > .content .link.compressed .midcol {
 .flairselector form .flairselection .linkflair a.title {
     font-size: 18px!important;
     opacity: 100!important;
-    color: #24a0ed!important;
+    color: #425580!important;
     cursor: default;
 }
 .flairselector form .flairselection .flairremove {
@@ -1144,7 +1144,7 @@ body > .content .link.compressed .midcol {
 .flairselector form .flairselection .flairremove a {
     visibility: visible;
     opacity: 100!important;
-    color: #24a0ed!important;
+    color: #425580!important;
     margin-left: -4px;
     text-transform: capitalize;
 }
@@ -1394,7 +1394,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     font-size: 14px;
 }
 .reddit-infobar.with-icon.locked-infobar {
-    background: #27B062;
+    background: #d14ece;
 }
 .reddit-infobar.with-icon.locked-infobar .md {
     color: #fff;
@@ -1402,7 +1402,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .reddit-infobar.with-icon.locked-infobar p:after {
     content: " Sort comments by new to find out more."}
 .reddit-infobar.with-icon.locked-infobar:before {
-    background-color: #27B062;
+    background-color: #d14ece;
     border-right: 1px solid rgba(0, 0, 0, 0.08);
 }
 #eu-cookie-policy .reddit-infobar {
@@ -1682,7 +1682,7 @@ div.titlebox span.number:after {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.0);
 }
 .titlebox .fancy-toggle-button .active.add {
-    background: #27b062;
+    background: #d14ece;
     color: #fff;
 }
 .titlebox .fancy-toggle-button .active.add:hover {
@@ -1988,7 +1988,7 @@ div.titlebox span.number:after {
     padding: 0 16px;
     background: #FFF;
     border-radius: 2px;
-    color: #24a0ed;
+    color: #425580;
     font-weight: 700;
     display: block;
     margin: 1.5em 0;
@@ -2031,7 +2031,7 @@ div.titlebox span.number:after {
 }
 .sidebox.create .morelink a {
     font-size: 14px;
-    color: #24a0ed;
+    color: #425580;
 }
 .sidebox .spacer {
     display: none;
@@ -2052,7 +2052,7 @@ div.titlebox span.number:after {
     display: block;
     margin: 0;
     padding: 10px 0;
-    color: #24A0ED;
+    color: #425580;
     content: "Subreddit CSS Theme by /r/Naut";
     font: 16px Lato, Arial, sans-serif;
     position: absolute;
@@ -2099,7 +2099,7 @@ div.titlebox span.number:after {
     font-weight: 400;
 }
 .commentarea .menuarea .toggle a:hover, .help-hoverable:hover {
-    color: #24a0ed;
+    color: #425580;
 }
 .help-hoverable {
     font-size: x-small;
@@ -2129,7 +2129,7 @@ div.titlebox span.number:after {
     width: 504px;
 }
 .usertext .bottom-area a.reddiquette {
-    color: #24a0ed;
+    color: #425580;
 }
 .commentarea .usertext-edit .md {
     margin: 0 0 16px;
@@ -2234,11 +2234,11 @@ div.titlebox span.number:after {
     font-weight: 700;
 }
 .comment .author:hover {
-    color: #24a0ed;
+    color: #425580;
     text-decoration: none;
 }
 .green {
-    color: #27b062!important;
+    color: #d14ece!important;
     font-weight: 700;
 }
 .thing .arrow.archived {
@@ -2423,7 +2423,7 @@ body.mod-toolbox .tb-action-button {
     color: #292f34;
 }
 .md a {
-    color: #24a0ed;
+    color: #425580;
 }
 .md a:visited {
     color: #7D5D8A;
@@ -2460,16 +2460,16 @@ body.mod-toolbox .tb-action-button {
     font-size: 10px;
 }
 .comment .flat-list li a:hover {
-    color: #24a0ed;
+    color: #425580;
     text-decoration: none;
 }
 .comment .flat-list li a[onclick*="reply"] {
-    color: #24a0ed;
+    color: #425580;
     font-weight: 700;
     font-size: 11px;
 }
 .deepthread a {
-    color: #24a0ed;
+    color: #425580;
 }
 .morecomments a {
     color: #738491;
@@ -2786,13 +2786,13 @@ body #newlink-with-image-upload .file-upload-button {
     padding: 16px;
 }
 .combined-search-page .search-result .search-result-header .search-title {
-    color: #24a0ed;
+    color: #425580;
 }
 .combined-search-page .search-result .search-result-meta {
     color: #738491;
 }
 .combined-search-page .search-result a, .combined-search-page .search-result a > mark {
-    color: #24a0ed;
+    color: #425580;
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button {
     border-radius: 2px;
@@ -2808,7 +2808,7 @@ body #newlink-with-image-upload .file-upload-button {
     color: #738491;
 }
 .combined-search-page .search-result .search-comments {
-    color: #24a0ed;
+    color: #425580;
 }
 .search-result.has-thumbnail > .thumbnail {
     margin-right: 16px;
@@ -2884,8 +2884,8 @@ body #newlink-with-image-upload .file-upload-button {
 }
 .wiki-page .pageactions .wikiaction-current {
     padding: 10px 16px 9px;
-    border-bottom: 2px solid #24a0ed;
-    color: #24a0ed;
+    border-bottom: 2px solid #425580;
+    color: #425580;
 }
 .wiki-page .pageactions .wikiaction:hover, .wiki-page .pageactions .wikiaction-current:hover {
     background: rgba(0, 0, 0, 0.05);
@@ -2922,7 +2922,7 @@ body #newlink-with-image-upload .file-upload-button {
     border: none;
 }
 .linefield .title {
-    color: #24a0ed;
+    color: #425580;
     text-transform: capitalize;
     padding: 0;
 }
@@ -2936,7 +2936,7 @@ body #newlink-with-image-upload .file-upload-button {
     color: #98abba;
 }
 .usertext .bottom-area a:hover {
-    color: #24a0ed;
+    color: #425580;
 }
 .pretty-form {
     padding-top: 24px;
@@ -2960,7 +2960,7 @@ body #newlink-with-image-upload .file-upload-button {
     font-size: 14px;
 }
 .tabmenu li.selected a {
-    color: #24a0ed;
+    color: #425580;
     background: none;
     border: none;
 }
@@ -3111,7 +3111,7 @@ ul.image-preview-list li {
     background-color: transparent!important;
 }
 .res .thing .tagline .author.moderator {
-    background-color: #27b062!important;
+    background-color: #d14ece!important;
     color: #FFF;
     padding: 1px 4px;
     border-radius: 1px;
@@ -3251,7 +3251,7 @@ html.res-commentBoxes .comment {
 }
 .res .RESshortcutside:hover, .res .RESDashboardToggle:hover {
     background-color: transparent;
-    color: #24a0ed;
+    color: #425580;
 }
 .res #progressIndicator {
     width: inherit;
