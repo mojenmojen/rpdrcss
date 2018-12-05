@@ -596,7 +596,11 @@ body > .content .link .rank, .rank-spacer {
     border-radius: 0;
 }
 .thumbnail.spoiler {
-    background: #F44336 url(%%spritesheet%%) -208px -148px;
+    /* background: #F44336 url(%%spritesheet%%) -208px -148px; */
+    background: url(%%as4-icons%%) -100px -9px;
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
 }
 .link .entry {
     padding: 0;
