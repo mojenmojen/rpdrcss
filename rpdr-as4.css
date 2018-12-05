@@ -558,7 +558,14 @@ body > .content .link .rank, .rank-spacer {
     background: #d2dbe0 url(%%spritesheet%%) -152px -48px;
 }
 .thumbnail.self {
-    background: #d2dbe0 url(%%spritesheet%%) -96px -48px;
+    /* background: #d2dbe0 url(%%spritesheet%%) -96px -48px; */
+    background: url(%%as4-icons%%) -275px -11px;
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
 }
 .thumbnail.image {
     background: #d2dbe0 url(%%spritesheet%%) -208px -48px;
