@@ -1554,7 +1554,7 @@ body:not(.loggedin) .side:before {
     width:320px;
     height:320px;
 }
-
+/*** TODO: TOP BOX NEED TO MOVE DOWN
 .side .titlebox h1.redditname:before {
     content: " ";
     position: absolute;
@@ -1568,6 +1568,7 @@ body:not(.loggedin) .side:before {
     border-radius: 0 0 2px 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
+*/
 .side .titlebox h1.redditname {
     margin-bottom: 6px;
     position: absolute;
@@ -1576,15 +1577,28 @@ body:not(.loggedin) .side:before {
     font-family: Lato, Arial, sans-serif;
 }
 .side .titlebox h1.redditname a {
-    color: #333;
+    /* color: #333; */
+    display: flex;
+    height: 106px;
+    width: 300px;
+    margin-top: -30px;
+    background-image: url(%%sidebar-logo%%);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    text-indent: -9999px;
 }
+/** TODO: need to move this down somewhere */
+.titlebox .subButtons {
+    display: none;
+}
+/** TODO: Need to move down
 .titlebox span.subscribers {
     position: absolute;
     z-index: 100;
     color: #333;
     font-size: 12px;
     top: 336px;
-}
+}*/
 div.titlebox span.word {
     display: none;
 }
@@ -1870,13 +1884,13 @@ div.titlebox span.number:after {
 .login-form-side button.btn {
     margin-right: -3px;
 }
-.titlebox:before {
+/* .titlebox:before {
     content: "Subreddit Info";
     display: block;
     color: #292f34;
     font: 18px/24px Lato, Arial, sans-serif;
     margin: 8px 0;
-}
+} */
 .titlebox .tagline {
     margin: 0;
 }
