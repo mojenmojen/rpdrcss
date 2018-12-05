@@ -412,7 +412,7 @@ body:not(.loggedin) #header-bottom-right {
     display: none!important;
 }
 body[class] > .content, body.listing-page[class] > .content {
-    margin: 16px 352px 64px 16px;
+    margin: 16px 352px 0px 16px;
     padding: 0;
 }
 .link {
