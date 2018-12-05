@@ -15,8 +15,13 @@
 }
 body {
     overflow-x: hidden;
-    background: #eee;
+    /* background: #eee; */
     min-width: 920px;
+    height:100%;
+    min-height:100%;
+    background-image: linear-gradient( #D1C5E9, #D1E0FF );
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 a {
     color: #425580;
@@ -1553,7 +1558,7 @@ input[name="uh"][value^="9"] ~ a:after {
 input[name=uh] ~ a:after, 
 body:not(.loggedin) .side:before { 
     content:""; display:block;
-    background:url(%%sidebarimg%%);
+    background:url(%%visitor-sidebar%%);
     width:320px;
     height:320px;
 }
@@ -2051,14 +2056,16 @@ div.titlebox span.number:after {
 .side:after {
     display: block;
     margin: 0;
-    padding: 10px 0;
+    padding: 8px 0;
     color: #425580;
-    content: "Subreddit CSS Theme by /r/Naut";
-    font: 16px Lato, Arial, sans-serif;
+    content: "Original Subreddit CSS Theme by /r/Naut, Modified for /r/rupaulsdragrace";
+    font: 10px Lato, Arial, sans-serif;
     position: absolute;
     width: 320px;
     border: 1px solid rgba(0, 0, 0, 0.06);
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .commentarea {
     display: -ms-flexbox;
