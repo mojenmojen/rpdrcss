@@ -1813,12 +1813,24 @@ div.titlebox span.number:after {
     font-weight: 400;
     letter-spacing: 0;
 }
+.submit-text .morelink a {
+    background-color: #d184d2;
+}
 .submit-text .morelink a:before {
-    font-size: 14px;
-    content: "Submit Text"}
+    font-size: 10px;
+    content: "Submit Text";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.submit-link .morelink a {
+    background-color: #7cb3dc !important;
+}
 .submit-link .morelink a:before {
-    font-size: 14px;
-    content: "Submit Link"}
+    font-size: 10px;
+    content: "Submit Link";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 .submit-text .morelink:before, .submit-link .morelink:after {
     content: "N/A";
     position: absolute;
