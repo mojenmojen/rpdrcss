@@ -889,6 +889,9 @@ body .content .sitetable .link .title a:hover {
     opacity: .7;
     text-decoration: none;
 }
+.subButtons {
+    display: flex;
+}
 .titlebox .tagline {
     font-size: 0;
 }
@@ -1591,38 +1594,52 @@ body:not(.loggedin) .side:before {
     background-size: auto 100%;
     text-indent: -9999px;
 }
-/** Not needed as it already appears in the lower sedction 
 .titlebox span.subscribers {
-    position: absolute;
     z-index: 100;
-    color: #333;
-    font-size: 12px;
-    top: 336px;
-}*/
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #425580;
+    margin-bottom: 10px;
+}
 div.titlebox span.word {
     display: none;
 }
 .titlebox .users-online {
     display: inline;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .titlebox .users-online:before {
     display: none;
 }
 div.titlebox span.number:after {
-    content: " readers"}
+    content: " ALL STARS"}
 .titlebox .users-online .number {
-    font-style: italic;
+    /* font-style: italic; */
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #d14ece;
+    margin-bottom: 10px;
 }
+/*
 .titlebox .users-online .number:before {
     content: "";
-    width: 16px;
+    width: 12px;
     height: 9px;
     display: inline-block;
     margin-right: 8px;
     background: url(%%spritesheet%%) -64px -36px;
 }
+*/
 .titlebox .users-online .number:after {
-    content: " currently online"}
+    content: " WINNERS ONLINE NOW";       
+}
 .titlebox .word {
     display: none;
 }
@@ -1639,7 +1656,6 @@ div.titlebox span.number:after {
     text-align: Center;
     width: 30%;
     margin: 0 auto;
-    padding-right: 10px;
 }
 .titlebox .fancy-toggle-button .active {
     display: block;
@@ -1652,6 +1668,12 @@ div.titlebox span.number:after {
     text-transform: capitalize;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
     transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1), padding .2s ease, margin .2s ease;
+}
+.res-sr-style-toggle {
+    justify-content: center;
+    margin-bottom: 10px;
+    text-transform: upppercase;
+    letter-spacing: 1px;
 }
 .titlebox .fancy-toggle-button .active:hover {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
