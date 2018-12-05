@@ -1587,10 +1587,6 @@ body:not(.loggedin) .side:before {
     background-size: auto 100%;
     text-indent: -9999px;
 }
-/** TODO: need to move this down somewhere */
-.titlebox .subButtons {
-    display: none;
-}
 /** TODO: Need to move down
 .titlebox span.subscribers {
     position: absolute;
@@ -1630,10 +1626,11 @@ div.titlebox span.number:after {
     cursor: text;
 }
 .titlebox .fancy-toggle-button {
-    margin: 0;
+    /* margin: 0; */
+    margin-top: -25px;
     position: absolute;
     margin-left: 208px;
-    top: 314px;
+    /* top: 314px; */
     z-index: 100;
 }
 .titlebox .fancy-toggle-button .active {
