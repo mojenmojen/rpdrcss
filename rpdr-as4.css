@@ -2,12 +2,8 @@
     Naut 4.2
     Stylesheet by /u/Cryptonaut
     Maintained by /u/RenegadeAI & /u/LackingAGoodName
-    Last modified: 21 June 2018
     Find out more on /r/Naut
-
-    Modified for /r/rupaulsdragrace by /u/fuzzyhead999
 -------------------------------------------------------------------------- */
-
 *, :before, :after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -15,12 +11,9 @@
 }
 body {
     overflow-x: hidden;
-    /* background: #eee; */
     min-width: 920px;
     height:100%;
     min-height:100%;
-    /* background-color: #D1C5E9;
-    background-image: linear-gradient( to bottom, #D1C5E9, #D1E0FF ); */
     background-color: #E5DFF39;
     background-image: linear-gradient( to bottom, #E5DFF3, #E5EEFF );
     background-repeat:no-repeat;
@@ -122,15 +115,6 @@ body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_butt
     -moz-animation: banner 60s running infinite linear;
     animation: banner 60s running infinite linear;
 }
-
-/* #header {
-    margin: 0;
-    height: 275px;
-    border: none;
-    background: url(%%header-gia-farrah%%) 50% 50% / cover no-repeat;
-    z-index: 1;
-    box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
-}*/
 #sr-header-area {
     background: rgba(0, 0, 0, 0.08);
     border: none;
@@ -149,7 +133,6 @@ body:not(.loggedin) #sr-header-area .width-clip {
 }
 #sr-header-area .sr-bar a, #sr-more-link, #sr-header-area .separator, #sr-header-area .dropdown.srdrop .selected {
     background: none;
-    /* color: rgba(255, 255, 255, 0.4); */
     color: #d184d2;
     transition: all .15s ease;
 }
@@ -341,19 +324,6 @@ body:not(.loggedin) #header-bottom-right {
 .loggedin .logout a {
     background-position: -48px 0;
 }
-/*#header-img.default-header, #header-img {
-    z-index: 99;
-    width: 0;
-    padding-left: 42px;
-    height: 42px;
-    background: url(%%spritesheet%%) -80px 0;
-    margin: 0 8px 0 0;
-    vertical-align: top;
-    font-size: 0;
-}
-#header-img.default-header:hover, #header-img:hover {
-    background-position: -122px 0;
-}*/
 #header .pagename {
     font-size: 0;
 }
@@ -558,7 +528,6 @@ body > .content .link .rank, .rank-spacer {
     background: #d2dbe0 url(%%spritesheet%%) -152px -48px;
 }
 .thumbnail.self {
-    /* background: #d2dbe0 url(%%spritesheet%%) -96px -48px; */
     background: url(%%as4-icons%%) -275px -11px;
     width: 70px;
     height: 70px;
@@ -580,7 +549,6 @@ body > .content .link .rank, .rank-spacer {
     display: none;
 }
 .stickied .thumbnail {
-    /* background-color: #2db747; */
     background: url(%%as4-icons%%) -189px -10px;
     width: 70px;
     height: 70px;
@@ -596,7 +564,6 @@ body > .content .link .rank, .rank-spacer {
     border-radius: 0;
 }
 .thumbnail.spoiler {
-    /* background: #F44336 url(%%spritesheet%%) -208px -148px; */
     background: url(%%as4-icons%%) -100px -9px;
     width: 70px;
     height: 70px;
@@ -792,7 +759,8 @@ body .content .sitetable .link .title a:hover {
 .tagline .userattrs > :hover {
     text-decoration: none;
 }
-.tagline .userattrs .moderator {
+.tagline .userattrs .moderator,
+.tagline .moderator {
     background: #d14ece;
 }
 .tagline .userattrs .admin {
@@ -3790,8 +3758,7 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
 .author[href$='/user/MissBitch2U']:before,
 .author[href$='/user/NebraskaTF']:before,
 .author[href$='/user/MystiqueSummers']:before,
-.author[href$='/user/thePeachesChrist']:before,
-.author[href$='/user/fuzzyhead999']:before
+.author[href$='/user/thePeachesChrist']:before
 {
     position: relative;
     top: 2px;
@@ -3805,185 +3772,123 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
 
 
 /*** Verified Queen's Names ***/
-
-.author[href$='/user/fuzzyhead999']:after
-{
-    content: ' (Fuzzyhead)';
-    color: #9b44dd;
-    margin-right: 3px;
+.author:after {
+   color: #9b44dd;
+   margin-right: 3px;  
 }
 .author[href$='/user/JoshuaEadsBrown']:after
 {
     content: ' (Ginger Minj)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/welovekatya']:after
 {
     content: ' (Katya Zamolodchikova)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/noextrai']:after,
 .author[href$='/user/willambelli']:after
 {
     content: ' (Willam)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/MissBitch2U']:after
 {
     content: ' (Tyra Sanchez)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/MystiqueSummers']:after
 {
     content: ' (Mystique Summers)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/trixiemattel']:after
 {
     content: ' (Tracy Martel)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/bryce777']:after
 {
     content: ' (Bryce Eilenberg)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/SashaBelley']:after
 {
     content: ' (Sasha Belle)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/TheRealMissDavenport']:after
 {
     content: ' (Kennedy Davenport)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/therealstacylayne']:after
 {
     content: ' (Stacy Layne Matthews)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/dariennelake']:after
 {
     content: ' (Darienne Lake)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/courtneyact']:after
 {
     content: ' (Courtney Act)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/MimiImfurst']:after
 {
     content: ' (Mimi Imfurst)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/JasmineMasters76']:after,
 .author[href$='/user/Msjasminemasters']:after
 {
     content: ' (Jasmine Masters)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/Npbrooks']:after
 {
     content: ' (Nicole Paige Brooks)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/jaidynndiorefierce']:after
 {
     content: ' (Jaidynn Diore Fierce)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/THEBDROFFICIAL']:after
 {
     content: ' (BIANCA DEL RIO)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/Derrick_Barry']:after
 {
     content: ' (Derrick Berry)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/NebraskaTF']:after
 {
     content: ' (Nebraska Thunderfuck)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/thePeachesChrist']:after
 {
     content: ' (Peaches Christ)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/cynthialeefontaine']:after
 {
     content: ' (Cynthia Lee Fontaine)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/OfficialPhiPhiOhara']:after
 {
     content: " (Phi Phi O'Hara)";
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/TrinitytheTUCKTaylor']:after
 {
     content: ' (Trinity The Tuck)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/FormerFkingReigning']:after
 {
     content: ' (Bob the Drag Queen)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/Jaymesmansfield']:after
 {
     content: ' (Jaymes Mansfield)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/ajalikespotatosalad']:after
 {
     content: ' (AJA)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/BZBOfficial']:after {
     content: ' (Bebe Zahara Benet)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
 .author[href$='/user/officialmonetxchange']:after {
     content: ' (Monét X Change)';
-    color: #9b44dd;
-    margin-right: 3px;
 }
-
 /*** triple trophy winners ***/
-/* TRIPLE TROPHY */
-
 .author[href$=CharlotH]:after,
 .author[href$=Eroticbread]:after,
 .author[href$=Helena__Handbag]:after,
