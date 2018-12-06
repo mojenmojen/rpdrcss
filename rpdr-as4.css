@@ -569,16 +569,16 @@ body > .content .link .rank, .rank-spacer {
     height: 70px;
     border-radius: 0;
 }
-/*.spoiler .entry .title a.title:before
+.spoiler .entry .title a.title:before
 { 
     font-size: 0;
     position: absolute; 
     display: block;
-    width: 479px;
-    height: 43px;
     content: '';
-    background-image: url(%%as4-icons%%) -12px -93px;;
-}*/
+    background: url(%%as4-icons%%) -10px -87px;
+    width: 387px;
+    height: 23px;
+}
 .link .entry {
     padding: 0;
     margin: 0;
@@ -762,6 +762,8 @@ body .content .sitetable .link .title a:hover {
 .tagline .userattrs .moderator,
 .tagline .moderator {
     background: #d14ece;
+    padding: 5px;
+    border-radius: 5px;
 }
 .tagline .userattrs .admin {
     background: #F44336;
@@ -2242,7 +2244,7 @@ div.titlebox span.number:after {
 }
 .comment .author {
     color: #292f34;
-    margin-right: 0;
+    margin-right: 5px;
     font-weight: 700;
 }
 .comment .author:hover {
