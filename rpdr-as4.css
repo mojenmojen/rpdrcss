@@ -3810,145 +3810,219 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
 {
     content: ' (Fuzzyhead)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/JoshuaEadsBrown']:after
 {
     content: ' (Ginger Minj)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/welovekatya']:after
 {
     content: ' (Katya Zamolodchikova)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/noextrai']:after,
 .author[href$='/user/willambelli']:after
 {
     content: ' (Willam)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/MissBitch2U']:after
 {
     content: ' (Tyra Sanchez)';
-
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/MystiqueSummers']:after
 {
     content: ' (Mystique Summers)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/trixiemattel']:after
 {
     content: ' (Tracy Martel)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/bryce777']:after
 {
     content: ' (Bryce Eilenberg)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/SashaBelley']:after
 {
     content: ' (Sasha Belle)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/TheRealMissDavenport']:after
 {
     content: ' (Kennedy Davenport)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/therealstacylayne']:after
 {
     content: ' (Stacy Layne Matthews)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/dariennelake']:after
 {
     content: ' (Darienne Lake)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/courtneyact']:after
 {
     content: ' (Courtney Act)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/MimiImfurst']:after
 {
     content: ' (Mimi Imfurst)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/JasmineMasters76']:after,
 .author[href$='/user/Msjasminemasters']:after
 {
     content: ' (Jasmine Masters)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/Npbrooks']:after
 {
     content: ' (Nicole Paige Brooks)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/jaidynndiorefierce']:after
 {
     content: ' (Jaidynn Diore Fierce)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/THEBDROFFICIAL']:after
 {
     content: ' (BIANCA DEL RIO)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/Derrick_Barry']:after
 {
     content: ' (Derrick Berry)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/NebraskaTF']:after
 {
     content: ' (Nebraska Thunderfuck)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/thePeachesChrist']:after
 {
     content: ' (Peaches Christ)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/cynthialeefontaine']:after
 {
     content: ' (Cynthia Lee Fontaine)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/OfficialPhiPhiOhara']:after
 {
     content: " (Phi Phi O'Hara)";
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/TrinitytheTUCKTaylor']:after
 {
     content: ' (Trinity The Tuck)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/FormerFkingReigning']:after
 {
     content: ' (Bob the Drag Queen)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/Jaymesmansfield']:after
 {
     content: ' (Jaymes Mansfield)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/ajalikespotatosalad']:after
 {
     content: ' (AJA)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/BZBOfficial']:after {
     content: ' (Bebe Zahara Benet)';
     color: #9b44dd;
+    margin-right: 3px;
 }
 .author[href$='/user/officialmonetxchange']:after {
     content: ' (Monét X Change)';
     color: #9b44dd;
+    margin-right: 3px;
+}
+
+/*** triple trophy winners ***/
+/* TRIPLE TROPHY */
+
+.author[href$=CharlotH]:after,
+.author[href$=Eroticbread]:after,
+.author[href$=Helena__Handbag]:after,
+.author[href$=jacobmittens]:after,
+.author[href$=Lemmefeelmyoats]:after,
+.author[href$=MikeSass]:after,
+.author[href$=Naeten]:after,
+.author[href$=PhantomRob]:after,
+.author[href$=TheDevilMadeMe]:after,
+.author[href$=addisonse]:after,
+.author[href$=akiraahhh]:after,
+.author[href$=ckris4467]:after,
+.author[href$=cleansingintheflames]:after,
+.author[href$=collyblom]:after,
+.author[href$=cookenuptrouble]:after,
+.author[href$=demiGalactic]:after,
+.author[href$=dyingwifi]:after,
+.author[href$=imageofdeception]:after,
+.author[href$=marcsaintclair]:after,
+.author[href$=ninastya]:after,
+.author[href$=nooodisaster]:after,
+.author[href$=noooodisaster]:after,
+.author[href$=randomdragracer]:after,
+.author[href$=replaceableyou]:after,
+.author[href$=sandoooo]:after,
+.author[href$=sandqueen]:after,
+.author[href$=sissy_fuss]:after,
+.author[href$=sunnysideup4a]:after,
+.author[href$=travishl]:after
+{
+    font-size: 0;
+    line-height: 30px;
+    position: relative;
+    top: -6px;
+    display: inline-block;
+    width: 97px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    content: '.';
+    background: url(%%as4-icons%%) -394px -31px;
 }
