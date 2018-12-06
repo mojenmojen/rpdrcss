@@ -1489,6 +1489,8 @@ input[name="uh"]~a:after {
     width: 320px;
     height: 320px;
     animation: anim-sidebar 3s infinite;
+    -webkit-animation: anim-sidebar 3s infinite;
+    -moz-animation: anim-sidebar 3s infinite;
     content: '';
     position: absolute; 
     top: 250px;
