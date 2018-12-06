@@ -10,3 +10,23 @@ text name foreground: #fefff8
 
 ice blue: #c7eafe
 ice white: #f3f8fe
+
+
+New Reddit settings:
+
+Theme Colors 
+Base:  #E5DFF3
+Highlight: #d14ece
+
+Body Background
+Color: #E5DFF3
+
+Community Name: Hide
+Community Icon: Hide in Banner
+
+Banner: header-default.png
+
+Posts
+Title Color: #425580
+Upvote Count Colour: #d14ece
+Downvote Count Colour: #7cb3dc
