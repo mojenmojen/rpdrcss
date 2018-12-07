@@ -87,7 +87,7 @@ ul.report-reasons
     font-size: 9px;
 }
 .search-expando.collapsed:before {
-    background: none !important;
+	background: none !important;
 }
 
 .search-expando-button-label-expanded,
@@ -387,7 +387,7 @@ ul.report-reasons
     background-color: transparent;
 }
 .report-reason-title {
-    color: #a6d7f7
+	color: #a6d7f7
 }
 
 .content .entry .buttons li.reported-stamp,
@@ -501,7 +501,7 @@ body .content .stickied .entry .buttons li.reported-stamp
     text-transform: uppercase;
 }
 .flairrow .tagline {
-    width: 400px;
+	width: 400px;
 }
 
 
@@ -530,7 +530,7 @@ body .content .stickied .entry .buttons li.reported-stamp
     letter-spacing: 1px;
 }
 .flairlist .usertable span.header.tagline {
-    margin-left: 310px;
+	margin-left: 310px;
 }
 .sheets
 {
@@ -550,10 +550,10 @@ div#images
 }
 
 ul.image-preview-list .description {
-    color: #afafaf;
+	color: #afafaf;
 }
 ul.image-preview-list .description pre {
-    color: #a6d7f7;
+	color: #a6d7f7;
 }
 ul#image-preview-list
 {
@@ -839,8 +839,8 @@ body.res #header-bottom-right #mail.havemail
     background-color: #ff9400;
 }
 #header-bottom-left {
-    position: absolute;
-    bottom: 0;
+	position: absolute;
+	bottom: 0;
 }
 #header-bottom-right
 {
@@ -865,26 +865,26 @@ body.res #header-bottom-right #mail.havemail
     color: #afafaf;
 }
 .tabmenu {
-    margin-left: 20px;
-    display: block;
-    vertical-align: top;
-    font-size: 8px;
-    margin: 10px 16px;
-    font-weight: normal;
-    text-transform: uppercase;
+	margin-left: 20px;
+	display: block;
+	vertical-align: top;
+	font-size: 8px;
+	margin: 10px 16px;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 .tabmenu li a {
-    border-radius: 2px;
-    border: none;
-    color: #777777;
-    background: rgba(0,0,0,.8);
+	border-radius: 2px;
+	border: none;
+	color: #777777;
+	background: rgba(0,0,0,.8);
 }
 .tabmenu li:hover a,
 .tabmenu li.selected a {
-    color: #005F8E;
+	color: #005F8E;
     background-color: #BDEEFF;
     box-shadow: 0 0 5px #43AFFF,0 0 10px #43AFFF,inset 0 0 1px #43AFFF,inset 0 0 12px 5px rgba(255,255,255,.8);
-    border: none;
+	border: none;
 }
 .res #header-bottom-right #modmail
 {
@@ -1055,7 +1055,7 @@ body.res #header-bottom-right #mail.havemail
 .search-result-body .md p,
 .search-result-body .md h1,
 .search-result-body .md h2 {
-    color: #dedede !important;
+	color: #dedede !important;
 }
 .combined-search-page .search-result .search-result-body
 {
@@ -1114,7 +1114,7 @@ body.res #header-bottom-right #mail.havemail
     margin: 100px auto 300px;
 }
 .rising-page #noresults {
-    margin-right: 0;
+	margin-right: 0;
     color: #a6d7f7;
     letter-spacing: 1px;
     font-weight: normal;
@@ -1144,7 +1144,7 @@ body.res #header-bottom-right #mail.havemail
     border-bottom: none;
 }
 .search-page input[name=uh] ~ a:after {
-    display: none
+	display: none
 }
 .search-page div#moresearchinfo
 {
@@ -1189,8 +1189,8 @@ body.res #header-bottom-right #mail.havemail
 
 #previoussearch label
 {
-    color: #afafaf;
-    letter-spacing: 1px;
+	color: #afafaf;
+	letter-spacing: 1px;
     top: 95px;
 }
 
@@ -1223,7 +1223,7 @@ body.res #header-bottom-right #mail.havemail
     top: 2px;
     width: 100% !important;
     margin-left: 30px;
-    border-radius: 6px;
+	border-radius: 6px;
     outline: 0;
     background: 0 0;
 }
@@ -1299,16 +1299,16 @@ body.res #header-bottom-right #mail.havemail
     box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
 }
 .panestack-title {
-    border-bottom: 1px solid #3A94D7;
-    font-size: 12px !important;
+	border-bottom: 1px solid #3A94D7;
+	font-size: 12px !important;
     margin: 10px 20px 10px 0;
     color: #dedede;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 .panestack-title .title {
-    font-size: 14px !important;
-    margin: 10px 20px 10px 16px;
+	font-size: 14px !important;
+	margin: 10px 20px 10px 16px;
 }
 .panestack-title a.title-button
 {
@@ -1554,7 +1554,7 @@ body.res #header-bottom-right #mail.havemail
     outline: 0;
 }
 .markdownEditor-wrapper {
-    color: #afafaf;
+	color: #afafaf;
 }
 .roundfield .title
 {
@@ -1590,30 +1590,30 @@ body.res #header-bottom-right #mail.havemail
     background-color: #fff;
 }
 .submit-page .roundfield {
-    background: #bebebe;
+	background: #bebebe;
 }
 .submit-page .roundfield input[type=text],
 .submit-page .roundfield input[type=url]
  {
-    border-radius: 6px;
-    padding: 6px;
+	border-radius: 6px;
+	padding: 6px;
 }
 .submit-page .roundfield textarea {
-    color: #222;
-    border-radius: 6px;
-    padding: 6px;
-    background: #dedede;
+	color: #222;
+	border-radius: 6px;
+	padding: 6px;
+	background: #dedede;
 }
 .submit-page .usertext .help-toggle,
 .submit-page .usertext a.reddiquette {
-    float: left;
+	float: left;
 }
 .submit-page .content .spacer
 {
     margin-left: 0;
 }
 .submit-page input[name=uh] ~ a:after {
-    display: none
+	display: none
 }
 .submit-page .content
 {
@@ -1630,13 +1630,13 @@ body.res #header-bottom-right #mail.havemail
     background: 0 0 !important;
 }
 .submit-page .tabmenu.formtab {
-    text-align: center;
+	text-align: center;
 }
 .submit-page .tabmenu.formtab a {
     color: #afafaf;
     font-size: 100%;
     background-color: rgba(0,0,0,.8);
-    border: 1px solid #3A94D7;
+	border: 1px solid #3A94D7;
     border-radius: 6px;
     margin-right: 20px;
 }
@@ -1649,7 +1649,7 @@ body.res #header-bottom-right #mail.havemail
     margin-right: 20px;
 }
 .submit-page .tabmenu li:hover a {
-    color: #005F8E;
+	color: #005F8E;
     background-color: #BDEEFF;
     box-shadow: 0 0 5px #43AFFF, 0 0 10px #43AFFF, inset 0 0 1px #43AFFF, inset 0 0 12px 5px rgba(255,255,255,.8);
     border-radius: 6px;
@@ -1697,7 +1697,7 @@ body.res #header-bottom-right #mail.havemail
 }
 
 .sidecontentbox .title {
-    text-align: center;
+	text-align: center;
 }
 .sidecontentbox .title h1
 {
@@ -1723,12 +1723,12 @@ body.res #header-bottom-right #mail.havemail
     text-align: center;
 
     color: #fff !important;
-    border: 1px solid #3A94D7;    
-    border-radius: 6px;
-    
-    float: none;
-    padding: 5px 8px;
-    margin-left: 24px;
+	border: 1px solid #3A94D7;    
+	border-radius: 6px;
+	
+	float: none;
+	padding: 5px 8px;
+	margin-left: 24px;
 }
 
 div .thing .tagline .author.admin,
@@ -1749,8 +1749,8 @@ div .thing .tagline .author.submitter:before
 
 .sidecontentbox a.helplink:hover
 {
-    color: #005F8E !important;
-    background: #BDEEFF !important;
+	color: #005F8E !important;
+  	background: #BDEEFF !important;
     box-shadow: 0 0 5px #43AFFF, 0 0 10px #43AFFF, inset 0 0 1px #43AFFF, inset 0 0 12px 5px rgba(255, 255, 255, .8);
 }
 
@@ -1873,7 +1873,7 @@ a.author.moderator:after
     margin-bottom: 0;
 }
 .comment {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 .comment,
 .comment .comment .comment,
@@ -1933,8 +1933,8 @@ body:not(.comments-page) div.content .entry
     outline: #eee dashed 0 !important;
 }
 .RESUserTag {
-    margin-right: 5px;
-    margin-top: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
 }
 .res .entry
 {
@@ -2296,10 +2296,10 @@ div.score
     line-height: 20px;
 }
 .md del {
-    color: #afafaf;
+	color: #afafaf;
 }
 .md blockquote {
-    color: #a6d7f7;
+	color: #a6d7f7;
 }
 h2
 {
@@ -2346,10 +2346,10 @@ span.totalvotes
 
 }
 .linkinfo .score {
-    color: #42a0f7;
+	color: #42a0f7;
 }
 .linkinfo .views {
-    color: #f25ede;
+	color: #f25ede;
 }
 .linkinfo .shortlink
 {
@@ -2360,7 +2360,7 @@ span.totalvotes
 {
     font-family: monospace !important;
     font-size: 13px;
-    padding: 8px;
+	padding: 8px;
     text-align: center;
 
     color: #fff;
@@ -2454,7 +2454,7 @@ span.totalvotes
 .subreddit-rules-page .md-container .md h2,
 .subreddit-rules-page .md-container .md h4,
 .subreddit-rules-page p {
-    color: #a6d7f7;
+	color: #a6d7f7;
 }
 .pagename a
 {
@@ -2516,8 +2516,8 @@ button
     
 }
 .titlebox {
-    text-align: center;
-    padding: 0px 12px 0px 12px;
+	text-align: center;
+	padding: 0px 12px 0px 12px;
 }
 .titlebox .redditname
 {
@@ -2527,12 +2527,12 @@ button
 }
 .titlebox h1.redditname a
 {
-    font-size: 36px;
-    color: transparent;
-    padding: 0px 40px 50px 40px;   
+   	font-size: 36px;
+   	color: transparent;
+	padding: 0px 40px 50px 40px;   
 }
 .titlebox form.toggle.res-sr-style-toggle {
-    margin-left: 68px !important;
+	margin-left: 68px !important;
 }
 .titlebox form.toggle {
     text-transform: uppercase;
@@ -2542,21 +2542,21 @@ button
 
 .titlebox .fancy-toggle-button
 {
-    width: 30% !important;
-    margin-left: 35% !important;
-    margin-bottom: 10px !important;
+	width: 30% !important;
+	margin-left: 35% !important;
+	margin-bottom: 10px !important;
     transition: .3s;
     border: 1px solid #3A94D7;
     border-radius: 6px;
     display: block;
 }
 .titlebox .leavemoderator {
-    text-transform: uppercase;
-    font-size: 8px;
-    margin-left: 0;
+	text-transform: uppercase;
+	font-size: 8px;
+	margin-left: 0;
 }
 .titlebox .leavemoderator:before {
-    display: none;
+	display: none;
 }
 .flat-list
 {
@@ -2569,7 +2569,7 @@ button
     color: gold;
 }
 .flat-list li b {
-    color: #afafaf;
+	color: #afafaf;
 }
 
 .morelink .nub,
@@ -2660,7 +2660,7 @@ body:not(.comments-page) > .content .link .midcol
 {
     width: 300px;
     margin: 150px 16px 100px;
-    padding-top: 310px;
+	padding-top: 310px;
 
     border: 1px solid #3A94D7;
     border-radius: 6px;
@@ -2668,25 +2668,25 @@ body:not(.comments-page) > .content .link .midcol
     background: #050005;
 }
 input[name=uh] ~ a:after {
-    content: '';
-    position: absolute;
+	content: '';
+	position: absolute;
     top: 175px;
     right: -2px;
-    width: 298px;
-    height: 298px;
-    margin-top: 1px;
-    border-radius: 5px 5px 0 0;
-    background-size: 100%;
+	width: 298px;
+	height: 298px;
+	margin-top: 1px;
+	border-radius: 5px 5px 0 0;
+	background-size: 100%;
 }
 .res-navTop input[name=uh] ~ a:after {
     top: 175px;
 }
 body:not(.loggedin) .side:before {
-    content: '';
-    position: absolute;
-    top: 425px;
-    height: 300px;
-    width: 300px;
+	content: '';
+	position: absolute;
+	top: 425px;
+	height: 300px;
+	width: 300px;
     background-size: 100%;
     background-image: url(%%s10sidebartemp5%%);
 }
@@ -2708,8 +2708,8 @@ body:not(.loggedin) .side:before {
 }
 .comments-page.res-navTop input[name=uh] ~a:after,
 .comments-page input[name=uh] ~a:after {
-    top: 175px;
-    margin-top: 126px;
+	top: 175px;
+	margin-top: 126px;
 }
 input[name="uh"][value^="a"] ~ a:after{
     background-image: url(%%sidebars10e04img0%%);   
@@ -2773,7 +2773,7 @@ input[name="uh"][value^="u"] ~ a:after {
     background-image: url(%%sidebars10e01img3%%);
 }
 input[name="uh"][value^="v"] ~ a:after {
-    background-image: url(%%sidebars10e06img5%%);
+	background-image: url(%%sidebars10e06img5%%);
 }
 input[name="uh"][value^="w"] ~ a:after {
     background-image: url(%%sidebars10e03img6%%);   
@@ -2785,20 +2785,20 @@ input[name="uh"][value^="y"] ~ a:after {
    background-image: url(%%sidebars10e10img2%%);   
 }
 input[name="uh"][value^="z"] ~ a:after {
-    background-image: url(%%sidebars10e05img2%%);   
+	background-image: url(%%sidebars10e05img2%%);   
 }
 input[name="uh"][value^="0"] ~ a:after {
     background-image: url(%%sidebars10e10img0%%);
 }
 input[name="uh"][value^="1"] ~ a:after {
-    background-image: url(%%sidebars10e05img3%%);   
+	background-image: url(%%sidebars10e05img3%%);   
 }
 input[name="uh"][value^="2"] ~ a:after,
 input[name="uh"][value^="3"] ~ a:after {
     background-image: url(%%sidebars10e09img1%%);
 }
 input[name="uh"][value^="4"] ~ a:after {
-    background-image: url(%%sidebars10e06img0%%);   
+	background-image: url(%%sidebars10e06img0%%);   
 }
 input[name="uh"][value^="5"] ~ a:after {
     background-image: url(%%sidebars10e01img5%%);  
@@ -2807,7 +2807,7 @@ input[name="uh"][value^="6"] ~ a:after {
     background-image: url(%%sidebars10e10img5%%);
 }
 input[name="uh"][value^="7"] ~ a:after {
-    background-image: url(%%sidebars10e07img2%%);
+	background-image: url(%%sidebars10e07img2%%);
 }
 input[name="uh"][value^="8"] ~ a:after {
     background-image: url(%%sidebars10e07img0%%);
@@ -2816,10 +2816,10 @@ input[name="uh"][value^="9"] ~ a:after {
     background-image: url(%%sidebars10e07img1%%);
 }
 .crosspost-preview {
-    background: #121212 !important;
+	background: #121212 !important;
 }
 .side .spacer {
-    margin: 0;
+	margin: 0;
 }
 
 #searchexpando
@@ -2842,7 +2842,7 @@ input[name="uh"][value^="9"] ~ a:after {
     box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
 }
 #searchexpando select {
-    margin-left: 5px;
+	margin-left: 5px;
 }
 
 .side #search
@@ -2967,16 +2967,16 @@ body:not(.search-page) #search input[type=text]:focus
     letter-spacing: 2px;
     text-transform: uppercase;
     
-    background: linear-gradient(to left,rgba(1,14,27,1),rgba(16, 48, 72, 1));
-    border: 1px solid #3A94D7;
+	background: linear-gradient(to left,rgba(1,14,27,1),rgba(16, 48, 72, 1));
+	border: 1px solid #3A94D7;
     border-radius: 6px;
     box-shadow: 0 0 15px 1px rgba(0,0,0,.75), inset 0 0 2px 0 #4293D5;    
 }
 .morelink a {
-    color: #efefef;
+	color: #efefef;
 }
 .morelink:hover {
-    background: #BDEEFF !important;
+	background: #BDEEFF !important;
     box-shadow: 0 0 5px #43AFFF, 0 0 10px #43AFFF, inset 0 0 1px #43AFFF, inset 0 0 12px 5px rgba(255, 255, 255, .8);
 
 }
@@ -3074,10 +3074,10 @@ body:not(.search-page) #search input[type=text]:focus
     border: 1px solid #e1e1e1;
 }
 .usertext.border .usertext-body {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 .usertext .markhelp {
-    background: #afafaf;
+	background: #afafaf;
 }
 .link .usertext-body .md
 {
@@ -3124,32 +3124,32 @@ div.leavemoderator
     background-color: transparent !important
 }
 .RES-keyNav-activeElement {
-    border-color: #a6d7f7 !important;
+	border-color: #a6d7f7 !important;
 }
 .entry .md {
-    color: #dedede;
+	color: #dedede;
 }
 .entry .md a {
-    color: #fff;
-    text-shadow: 0 0 10px #fff, 0 0 20px #ff1177, 0 0 30px #ff1177, 0 0 40px #ff1177;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #ff1177, 0 0 30px #ff1177, 0 0 40px #ff1177;
 }
 .entry .tagline a,
 .side .md a,
 .search-result-footer a {
-    color: #fff !important;
-    text-shadow: 0 0 10px #fff, 0 0 12px #ff1177;
+	color: #fff !important;
+	text-shadow: 0 0 10px #fff, 0 0 12px #ff1177;
 
 }
 .combined-search-page .search-result a,
 .search-result-header a {
-    color: #a6d7f7;
+	color: #a6d7f7;
 }
 .side .md p {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 10px;
-    color: #a6d7f7;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #a6d7f7;
 }
 .side .md .-blocks,
 .side .md .-lists,
@@ -3293,7 +3293,7 @@ body.res .RESshortcutside:active
 }
 
 .account-activity-box {
-    text-align: center;
+	text-align: center;
     padding-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -3305,10 +3305,10 @@ body.res .RESshortcutside:active
     border: none;
 }
 .sidecontentbox .content {
-    border: none;
+	border: none;
 }
 .sidecontentbox .content a.reddit-link-title {
-    color: #a6d7f7;
+	color: #a6d7f7;
 }
 .sidecontentbox .content .linkflairlabel {
     font-weight: normal;
@@ -3321,10 +3321,10 @@ body.res .RESshortcutside:active
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #228dff, 0 0 40px #228DFF;
 }
 .sidecontentbox ul.content>li {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .sidecontentbox ul.content>li>a {
-    color: #fff;
+	color: #fff;
     text-shadow: 0 0 10px #fff, 0 0 20px #ff1177;
     letter-spacing: 0.5px;
 }
@@ -3364,14 +3364,14 @@ body.res .RESshortcutside:active
 
 .content
 {
-    margin: 15px 335px 10px 16px;
+	margin: 15px 335px 10px 16px;
     border: 1px solid #3A94D7;
     border-radius: 6px;
 }
 .entry .buttons li a,
 .entry .buttons li + li
 {
-    color: #666;
+	color: #666;
     font-weight: 400;
 }
 
@@ -3783,10 +3783,10 @@ body .stickied .thumbnail.self
     background-repeat: no-repeat !important;
 }
 .thing .title {
-    color: #a6d7f7 !important;
+	color: #a6d7f7 !important;
 }
 .thing .title:visited {
-    color: #1950ae !important;
+	color: #1950ae !important;
 }
 
 .stickied a.title:link,
@@ -3811,12 +3811,12 @@ body:not(.comments-page) .over18 .tagline
     color: #fa6e3c !important;
 }
 .over18 .thumbnail img {
-    display: none;
+	display: none;
 }
 .over18 .thumbnail {
-    background: url(%%s10nsfwa%%);
-    height: 75px;
-    background-size: 100%;
+	background: url(%%s10nsfwa%%);
+	height: 75px;
+	background-size: 100%;
 }
 
 .res #RESShortcutsEditContainer,
@@ -3831,7 +3831,7 @@ body:not(.comments-page) .over18 .tagline
     top: -3px;
 }
 #RESShortcutsSort {
-    font-size: 12px !important;
+	font-size: 12px !important;
 }
 #RESShortcutsAdd,
 #RESShortcutsLeft,
@@ -3875,7 +3875,7 @@ li.searchfacet
 
 .pretty-form
 {
-    color: #afafaf;
+	color: #afafaf;
     font-size: larger;
     margin-left: 25px;
     padding: 20px 0;
@@ -4282,8 +4282,8 @@ button:active
 .organic-listing .link.compressed, 
 .organic-listing .link.promotedlink,
 link.promotedlink.promoted {
-    background: linear-gradient(to right,rgba(18,18,18,1),rgba(18,18,18,1)) !important;
-    border-radius: 6px;
+	background: linear-gradient(to right,rgba(18,18,18,1),rgba(18,18,18,1)) !important;
+	border-radius: 6px;
 }
 
 html[lang=dm] .linkinfo .shortlink input
@@ -4958,7 +4958,7 @@ body
     line-height: 1.8em;
 }
 .titlebox .users-online:before {
-    display: none;
+	display: none;
 }
 .titlebox .number:after
 {
@@ -4994,13 +4994,13 @@ body
     border-radius: 3px;
 }
 .titlebox .md hr {
-    background: #a6d7f7;
-    margin-bottom: 15px;
+	background: #a6d7f7;
+	margin-bottom: 15px;
 }
 .titlebox .md h4,
 .titlebox .md h6
 {
-    font-size: 11px;
+  	font-size: 11px;
     padding: 5px;
     color: #fff;
     border: 1px solid #3A94D7;
@@ -5049,8 +5049,8 @@ body
 }
 .side .md > ul > li > p
 {
-    text-align: left;
-    text-transform: none;
+	text-align: left;
+	text-transform: none;
     color: #afafaf;
     letter-spacing: 0.5px;
 }
@@ -5402,18 +5402,18 @@ body
     color: #f42f63;
 }
 .author[href$='/user/BZBOfficial']:after {
-    content: ' (Bebe Zahara Benet)';
-    color: #f42f63;
+	content: ' (Bebe Zahara Benet)';
+	color: #f42f63;
 }
 .author[href$='/user/officialmonetxchange']:after {
-    content: ' (Monét X Change)';
-    color: #f42f63;
+	content: ' (Monét X Change)';
+	color: #f42f63;
 }
 .flair-plain:before { 
-    content: normal; 
+	content: normal; 
 }
 .flair {
-    vertical-align: middle;
+	vertical-align: middle;
     cursor: default;
     padding: 0;
     border: 0;
@@ -5422,9 +5422,9 @@ body
     white-space: nowrap;
 }
 .flair-plain {
-    font-size: 1em;
+	font-size: 1em;
     color: #a6d7f7;
-    padding: 2px 4px;   
+    padding: 2px 4px;	
     background-color: #121212;
     border-radius: 3px;
     font-weight: bold;
@@ -5603,7 +5603,7 @@ body
 .flair-nothingsmaan {
     background-position: -2px -1848px;
     width: 159px;
-    height: 34px;
+	height: 34px;
 }
 .flair-phedre {
     background-position: -4px -1212px;
@@ -5611,24 +5611,24 @@ body
     height: 33px;
 }
 .flair-applefanboylol {
-    background-position: -2px -1496px;
-    width: 211px;
-    height: 34px;
+	background-position: -2px -1496px;
+	width: 211px;
+	height: 34px;
 }
 .flair-leftoflinus {
-    background-position: -2px -1536px;
-    width: 226px;
-    height: 34px;
+	background-position: -2px -1536px;
+	width: 226px;
+	height: 34px;
 }
 .flair-saintrorem {
-    background-position: -1px -1572px;
-    width: 124px;
-    height: 34px;
+	background-position: -1px -1572px;
+	width: 124px;
+	height: 34px;
 }
 .flair-fuzzyhead999 {
-    background-position: -1px -1610px;
-    width: 103px;
-    height: 34px;
+	background-position: -1px -1610px;
+	width: 103px;
+	height: 34px;
 }
 .flair-cat {
     background-position: -2px -1650px;
@@ -5636,29 +5636,29 @@ body
     height: 34px;
 }
 .flair-ryanxcx {
-    background-position: -1px -1689px;
-    width: 178px;
-    height: 34px;
+	background-position: -1px -1689px;
+	width: 178px;
+	height: 34px;
 }
 .flair-unnouveauvoyage {
-    background-position: -2px -1729px;
-    width: 154px;
-    height: 34px;
+	background-position: -2px -1729px;
+	width: 154px;
+	height: 34px;
 }
 .flair-vladislavtpoker {
-    background-position: -4px -1771px;
-    width: 144px;
-    height: 34px;
+	background-position: -4px -1771px;
+	width: 144px;
+	height: 34px;
 }
 .flair-flyflyflyfly {
-    background-position: -1px -1890px;
-    width: 192px;
-    height: 34px;
+	background-position: -1px -1890px;
+	width: 192px;
+	height: 34px;
 }
 .flair-manson {
-    background-position: -1px -1931px;
-    width: 43px;
-    height: 45px;
+	background-position: -1px -1931px;
+	width: 43px;
+	height: 45px;
 }
 .flair-asa,
 .flair-asau {
@@ -5730,7 +5730,7 @@ body
     height: 26px;
 }
 .spoiler-stamp {
-    color: #a6d7f7;
+	color: #a6d7f7;
 }
 
 .spoiler .entry .title a.title
@@ -5745,10 +5745,10 @@ body
     background-color: #121212;
 }
 .thumbnail.spoiler {
-    background-image: url(%%s10spoilerthumbnail%%);
-    background-repeat: no-repeat;
-    background-position: 0;
-    background-size: 100%;
+	background-image: url(%%s10spoilerthumbnail%%);
+	background-repeat: no-repeat;
+	background-position: 0;
+	background-size: 100%;
 }
 .spoiler .entry .title a.title:before
 { 
