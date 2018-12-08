@@ -3706,7 +3706,8 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
 .author[href$='/user/MissBitch2U']:before,
 .author[href$='/user/NebraskaTF']:before,
 .author[href$='/user/MystiqueSummers']:before,
-.author[href$='/user/thePeachesChrist']:before
+.author[href$='/user/thePeachesChrist']:before,
+.author[href$='/user/Immamadiva']:before
 {
     position: relative;
     top: 2px;
@@ -3833,6 +3834,9 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
 }
 .author[href$='/user/officialmonetxchange']:after {
     content: ' (Monét X Change)';
+}
+.author[href$='/user/Immamadiva']:after {
+    content: ' (Amadiva)';
 }
 /*** triple trophy winners ***/
 .author[href$=CharlotH]:after,
