@@ -24,7 +24,7 @@ Color: #E5DFF3
 Community Name: Hide
 Community Icon: Hide in Banner
 
-Banner: header-default.png
+Banner: new-reddit-header-default.png
 
 Posts
 Title Color: #425580
