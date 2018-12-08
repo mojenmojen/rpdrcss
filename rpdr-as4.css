@@ -586,6 +586,15 @@ body > .content .link .rank, .rank-spacer {
     color: #d2d42d !important;
     background-color: #d2d42d;
 }
+.spoiler .entry .title a.title:hover
+{
+    color: inherit !important;
+    background: 0 0 !important;
+}
+.spoiler .entry .title a.title:hover:before
+{
+    display: none;
+}
 .link .entry {
     padding: 0;
     margin: 0;
