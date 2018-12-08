@@ -3878,6 +3878,9 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
     background: url(%%as4-icons%%) -394px -31px;
 }
 /*** as4 queen flairs ***/
+.flair-plain:before { 
+    content: normal; 
+}
 .flair {
     vertical-align: middle;
     cursor: default;
@@ -3886,6 +3889,12 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
     background: url(%%as4-flairsheet%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
+}
+.flair-plain {
+    color: #d184d2;
+    padding: 0px 4px;   
+    font-weight: bold;
+    text-indent: 0;
 }
 /*** locked flairs ***/
 .flair-gia {
