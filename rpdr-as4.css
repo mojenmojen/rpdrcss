@@ -343,6 +343,9 @@ body:not(.loggedin) #header-bottom-right {
     left: 16px;
     right: 384px;
 }
+#header-img {
+    display: none;
+}
 #header .tabmenu {
     margin: 12px 0 0;
     display: block;
@@ -578,6 +581,10 @@ body > .content .link .rank, .rank-spacer {
     background: url(%%as4-icons%%) -10px -87px;
     width: 387px;
     height: 23px;
+}
+.spoiler .entry .title a.title {
+    color: #d2d42d !important;
+    background-color: #d2d42d;
 }
 .link .entry {
     padding: 0;
