@@ -3914,10 +3914,10 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
     /* background-position: -139px -33px; */
 }
 .flair-jasmine {
-    background-position: 0 -66px;
+    /*background-position: 0 -66px; */
     width: 155px;
     height: 29px;
-    /* background-position: -159px -66px; */
+    background-position: -159px -66px;
 }
 .flair-latrice {
     background-position: 0 -99px;
@@ -3960,56 +3960,4 @@ body.listing-page > .content, body.other-discussions-page > .content, .comments-
     width: 120px;
     height: 29px;
     /* background-position: -124px -297px; */
-}
-
-/*** unlocked flairs ***/
-.flair-gia-unlocked {
-    width: 112px;
-    height: 29px;
-    background-position: -116px 0; 
-}
-.flair-farrah-unlocked {
-    width: 135px;
-    height: 29px;
-    background-position: -139px -33px; 
-}
-.flair-jasmine-unlocked {
-    width: 155px;
-    height: 29px;
-    background-position: -159px -66px; 
-}
-.flair-latrice-unlocked {
-    width: 148px;
-    height: 29px;
-    background-position: -152px -99px; 
-}
-.flair-monet-unlocked {
-    width: 160px;
-    height: 29px;
-    background-position: -164px -132px; 
-}
-.flair-monique-unlocked {
-    width: 153px;
-    height: 29px;
-    background-position: -157px -165px; 
-}
-.flair-naomi-unlocked {
-    width: 141px;
-    height: 29px;
-    background-position: -145px -198px; 
-}
-.flair-manila-unlocked {
-    width: 140px;
-    height: 29px;
-    background-position: -144px -231px; 
-}
-.flair-trinity-unlocked {
-    width: 151px;
-    height: 29px;
-    background-position: -155px -264px; 
-}
-.flair-valentina-unlocked {
-    width: 120px;
-    height: 29px;
-    background-position: -124px -297px; 
 }
