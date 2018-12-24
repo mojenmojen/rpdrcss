@@ -3897,10 +3897,10 @@ html.res-commentBoxes .comment {
     /* background-position: -116px 0; */
 }
 .flair-farrah {
-    background-position: 0 -33px;
+    /* background-position: 0 -33px; */
     width: 135px;
     height: 29px;
-    /* background-position: -139px -33px; */
+    background-position: -139px -33px;
 }
 .flair-jasmine {
     /*background-position: 0 -66px; */
