@@ -3706,6 +3706,7 @@ html.res-commentBoxes .comment {
 .author[href$='/user/thePeachesChrist']:before,
 .author[href$='/user/Immamadiva']:before,
 .author[href$='/user/eyeamayejayaye']:before,
+.author[href$='/user/Missestranja']:before
 {
     position: relative;
     top: 2px;
@@ -3782,6 +3783,8 @@ html.res-commentBoxes .comment {
     content: ' (Monét X Change)'}
 .author[href$='/user/Immamadiva']:after {
     content: ' (Amadiva)'}
+.author[href$='/user/Missestranja']:after {
+    content: ' (Laganja Estranja)'}
 
 /** Unnouveauladybug's section **/
 .author[href$=CharlotH]:after,
