@@ -775,7 +775,8 @@ body .content .sitetable .link .title a:hover {
     text-decoration: none;
 }
 .tagline .moderator, .tagline .userattrs .moderator {
-    background: #d14ece;
+    /*background: #d14ece;*/
+    background: #7a5ed4;
     padding: 5px;
     border-radius: 5px;
 }
