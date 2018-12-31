@@ -3895,10 +3895,10 @@ html.res-commentBoxes .comment {
 }
 /*** locked flairs ***/
 .flair-gia {
-    background-position: 0 0;
+    /* background-position: 0 0; */
     width: 112px;
     height: 29px;
-    /* background-position: -116px 0; */
+    background-position: -116px 0;
 }
 .flair-farrah {
     /* background-position: 0 -33px; */
