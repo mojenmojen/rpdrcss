@@ -3913,10 +3913,10 @@ html.res-commentBoxes .comment {
     background-position: -159px -66px;
 }
 .flair-latrice {
-    background-position: 0 -99px;
+    /*background-position: 0 -99px;*/
     width: 148px;
     height: 29px;
-    /* background-position: -152px -99px; */
+    background-position: -152px -99px; 
 }
 .flair-monet {
     background-position: 0 -132px;
