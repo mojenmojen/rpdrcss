@@ -1530,9 +1530,9 @@ input[name="uh"][value^="d"] ~ a:after {
 input[name="uh"][value^="e"] ~ a:after {
     background: url(%%sidebaras4e104-200%%); background-position: 0 0;
 }
-input[name="uh"][value^="f"] ~ a:after (
+input[name="uh"][value^="f"] ~ a:after {
     background: url(%%sidebaras4e104-200%%); background-position: 0 -320px;
-)
+}
 input[name="uh"][value^="g"] ~ a:after {
     background: url(%%sidebaras4e201-202%%); background-position: 0 0;
 }
