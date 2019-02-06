@@ -209,7 +209,8 @@ a.random.choice {
     height: 25px;
     background: 0 0;
     font-size: 11px;
-    padding: 6px 8px 4px 2px;
+    /* padding: 6px 8px 4px 2px; */
+    padding: 0 8px 0 0;
 }
 body:not(.loggedin) #header-bottom-right {
     max-width: 340px;
@@ -1516,102 +1517,104 @@ input[name="uh"]~a:after {
     pointer-events: none;
 }
 input[name="uh"][value^="a"] ~ a:after {
-    background: url(%%sidebaras4e100-101%%); background-position: 0 0;
+    background: url(%%sidebaras4e01img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="b"] ~ a:after {
-    background: url(%%sidebaras4e100-101%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e01img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="c"] ~ a:after {
-    background: url(%%sidebaras4e102-103%%); background-position: 0 0;
+    background: url(%%sidebaras4e01img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="d"] ~ a:after {
-    background: url(%%sidebaras4e102-103%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e01img2%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="e"] ~ a:after {
-    background: url(%%sidebaras4e104-200%%); background-position: 0 0;
+    background: url(%%sidebaras4e01img3%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="f"] ~ a:after {
-    background: url(%%sidebaras4e104-200%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e01img4%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="g"] ~ a:after {
-    background: url(%%sidebaras4e201-202%%); background-position: 0 0;
+    background: url(%%sidebaras4e02img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="9"] ~ a:after,
 input[name="uh"][value^="h"] ~ a:after {
-    background: url(%%sidebaras4e201-202%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e02img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="i"] ~ a:after {
-    background: url(%%sidebaras4e203-300%%); background-position: 0 0;
+    background: url(%%sidebaras4e02img2%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="j"] ~ a:after {
-    background: url(%%sidebaras4e203-300%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e02img3%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="k"] ~ a:after {
-    background: url(%%sidebaras4e301-302%%); background-position: 0 0;
+    background: url(%%sidebaras4e03img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="l"] ~ a:after {
-    background: url(%%sidebaras4e301-302%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e03img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="m"] ~ a:after {
-    background: url(%%sidebaras4e303-304%%); background-position: 0 0;
+    background: url(%%sidebaras4e03img2%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="n"] ~ a:after {
-    background: url(%%sidebaras4e303-304%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e03img3%%); background-position: 0 -320px;
 }
-input[name="uh"][value^="8"] ~ a:after,
+input[name="uh"][value^="8"] ~ a:after {
+	background: url(%%sidebaras4e03img4%%); background-position: 0 -320px;
+}
 input[name="uh"][value^="o"] ~ a:after {
-    background: url(%%sidebaras4e400-401%%); background-position: 0 0;
+    background: url(%%sidebaras4e04img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="p"] ~ a:after {
-    background: url(%%sidebaras4e400-401%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e04img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="q"] ~ a:after {
-    background: url(%%sidebaras4e402-403%%); background-position: 0 0;
+    background: url(%%sidebaras4e04img2%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="r"] ~ a:after {
-    background: url(%%sidebaras4e402-403%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e04img3%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="s"] ~ a:after {
-    background: url(%%sidebaras4e404-500%%); background-position: 0 0;
+    background: url(%%sidebaras4e04img4%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="t"] ~ a:after {
-    background: url(%%sidebaras4e404-500%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e05img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="u"] ~ a:after {
-    background: url(%%sidebaras4e501-502%%); background-position: 0 0;
+    background: url(%%sidebaras4e05img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="v"] ~ a:after  {
-    background: url(%%sidebaras4e501-502%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e05img2%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="w"] ~ a:after {
-    background: url(%%sidebaras4e503-600%%); background-position: 0 0;
+    background: url(%%sidebaras4e05img3%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="7"] ~ a:after,
 input[name="uh"][value^="x"] ~ a:after {
-    background: url(%%sidebaras4e503-600%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e06img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="y"] ~ a:after {
-    background: url(%%sidebaras4e601-602%%); background-position: 0 0;
+    background: url(%%sidebaras4e06img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="z"] ~ a:after {
-    background: url(%%sidebaras4e601-602%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e06img2%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="0"] ~ a:after {
-    background: url(%%sidebaras4e603-604%%); background-position: 0 0;
+    background: url(%%sidebaras4e06img3%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="6"] ~ a:after,
 input[name="uh"][value^="1"] ~ a:after {
-    background: url(%%sidebaras4e603-604%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e06img4%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="2"] ~ a:after {
-    background: url(%%sidebaras4e700-701%%); background-position: 0 0;
+    background: url(%%sidebaras4e07img0%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="5"] ~ a:after,
 input[name="uh"][value^="3"] ~ a:after {
-    background: url(%%sidebaras4e700-701%%); background-position: 0 -320px;
+    background: url(%%sidebaras4e07img1%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="4"] ~ a:after {
-    background: url(%%sidebaras4e702-800%%); background-position: 0 0;
+    background: url(%%sidebaras4e07img2%%); background-position: 0 -320px;
 }
 
 .comments-page input[name=uh]~a:after {
@@ -3980,10 +3983,10 @@ html.res-commentBoxes .comment {
     /* background-position: -145px -198px; */
 }
 .flair-manila {
-    background-position: 0 -231px;
+    /* background-position: 0 -231px; */
     width: 140px;
     height: 29px;
-    /* background-position: -144px -231px; */
+    background-position: -144px -231px;
 }
 .flair-trinity {
     background-position: 0 -264px;
