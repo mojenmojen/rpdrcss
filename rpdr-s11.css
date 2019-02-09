@@ -18,9 +18,11 @@ body {
     height: 100%;
     min-height: 100%;
     background-color: #e5dFF39;
-    background-image: linear-gradient(to bottom, #e5dff3, #e5eeff);
-    background-repeat: no-repeat;
+    background-image: url(%%s11-background%%);
+    background-repeat: repeat-y;
     background-attachment: fixed;
+    background-position: center;
+    background-size: contain;    
 }
 a {
     color: #425580;
@@ -84,28 +86,8 @@ a {
     margin-top: 4px;
 }
 /***banner***/
-@keyframes banner {
-    0%, 16%, 100% {background-image: url(%%header-gia-farrah%%);}
-    20%, 36% {background-image: url(%%header-monique-val%%);}
-    40%, 56% {background-image: url(%%header-trinity-monet%%);}
-    60%, 76% {background-image: url(%%header-latrila%%);}
-    80%, 96% {background-image: url(%%header-jasmine-naomi%%);}
-}
-@-webkit-keyframes banner {
-    0%, 16%, 100% {background-image: url(%%header-gia-farrah%%);}
-    20%, 36% {background-image: url(%%header-monique-val%%);}
-    40%, 56% {background-image: url(%%header-trinity-monet%%);}
-    60%, 76% {background-image: url(%%header-latrila%%);}
-    80%, 96% {background-image: url(%%header-jasmine-naomi%%);}
-}
-@-moz-keyframes banner {
-    0%, 16%, 100% {background-image: url(%%header-gia-farrah%%);}
-    20%, 36% {background-image: url(%%header-monique-val%%);}
-    40%, 56% {background-image: url(%%header-trinity-monet%%);}
-    60%, 76% {background-image: url(%%header-latrila%%);}
-    80%, 96% {background-image: url(%%header-jasmine-naomi%%);}
-}
 #header {
+    background-image: url(%%trio-header%%);
     margin: 0;
     height: 275px;
     border: none;
@@ -114,9 +96,6 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
-    -webkit-animation: banner 60s running infinite linear;
-    -moz-animation: banner 60s running infinite linear;
-    animation: banner 60s running infinite linear;
 }
 #sr-header-area {
     background: rgba(0, 0, 0, .08);
@@ -209,7 +188,8 @@ a.random.choice {
     height: 25px;
     background: 0 0;
     font-size: 11px;
-    padding: 6px 8px 4px 2px;
+    /* padding: 6px 8px 4px 2px; */
+    padding: 0 8px 0 0;
 }
 body:not(.loggedin) #header-bottom-right {
     max-width: 340px;
@@ -533,7 +513,7 @@ body.listing-page[class]>.content, body[class]>.content {
     background: #d2dbe0 url(%%spritesheet%%) -152px -48px;
 }
 .thumbnail.self {
-    background: url(%%as4-icons%%) -275px -11px;
+    background: url(%%s11-icons%%) -275px -11px;
     width: 70px;
     height: 70px;
     border-radius: 0;
@@ -554,7 +534,7 @@ body.listing-page[class]>.content, body[class]>.content {
     display: none;
 }
 .stickied .thumbnail {
-    background: url(%%as4-icons%%) -189px -10px;
+    background: url(%%s11-icons%%) -189px -10px;
     width: 70px;
     height: 70px;
     border-radius: 0;
@@ -563,13 +543,13 @@ body.listing-page[class]>.content, body[class]>.content {
     display: none;
 }
 .over18 .thumbnail {
-    background: url(%%as4-icons%%) -9px -9px;
+    background: url(%%s11-icons%%) -9px -9px;
     width: 70px;
     height: 70px;
     border-radius: 0;
 }
 .thumbnail.spoiler {
-    background: url(%%as4-icons%%) -100px -9px;
+    background: url(%%s11-icons%%) -100px -9px;
     width: 70px;
     height: 70px;
     border-radius: 0;
@@ -579,7 +559,7 @@ body.listing-page[class]>.content, body[class]>.content {
     position: absolute;
     display: block;
     content: '';
-    background: url(%%as4-icons%%) -10px -87px;
+    background: url(%%s11-icons%%) -10px -87px;
     width: 387px;
     height: 23px;
 }
@@ -1476,20 +1456,19 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .side .spacer {
     margin: 0 0 16px;
 }
-/***sidebar slideshows***/
+/***sidebar slideshows
 @keyframes anim-sidebar {
     15.99% { background-position-y: 0 }
     16% { background-position-y: -320px }
     31.99% { background-position-y: -320px }
     32% { background-position-y: -640px }
     99.99% { background-position-y: -640px }
-}
+}***/
 
-/* .side:before {
+.side:before {
     width: 320px;
     height: 320px;
-    background: url(%%sidebar-sprite-latrice%%);
-    animation: anim-sidebar 3s infinite;
+    background: url(%%visitor-sidebar%%);
     content: "";
     display: block;
     position: absolute;
@@ -1497,80 +1476,8 @@ div.commentarea div.RES-keyNav-activeElement .md {
     z-index: 1;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-}*/
+}
 
-/*** random sidebar animations ***/
-input[name="uh"]~a:after {
-    width: 320px;
-    height: 320px;
-    animation: anim-sidebar 3s infinite;
-    -webkit-animation: anim-sidebar 3s infinite;
-    -moz-animation: anim-sidebar 3s infinite;
-    content: '';
-    position: absolute;
-    top: 250px;
-    right: -12px;
-    z-index: 1;
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    pointer-events: none;
-}
-input[name="uh"][value^="a"] ~ a:after,
-input[name="uh"][value^="b"] ~ a:after,
-input[name="uh"][value^="c"] ~ a:after {
-    background: url(%%sidebar-sprite-farrah%%);
-}
-input[name="uh"][value^="d"] ~ a:after,
-input[name="uh"][value^="e"] ~ a:after,
-input[name="uh"][value^="f"] ~ a:after,
-input[name="uh"][value^="g"] ~ a:after {
-    background: url(%%sidebar-sprite-gia%%);
-}
-input[name="uh"][value^="h"] ~ a:after,
-input[name="uh"][value^="i"] ~ a:after,
-input[name="uh"][value^="j"] ~ a:after,
-input[name="uh"][value^="k"] ~ a:after {
-    background: url(%%sidebar-sprite-jasmine%%);
-}
-input[name="uh"][value^="l"] ~ a:after,
-input[name="uh"][value^="m"] ~ a:after,
-input[name="uh"][value^="n"] ~ a:after, 
-input[name="uh"][value^="o"] ~ a:after {
-    background: url(%%sidebar-sprite-latrice%%);
-}
-input[name="uh"][value^="p"] ~ a:after,
-input[name="uh"][value^="q"] ~ a:after,
-input[name="uh"][value^="r"] ~ a:after {
-    background: url(%%sidebar-sprite-manila%%);
-}
-input[name="uh"][value^="s"] ~ a:after,
-input[name="uh"][value^="t"] ~ a:after,
-input[name="uh"][value^="u"] ~ a:after,
-input[name="uh"][value^="v"] ~ a:after  {
-    background: url(%%sidebar-sprite-monet%%);
-}
-input[name="uh"][value^="w"] ~ a:after,
-input[name="uh"][value^="x"] ~ a:after,
-input[name="uh"][value^="y"] ~ a:after,
-input[name="uh"][value^="z"] ~ a:after {
-    background: url(%%sidebar-sprite-monique%%);
-}
-input[name="uh"][value^="0"] ~ a:after,
-input[name="uh"][value^="1"] ~ a:after, 
-input[name="uh"][value^="2"] ~ a:after,
-input[name="uh"][value^="3"] ~ a:after {
-    background: url(%%sidebar-sprite-naomi%%);
-}
-input[name="uh"][value^="4"] ~ a:after,
-input[name="uh"][value^="5"] ~ a:after,
-input[name="uh"][value^="6"] ~ a:after {
-    background: url(%%sidebar-sprite-trinity%%);
-}
-input[name="uh"][value^="7"] ~ a:after,
-input[name="uh"][value^="8"] ~ a:after,
-input[name="uh"][value^="9"] ~ a:after {
-    background: url(%%sidebar-sprite-valentina%%);
-}
 .comments-page input[name=uh]~a:after {
     margin-top: 130px;
 }
@@ -1578,13 +1485,7 @@ input[name="uh"][value^="9"] ~ a:after {
 .search-page input[name=uh] ~ a:after { 
     margin-top: 100px;
 }
-*/
-input[name=uh] ~ a:after, 
-body:not(.loggedin) .side:before { 
-    content:""; display:block;
-    background:url(%%visitor-sidebar%%);
-    width:320px;
-    height:320px;
+
 }
 /*** TODO: TOP BOX NEED TO MOVE DOWN
 .side .titlebox h1.redditname:before {
@@ -3716,7 +3617,7 @@ html.res-commentBoxes .comment {
     height: 14px;
     margin-right: 3px;
     content: '';
-    background: url(%%as4-icons%%) -371px -38px;
+    background: url(%%s11-icons%%) -371px -38px;
 }
 /*** Verified Queen's Names ***/
 .author:after {
@@ -3827,7 +3728,7 @@ html.res-commentBoxes .comment {
     margin-left: 10px;
     margin-right: 10px;
     content: '.';
-    background: url(%%as4-icons%%) -394px -31px;
+    background: url(%%s11-icons%%) -394px -31px;
 }
 
 /*** triple trophy winners ***/
@@ -3871,7 +3772,7 @@ html.res-commentBoxes .comment {
     margin-left: 10px;
     margin-right: 10px;
     content: '.';
-    background: url(%%as4-icons%%) -394px -31px;
+    background: url(%%s11-icons%%) -394px -31px;
 }
 
 /*** as4 queen flairs ***/
@@ -3879,11 +3780,11 @@ html.res-commentBoxes .comment {
     content: normal;
 }
 .flair {
-    vertical-align: middle;
+    vertical-align: 20px;
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%as4-flairsheet%%) no-repeat -9999px;
+    background: url(%%s11-flairsheet%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -3894,69 +3795,79 @@ html.res-commentBoxes .comment {
     text-indent: 0;
 }
 /*** locked flairs ***/
-.flair-gia {
-    /* background-position: 0 0; */
-    width: 112px;
-    height: 29px;
-    background-position: -116px 0;
+.flair-akeria {
+    width: 183px;
+    height: 40px;
+    background-position: 0 0;
 }
-.flair-farrah {
+.flair-ariel {
     /* background-position: 0 -33px; */
-    width: 135px;
-    height: 29px;
-    background-position: -139px -33px;
+    width: 183px;
+    height: 40px;
+    background-position: 0 -40px;
 }
-.flair-jasmine {
-    /*background-position: 0 -66px; */
-    width: 155px;
-    height: 29px;
-    background-position: -159px -66px;
+.flair-brooke {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -80px;
 }
-.flair-latrice {
-    background-position: 0 -99px;
-    width: 148px;
-    height: 29px;
-    /* background-position: -152px -99px;  */
+.flair-honey {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -120px;
 }
-.flair-monet {
-    background-position: 0 -132px;
-    width: 160px;
-    height: 29px;
-    /* background-position: -164px -132px; */
+.flair-kahanna {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -160px;
 }
-.flair-monique {
-    background-position: 0 -165px;
-    width: 153px;
-    height: 29px;
-    /* background-position: -157px -165px; */
+.flair-mercedes {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -200px;
 }
-.flair-naomi {
-    background-position: 0 -198px;
-    width: 141px;
-    height: 29px;
-    /* background-position: -145px -198px; */
+.flair-nina {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -240px;
 }
-.flair-manila {
-    background-position: 0 -231px;
-    width: 140px;
-    height: 29px;
-    /* background-position: -144px -231px; */
+.flair-plastique {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -280px;
 }
-.flair-trinity {
-    background-position: 0 -264px;
-    width: 151px;
-    height: 29px;
-    /* background-position: -155px -264px; */
+.flair-rajah {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -320px;
 }
-.flair-valentina {
-    /* background-position: 0 -297px; */
-    width: 120px;
-    height: 29px;
-    background-position: -124px -297px;
+.flair-scarlet {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -360px;
 }
-.flair-club96 {
-    /* you guys know fuzzy is the best right? */
-    width: 201px;
-    height: 29px;
-    background-position: 0 -330px;
+.flair-shuga {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -400px;
+}
+.flair-silky {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -440px;
+}
+.flair-soju {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -480px;
+}
+.flair-vanjie {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -520px;
+}
+.flair-yvie {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -560px;
 }
