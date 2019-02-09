@@ -1587,7 +1587,6 @@ input[name="uh"][value^="v"] ~ a:after  {
 input[name="uh"][value^="w"] ~ a:after {
     background: url(%%sidebaras4e503-600%%); background-position: 0 0;
 }
-input[name="uh"][value^="7"] ~ a:after,
 input[name="uh"][value^="x"] ~ a:after {
     background: url(%%sidebaras4e503-600%%); background-position: 0 -320px;
 }
@@ -1600,19 +1599,26 @@ input[name="uh"][value^="z"] ~ a:after {
 input[name="uh"][value^="0"] ~ a:after {
     background: url(%%sidebaras4e603-604%%); background-position: 0 0;
 }
-input[name="uh"][value^="6"] ~ a:after,
 input[name="uh"][value^="1"] ~ a:after {
     background: url(%%sidebaras4e603-604%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="2"] ~ a:after {
     background: url(%%sidebaras4e700-701%%); background-position: 0 0;
 }
-input[name="uh"][value^="5"] ~ a:after,
 input[name="uh"][value^="3"] ~ a:after {
     background: url(%%sidebaras4e700-701%%); background-position: 0 -320px;
 }
 input[name="uh"][value^="4"] ~ a:after {
     background: url(%%sidebaras4e702-800%%); background-position: 0 0;
+}
+input[name="uh"][value^="5"] ~ a:after {
+    background: url(%%sidebaras4e702-800%%); background-position: 0 -320px;
+}
+input[name="uh"][value^="6"] ~ a:after {
+    background: url(%%sidebaras4e801-802%%); background-position: 0 0;
+}
+input[name="uh"][value^="7"] ~ a:after {
+    background: url(%%sidebaras4e801-802%%); background-position: 0 -320px;
 }
 
 
