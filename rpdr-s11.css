@@ -3887,3 +3887,23 @@ html.res-commentBoxes .comment {
     height: 40px;
     background-position: 0 -560px;
 }
+.flair-yuhua {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -600px;
+}
+.flair-ross {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -640px;
+}
+.flair-nfw {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -680px;
+}
+.flair-pro {
+    width: 183px;
+    height: 40px;
+    background-position: -183px -600px;
+}
