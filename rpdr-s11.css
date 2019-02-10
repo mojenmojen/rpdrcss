@@ -87,7 +87,7 @@ a {
 }
 /***banner***/
 #header {
-    background-image: url(%%trio-header%%);
+    background-image: url(%%header-variant5%%);
     margin: 0;
     height: 275px;
     border: none;
