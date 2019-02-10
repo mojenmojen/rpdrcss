@@ -935,7 +935,7 @@ body .content .sitetable .link .title a:hover {
     vertical-align: middle;
     position: relative;
     top: -2px;
-    background: #d184d2;
+    background: #15CEBE;
 }
 .linkflair-mod .linkflairlabel {
     background: #d14ece;
@@ -1547,7 +1547,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #425580;
+    color: #15CEBE;
     margin-bottom: 10px;
 }
 div.titlebox span.word {
@@ -1562,7 +1562,7 @@ div.titlebox span.word {
     display: none;
 }
 div.titlebox span.number:after {
-    content: " JUNKIE WHORES"}
+    content: " QUEENS ON SEASON 11"}
 .titlebox .users-online .number {
     /* font-style: italic; */
     font-size: 12px;
@@ -1570,7 +1570,7 @@ div.titlebox span.number:after {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #d14ece;
+    color: #F4A201;
     margin-bottom: 10px;
 }
 /*
@@ -1584,7 +1584,7 @@ div.titlebox span.number:after {
 }
 */
 .titlebox .users-online .number:after {
-    content: " ON ALL STARS 4"}
+    content: " TAPING S12 AUDITIONS NOW"}
 .titlebox .word {
     display: none;
 }
@@ -2033,7 +2033,7 @@ div.titlebox span.number:after {
     margin: 20px 0;
 }
 .commentarea .menuarea span.dropdown-title.lightdrop {
-    color: #98abba;
+    color: #000;
 }
 .commentarea .menuarea span.dropdown-title.lightdrop:first-letter {
     text-transform: capitalize;
@@ -3805,7 +3805,7 @@ html.res-commentBoxes .comment {
     white-space: nowrap;
 }
 .flair-plain {
-    color: #d184d2;
+    color: #fe0f84;
     padding: 0 4px;
     font-weight: 700;
     text-indent: 0;
