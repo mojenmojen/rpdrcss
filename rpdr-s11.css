@@ -86,15 +86,31 @@ a {
     margin-top: 4px;
 }
 /***banner***/
+/* layer03 = queens 
+   layer02 = stripey background
+   layer01 = light images on white bkgd
+*/
 #header {
-    background-image: url(%%header-variant5%%);
     margin: 0;
     height: 275px;
     border: none;
     z-index: 1;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image:
+        url(%%header-layer03%%), 
+        url(%%header-layer02%%),
+        url(%%header-layer01%%);
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 
+        50% 50%,
+        center 0,
+        50% 50%;
+    background-size: 
+        cover,
+        100% 100%,
+        cover;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
 }
 #sr-header-area {
