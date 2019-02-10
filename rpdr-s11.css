@@ -1468,7 +1468,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .side:before {
     width: 320px;
     height: 320px;
-    background: url(%%visitor-sidebar%%);
+    background: url(%%sidebar-saylove%%);
     content: "";
     display: block;
     position: absolute;
@@ -1770,20 +1770,20 @@ div.titlebox span.number:after {
     letter-spacing: 0;
 }
 .submit-text .morelink a {
-    background-color: #d184d2;
+    background-color: #f4a201;
 }
 .submit-text .morelink a:before {
     font-size: 10px;
-    content: "Sop Up Some Text";
+    content: "Or Go Home";
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 .submit-link .morelink a {
-    background-color: #7cb3dc!important;
+    background-color: #f4cb01!important;
 }
 .submit-link .morelink a:before {
     font-size: 10px;
-    content: "Sop Up a Link";
+    content: "Go Link";
     text-transform: uppercase;
     letter-spacing: 1px;
 }
