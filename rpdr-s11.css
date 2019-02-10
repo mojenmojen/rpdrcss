@@ -608,7 +608,7 @@ body .content .sitetable .link .title a:hover {
     color: #425580;
 }
 .content .thing .title:visited, .content .thing.visited .title {
-    color: #738491;
+    color: #b5b9bc;
 }
 .thing .title.click:visited, .thing .title.loggedin.click:visited {
     color: #425580;
