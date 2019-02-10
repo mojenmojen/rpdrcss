@@ -392,3 +392,35 @@ a[href*="spoiler"]:hover.title, a[href*="spoilers"]:hover.title {
 .comment .flat-list li a[onclick*="reply"] {
     color: #EAAA46!important;
 }
+
+
+/* Verified Queen Flair */
+.author[href$='/user/immamadiva']:before,
+.author[href$='/user/mstrangerfox']:before,
+.author[href$='/user/angeleanang']:before
+{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    content: '';
+    background-image: url(%%drt-verified-small%%);
+}
+/* Verified Queen Flair Name */
+.author[href$='/user/immamadiva']:after
+{
+    content: ' (Amadiva)';
+    color: #fec67a;
+}
+.author[href$='/user/mstrangerfox']:after
+{
+    content: ' (M Stranger Fox)';
+    color: #fec67a;
+}
+.author[href$='/user/angeleanang']:after
+{
+    content: ' (Angele Anang)';
+    color: #fec67a;
+}
