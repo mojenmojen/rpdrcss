@@ -94,7 +94,7 @@
 .flair-genie{background-color: #291e26!important; border-color: #291e26;}
 .flair-kana{background-color: #36312f!important; border-color: #36312f;}
 .flair-mocha{background-color: #241c1b!important; border-color: #241c1b;}
-.flair-katy{background-color: #525252!important; border-color: #525252;}
+.flair-katy{background-color: #789FB6!important; border-color: #789FB6;}
 .flair-vanda{background-color: #1c2b4f!important; border-color: #1c2b4f;}
 .flair-silver{background-color: #8a6d8c!important; border-color: #8a6d8c;}
 .flair-mstranger{background-color: #ad8682!important; border-color: #ad8682;}
@@ -120,7 +120,7 @@
 .flair-genie:before{background-position:0 -280px;width: 40px;height: 40px;}
 .flair-kana:before{background-position:0 -320px;width: 40px;height: 40px;}
 .flair-mocha:before{background-position:0 -360px;width: 40px;height: 40px;}
-.flair-katy:before{background: url(%%eliminated%%) no-repeat scroll -9999px -9999px transparent;background-position:-41px -0px;width: 40px;height: 40px;}
+.flair-katy:before{background-position:-41px -0px;width: 40px;height: 40px;}
 .flair-vanda:before{background-position:-41px -40px;width: 40px;height: 40px;}
 .flair-silver:before{background-position:-41px -80px;width: 40px;height: 40px;}
 .flair-mstranger:before{background-position:-41px -120px;width: 40px;height: 40px;}
@@ -391,4 +391,36 @@ a[href*="spoiler"]:hover.title, a[href*="spoilers"]:hover.title {
 
 .comment .flat-list li a[onclick*="reply"] {
     color: #EAAA46!important;
+}
+
+
+/* Verified Queen Flair */
+.author[href$='/user/immamadiva']:before,
+.author[href$='/user/mstrangerfox']:before,
+.author[href$='/user/angeleanang']:before
+{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    content: '';
+    background-image: url(%%drt-verified-small%%);
+}
+/* Verified Queen Flair Name */
+.author[href$='/user/immamadiva']:after
+{
+    content: ' (Amadiva)';
+    color: #fec67a;
+}
+.author[href$='/user/mstrangerfox']:after
+{
+    content: ' (M Stranger Fox)';
+    color: #fec67a;
+}
+.author[href$='/user/angeleanang']:after
+{
+    content: ' (Angele Anang)';
+    color: #fec67a;
 }
