@@ -395,7 +395,7 @@ a[href*="spoiler"]:hover.title, a[href*="spoilers"]:hover.title {
 
 
 /* Verified Queen Flair */
-.author[href$='/user/immamadiva']:before,
+.author[href$='/user/Immamadiva']:before,
 .author[href$='/user/mstrangerfox']:before,
 .author[href$='/user/angeleanang']:before
 {
@@ -409,7 +409,7 @@ a[href*="spoiler"]:hover.title, a[href*="spoilers"]:hover.title {
     background-image: url(%%drt-verified-small%%);
 }
 /* Verified Queen Flair Name */
-.author[href$='/user/immamadiva']:after
+.author[href$='/user/Immamadiva']:after
 {
     content: ' (Amadiva)';
     color: #fec67a;
