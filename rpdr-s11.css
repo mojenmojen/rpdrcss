@@ -580,8 +580,8 @@ body.listing-page[class]>.content, body[class]>.content {
     height: 23px;
 }
 .spoiler .entry .title a.title {
-    color: #d2d42d!important;
-    background-color: #d2d42d;
+    color: #fae955!important;
+    background-color: #fae955;
 }
 .spoiler .entry .title a.title:hover {
     color: inherit!important;
@@ -1022,7 +1022,7 @@ b {
     border: none;
 }
 .thing.link.stickied .entry li .comments, .thing.link.stickied a.title, .thing.link.stickied li a {
-    color: #d14ece!important;
+    color: #d14ece;
 }
 .thing.link.stickied .expando-button:hover {
     background-color: #d14ece!important;
