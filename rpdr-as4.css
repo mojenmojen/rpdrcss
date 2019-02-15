@@ -205,7 +205,7 @@ a.random.choice {
     top: 250px!important;
     right: 20px;
     width: auto;
-    max-width: 340px;
+    /* max-width: 340px; */
     height: 25px;
     background: 0 0;
     font-size: 11px;
