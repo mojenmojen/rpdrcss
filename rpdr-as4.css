@@ -1027,7 +1027,7 @@ b {
     border: none;
 }
 .thing.link.stickied .entry li .comments, .thing.link.stickied a.title, .thing.link.stickied li a {
-    color: #d14ece!important;
+    color: #d14ece;
 }
 .thing.link.stickied .expando-button:hover {
     background-color: #d14ece!important;
