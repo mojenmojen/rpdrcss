@@ -84,6 +84,7 @@ a {
     margin-top: 4px;
 }
 /***banner***/
+/***
 @keyframes banner {
     0%, 16%, 100% {background-image: url(%%header-gia-farrah%%);}
     20%, 36% {background-image: url(%%header-monique-val%%);}
@@ -105,18 +106,22 @@ a {
     60%, 76% {background-image: url(%%header-latrila%%);}
     80%, 96% {background-image: url(%%header-jasmine-naomi%%);}
 }
+***/
 #header {
     margin: 0;
     height: 275px;
     border: none;
     z-index: 1;
     background-position: 50% 50%;
+    background-image: url(%%as4winnerheader%%);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
+    /***
     -webkit-animation: banner 60s running infinite linear;
     -moz-animation: banner 60s running infinite linear;
     animation: banner 60s running infinite linear;
+    ***/
 }
 #sr-header-area {
     background: rgba(0, 0, 0, .08);
