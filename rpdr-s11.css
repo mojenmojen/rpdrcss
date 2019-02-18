@@ -120,6 +120,9 @@ a {
     height: 24px;
     line-height: 23px;
 }
+#sr-header-area:hover {
+    background: rgba(255, 255, 255, .8);
+}
 #sr-header-area .width-clip {
     right: 300px;
 }
@@ -131,11 +134,11 @@ body:not(.loggedin) #sr-header-area .width-clip {
 }
 #sr-header-area .dropdown.srdrop .selected, #sr-header-area .separator, #sr-header-area .sr-bar a, #sr-more-link {
     background: 0 0;
-    color: #d184d2;
+    color: #E9358B;
     transition: all .15s ease;
 }
 #sr-header-area:hover #sr-more-link, #sr-header-area:hover .dropdown.srdrop .selected, #sr-header-area:hover .seperator, #sr-header-area:hover .sr-bar a {
-    color: #d184d2;
+    color: #E9358B;
 }
 #sr-header-area .dropdown.srdrop .selected:hover, #sr-header-area .sr-bar a:hover, #sr-more-link:hover {
     background: 0 0;
