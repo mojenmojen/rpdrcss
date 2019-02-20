@@ -95,23 +95,106 @@ a {
     height: 275px;
     border: none;
     z-index: 1;
-    background-image:
-        url(%%header-layer03%%), 
+    background-image: 
         url(%%header-layer02%%),
         url(%%header-layer01%%);
     background-repeat:
         no-repeat,
-        no-repeat,
         no-repeat;
     background-position: 
-        50% 50%,
         center 0,
         50% 50%;
     background-size: 
-        cover,
         100% 100%,
         cover;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
+}
+#header-bottom-left {
+    position: absolute;
+    bottom: 0;
+}
+#header-bottom-right:before {
+    content: '';
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    height: 275px;
+    width: 100vw;
+    z-index: -1;
+    background-position: 50% 50%;
+    background-size: cover!important;
+}
+.res-navTop #header-bottom-right:before {
+    top: 0;
+    bottom: auto;
+}
+[name=uh] ~ a:before {
+    content: '';
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 100%;
+    margin-left: -100vw;
+    height: 275px;
+    z-index: -2;
+    background-position: 50% 50%;
+    background-size: cover!important;
+}
+.res-navTop [name=uh] ~ a:before {
+    bottom: auto;
+    top: 0;
+}
+
+[name="uh"][value^="a"] ~ a:before,
+[name="uh"][value^="b"] ~ a:before,
+[name="uh"][value^="c"] ~ a:before,
+[name="uh"][value^="d"] ~ a:before,
+[name="uh"][value^="e"] ~ a:before,
+[name="uh"][value^="f"] ~ a:before,
+[name="uh"][value^="4"] ~ a:before {
+    background: url(%%header-layer03-v1%%);
+}
+[name="uh"][value^="5"] ~ a:before,
+[name="uh"][value^="g"] ~ a:before,
+[name="uh"][value^="h"] ~ a:before,
+[name="uh"][value^="i"] ~ a:before,
+[name="uh"][value^="j"] ~ a:before,
+[name="uh"][value^="k"] ~ a:before,
+[name="uh"][value^="l"] ~ a:before {
+    background: url(%%header-layer03-v2%%);
+}
+[name="uh"][value^="6"] ~ a:before,
+[name="uh"][value^="m"] ~ a:before,
+[name="uh"][value^="n"] ~ a:before,
+[name="uh"][value^="o"] ~ a:before,
+[name="uh"][value^="p"] ~ a:before,
+[name="uh"][value^="q"] ~ a:before,
+[name="uh"][value^="r"] ~ a:before {
+    background: url(%%header-layer03-v3%%);
+}
+[name="uh"][value^="7"] ~ a:before,
+[name="uh"][value^="s"] ~ a:before,
+[name="uh"][value^="t"] ~ a:before,
+[name="uh"][value^="u"] ~ a:before,
+[name="uh"][value^="v"] ~ a:before,
+[name="uh"][value^="w"] ~ a:before,
+[name="uh"][value^="x"] ~ a:before {
+    background: url(%%header-layer03-v4%%);
+}
+[name="uh"][value^="y"] ~ a:before,
+[name="uh"][value^="z"] ~ a:before,
+[name="uh"][value^="0"] ~ a:before,
+[name="uh"][value^="1"] ~ a:before,
+[name="uh"][value^="2"] ~ a:before,
+[name="uh"][value^="3"] ~ a:before,
+[name="uh"][value^="8"] ~ a:before,
+[name="uh"][value^="9"] ~ a:before {
+    background: url(%%header-layer03-v5%%);
+}
+[name="uh"][value] ~ a:before {
+    background-position: 50% 0;
 }
 #sr-header-area {
     background: rgba(0, 0, 0, .08);
