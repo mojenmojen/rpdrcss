@@ -283,7 +283,6 @@ a.random.choice {
 }
 #header-bottom-right {
     position: absolute;
-    top: 250px!important;
     right: 20px;
     width: auto;
     max-width: 340px;
