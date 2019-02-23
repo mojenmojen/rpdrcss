@@ -3811,6 +3811,7 @@ html.res-commentBoxes .comment {
     padding: 0 4px;
     font-weight: 700;
     text-indent: 0;
+    vertical-align: 0!important;
 }
 /*** locked flairs ***/
 .flair-wakeria {
