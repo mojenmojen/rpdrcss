@@ -3104,7 +3104,7 @@ ul.image-preview-list li {
     color: #e0e0e0;
 }
 .pinHeader-sub #sr-header-area, .pinHeader-subanduser #sr-header-area {
-    background-image: url(%%as4-plain-header%%);
+    background-image: url(%%header-layer03%%);
     background-position: 50% 0;
 }
 .pinHeader-sub #header-bottom-left, .pinHeader-subanduser #header-bottom-left {
@@ -3124,7 +3124,7 @@ ul.image-preview-list li {
 }
 .pinHeader-header #header {
     top: 0;
-    background-image: url(%%as4-plain-header%%);
+    background-image: url(%%header-layer03%%);
     height: 84px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, .24);
 }
