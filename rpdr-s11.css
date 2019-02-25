@@ -3917,7 +3917,19 @@ html.res-commentBoxes .comment {
     background-position: -183px -600px;
 }
 .flair-wwhole {
+    border: 0;
+    padding: 0;
     width: 183px;
     height: 40px;
-    background-position: -183px -640px;
+    background: url(%%s11-flairsheet%%);
+    -webkit-animation: whole 2s steps(4) infinite;
+    animation: whole 2s steps(4) infinite;
+}
+@-webkit-keyframes whole {
+    from { background-position: -183px -640px; }
+    to { background-position: -183px -760px; }
+}
+@keyframes whole {
+    from { background-position: -183px -640px; }
+    to { background-position: -183px -800px; }
 }
