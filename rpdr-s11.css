@@ -3626,8 +3626,9 @@ html.res-commentBoxes .comment {
 .author[href$='/user/thePeachesChrist']:before,
 .author[href$='/user/Immamadiva']:before,
 .author[href$='/user/eyeamayejayaye']:before,
-.author[href$='/user/Missestranja']:before
-.author[href$='/user/bhytes']:before
+.author[href$='/user/Missestranja']:before,
+.author[href$='/user/bhytes']:before,
+.author[href$='/user/wishforgenie']:before
 {
     position: relative;
     top: 2px;
@@ -3708,6 +3709,8 @@ html.res-commentBoxes .comment {
     content: ' (Laganja Estranja)'}
 .author[href$='/user/bhytes']:after {
     content: ' (Brooke Lynn Hytes)'}
+.author[href$='/user/wishforgenie']:after {
+    content: ' (Genie)'}
 
 /** Unnouveauladybug's section **/
 .author[href$=CharlotH]:after,
