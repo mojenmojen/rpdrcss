@@ -3627,6 +3627,7 @@ html.res-commentBoxes .comment {
 .author[href$='/user/Immamadiva']:before,
 .author[href$='/user/eyeamayejayaye']:before,
 .author[href$='/user/Missestranja']:before
+.author[href$='/user/bhytes']:before
 {
     position: relative;
     top: 2px;
