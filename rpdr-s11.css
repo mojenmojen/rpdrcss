@@ -3705,6 +3705,8 @@ html.res-commentBoxes .comment {
     content: ' (Amadiva)'}
 .author[href$='/user/Missestranja']:after {
     content: ' (Laganja Estranja)'}
+.author[href$='/user/bhytes']:after {
+    content: ' (Brooke Lynn Hytes)'}
 
 /** Unnouveauladybug's section **/
 .author[href$=CharlotH]:after,
