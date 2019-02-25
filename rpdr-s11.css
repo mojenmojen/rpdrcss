@@ -3916,3 +3916,8 @@ html.res-commentBoxes .comment {
     height: 40px;
     background-position: -183px -600px;
 }
+.flair-wwhole {
+    width: 183px;
+    height: 40px;
+    background-position: -183px -640px;
+}
