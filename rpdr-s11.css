@@ -96,7 +96,7 @@ a {
     border: none;
     z-index: 1;
     background-image: 
-        url(%%header-layer03%%),
+        url(%%header-soju%%),
         url(%%header-layer02%%),
         url(%%header-layer01%%);
     background-repeat:
@@ -3884,7 +3884,7 @@ html.res-commentBoxes .comment {
 .flair-wsoju {
     width: 183px;
     height: 40px;
-    background-position: 0 -480px;
+    background-position: -183px -480px;
 }
 .flair-wvanjie {
     width: 183px;
