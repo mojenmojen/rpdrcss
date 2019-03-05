@@ -458,10 +458,11 @@ body.listing-page[class]>.content, body[class]>.content {
     transition: background-color .25s ease;
 }
 .arrow.upmod {
-    width: 39px;
-	height: 34px;
-    background-position: -4px -263px;
+    width: 23px;
+	height: 21px;
+    background-position: -28px -262px;
     position: relative;
+    margin-left: 5px;
 }
 .arrow.upmod:focus:after {
     position: absolute;
@@ -483,11 +484,11 @@ body.listing-page[class]>.content, body[class]>.content {
     transition: background-color .25s ease;
 }
 .arrow.downmod {
-    width: 48px;
-	height: 32px;
-    background-position: -48px -265px;
+    width: 23px;
+	height: 21px;
+    background-position: -1px -262px;
     position: relative;
-    margin-left: -4px!important;
+    margin-left: 5px;
 }
 .arrow.down:after {
     display: block;
