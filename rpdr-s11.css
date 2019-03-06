@@ -3633,7 +3633,8 @@ html.res-commentBoxes .comment {
 .author[href$='/user/eyeamayejayaye']:before,
 .author[href$='/user/Missestranja']:before,
 .author[href$='/user/bhytes']:before,
-.author[href$='/user/wishforgenie']:before
+.author[href$='/user/wishforgenie']:before,
+.author[href$='/user/YuhuaOfficial']:before
 {
     position: relative;
     top: 2px;
@@ -3716,6 +3717,8 @@ html.res-commentBoxes .comment {
     content: ' (Brooke Lynn Hytes)'}
 .author[href$='/user/wishforgenie']:after {
     content: ' (Genie)'}
+.author[href$='/user/YuhuaOfficial']:after {
+    content: ' (Yuhua Hamasaki)'}
 
 /** Unnouveauladybug's section **/
 .author[href$=CharlotH]:after,
