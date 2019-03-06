@@ -1488,17 +1488,64 @@ div.commentarea div.RES-keyNav-activeElement .md {
     99.99% { background-position-y: -640px }
 }***/
 
-.side:before {
+input[name="uh"]~a:after {
     width: 320px;
     height: 320px;
-    background: url(%%sidebar-saylove%%);
-    content: "";
-    display: block;
+    /***animation: anim-sidebar 3s infinite;
+    -webkit-animation: anim-sidebar 3s infinite;
+    -moz-animation: anim-sidebar 3s infinite;***/
+    content: '';
     position: absolute;
     top: 500px;
+    right: -12px;
     z-index: 1;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    pointer-events: none;
+}
+input[name="uh"][value^="a"] ~ a:after,
+input[name="uh"][value^="e"] ~ a:after,
+input[name="uh"][value^="i"] ~ a:after,
+input[name="uh"][value^="l"] ~ a:after,
+input[name="uh"][value^="p"] ~ a:after,
+input[name="uh"][value^="s"] ~ a:after,
+input[name="uh"][value^="w"] ~ a:after,
+input[name="uh"][value^="0"] ~ a:after,
+input[name="uh"][value^="4"] ~ a:after {
+    background: url(%%sidebars11e01img0%%);
+}
+input[name="uh"][value^="b"] ~ a:after,
+input[name="uh"][value^="f"] ~ a:after,
+input[name="uh"][value^="j"] ~ a:after,
+input[name="uh"][value^="m"] ~ a:after,
+input[name="uh"][value^="q"] ~ a:after,
+input[name="uh"][value^="t"] ~ a:after,
+input[name="uh"][value^="x"] ~ a:after,
+input[name="uh"][value^="1"] ~ a:after,
+input[name="uh"][value^="5"] ~ a:after {
+    background: url(%%sidebars11e01img1%%);
+}
+input[name="uh"][value^="c"] ~ a:after,
+input[name="uh"][value^="g"] ~ a:after,
+input[name="uh"][value^="k"] ~ a:after,
+input[name="uh"][value^="n"] ~ a:after,
+input[name="uh"][value^="r"] ~ a:after,
+input[name="uh"][value^="u"] ~ a:after,
+input[name="uh"][value^="y"] ~ a:after,
+input[name="uh"][value^="2"] ~ a:after,
+input[name="uh"][value^="6"] ~ a:after {
+    background: url(%%sidebars11e01img2%%);
+}
+input[name="uh"][value^="d"] ~ a:after,
+input[name="uh"][value^="9"] ~ a:after,
+input[name="uh"][value^="h"] ~ a:after,
+input[name="uh"][value^="8"] ~ a:after,
+input[name="uh"][value^="o"] ~ a:after,
+input[name="uh"][value^="v"] ~ a:after,
+input[name="uh"][value^="z"] ~ a:after,
+input[name="uh"][value^="3"] ~ a:after,
+input[name="uh"][value^="7"] ~ a:after {
+    background: url(%%sidebars11e01img3%%);
 }
 
 .comments-page input[name=uh]~a:after {
@@ -1508,8 +1555,15 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .search-page input[name=uh] ~ a:after { 
     margin-top: 100px;
 }
-
+*/
+input[name=uh] ~ a:after, 
+body:not(.loggedin) .side:before { 
+    content:""; display:block;
+    background:url(%%sidebar-saylove%%);
+    width:320px;
+    height:320px;
 }
+
 /*** TODO: TOP BOX NEED TO MOVE DOWN
 .side .titlebox h1.redditname:before {
     content: " ";
