@@ -3995,3 +3995,8 @@ html.res-commentBoxes .comment {
     from { background-position: -183px -640px; }
     to { background-position: -183px -800px; }
 }
+.flair-amayuhua {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -720px;
+}
