@@ -96,7 +96,7 @@ a {
     border: none;
     z-index: 1;
     background-image: 
-        url(%%header-soju%%),
+        url(%%header-kahanna%%),
         url(%%header-layer02%%),
         url(%%header-layer01%%);
     background-repeat:
@@ -3906,7 +3906,7 @@ html.res-commentBoxes .comment {
 .flair-wkahanna {
     width: 183px;
     height: 40px;
-    background-position: 0 -160px;
+    background-position: -183px -160px;
 }
 .flair-wmercedes {
     width: 183px;
