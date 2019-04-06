@@ -95,16 +95,23 @@ a {
     height: 275px;
     border: none;
     z-index: 1;
-    background-position: 50% 50%;
-    background-image: url(%%header-mercedes%%);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: 
+        url(%%header-scarlet%%),
+        url(%%header-layer02%%),
+        url(%%header-layer01%%);
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: 
+        50% 50%,
+        center 0,
+        50% 50%;
+    background-size: 
+        cover,
+        100% 100%,
+        cover;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
-    /***
-    -webkit-animation: banner 60s running infinite linear;
-    -moz-animation: banner 60s running infinite linear;
-    animation: banner 60s running infinite linear;
-    ***/
 }
 #sr-header-area {
     background: rgba(0, 0, 0, .08);
@@ -1489,7 +1496,7 @@ input[name="uh"]~a:after {
     -moz-animation: anim-sidebar 3s infinite;***/
     content: '';
     position: absolute;
-    top: 250px;
+    top: 500px!important;
     right: -12px;
     z-index: 1;
     border-radius: 2px;
@@ -3892,7 +3899,7 @@ html.res-commentBoxes .comment {
     /* background-position: 0 -33px; */
     width: 183px;
     height: 40px;
-    background-position: 0 -40px;
+    background-position: -183px -40px;
 }
 .flair-wbrooke {
     width: 183px;
@@ -3932,7 +3939,7 @@ html.res-commentBoxes .comment {
 .flair-wscarlet {
     width: 183px;
     height: 40px;
-    background-position: 0 -360px;
+    background-position: -183px -360px;
 }
 .flair-wshuga {
     width: 183px;
@@ -4000,4 +4007,9 @@ html.res-commentBoxes .comment {
     width: 183px;
     height: 40px;
     background-position: 0 -720px;
+}
+.flair-michelle {
+    width: 183px;
+    height: 40px;
+    background-position: 0 -760px
 }
