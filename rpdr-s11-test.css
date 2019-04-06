@@ -3222,6 +3222,7 @@ ul.image-preview-list li {
 .res #header-bottom-right .user a {
     font-size: 11px;
     line-height: 9px;
+    color: #e9358b;
 }
 .res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a, .res #sr-header-area a.RESShortcutsCurrentSub {
     color: #fff!important;
