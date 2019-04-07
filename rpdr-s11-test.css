@@ -225,10 +225,11 @@ body:not(.loggedin) #header-bottom-right {
     background: url(%%spritesheet%%) -48px -32px no-repeat;
 }
 .user a {
-    max-width: 120px;
+    max-width: 100px;
     overflow: hidden;
     display: inline-block;
     text-overflow: ellipsis;
+    padding-top: 5px;
 }
 .user .userkarma {
     font-weight: 400;
@@ -1471,37 +1472,31 @@ div.commentarea div.RES-keyNav-activeElement .md {
     background-color: rgba(0, 0, 0, .05);
 }
 .side {
+    width: 320px;
     margin: 282px 16px 108px 0;
     padding-top: 275px;
-    background: 0 0;
-    width: 320px;
+    background-color: transparent;
+    /*background: 0 0;*/
 }
 .side .spacer {
     margin: 0 0 16px;
 }
-/***sidebar slideshows
-@keyframes anim-sidebar {
-    15.99% { background-position-y: 0 }
-    16% { background-position-y: -320px }
-    31.99% { background-position-y: -320px }
-    32% { background-position-y: -640px }
-    99.99% { background-position-y: -640px }
-}***/
 
 input[name="uh"]~a:after {
-    width: 320px;
-    height: 320px;
-    /***animation: anim-sidebar 3s infinite;
-    -webkit-animation: anim-sidebar 3s infinite;
-    -moz-animation: anim-sidebar 3s infinite;***/
     content: '';
     position: absolute;
-    top: 500px!important;
+    top: 250px;
     right: -12px;
+     width: 320px;
+    height: 320px;
     z-index: 1;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     pointer-events: none;
+}
+
+.res input[name="uh"]~a:after {
+    top: 500px !important;
 }
 
 input[name="uh"][value^="s"] ~ a:after,
@@ -3159,7 +3154,7 @@ ul.image-preview-list li {
     margin-right: 381px;
 }
 .res #RESShortcutsEditContainer {
-    margin-right: 312px;
+    margin-right: 400px;
 }
 #RESShortcutsAdd, #RESShortcutsLeft, #RESShortcutsRight, #RESShortcutsSort, #RESShortcutsTrash, .res #RESShortcutsEditContainer {
     background-color: transparent!important;
@@ -3204,6 +3199,9 @@ ul.image-preview-list li {
     height: 18px;
     padding: 0 8px 0 0;
 }
+.res-navTop #header-bottom-right {
+    margin-top: 0 !important;
+}
 .res #userbarToggle {
     background-color: transparent;
     color: rgba(255, 255, 255, .45);
@@ -3224,6 +3222,7 @@ ul.image-preview-list li {
 .res #header-bottom-right .user a {
     font-size: 11px;
     line-height: 9px;
+    color: #e9358b;
 }
 .res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a, .res #sr-header-area a.RESShortcutsCurrentSub {
     color: #fff!important;
