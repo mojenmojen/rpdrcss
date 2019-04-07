@@ -1499,57 +1499,75 @@ input[name="uh"]~a:after {
     top: 500px !important;
 }
 
-input[name="uh"][value^="s"] ~ a:after,
-input[name="uh"][value^="w"] ~ a:after,
 input[name="uh"][value^="0"] ~ a:after,
 input[name="uh"][value^="4"] ~ a:after {
     background: url(%%sidebars11e01img0%%);
 }
-input[name="uh"][value^="t"] ~ a:after,
-input[name="uh"][value^="x"] ~ a:after,
 input[name="uh"][value^="1"] ~ a:after,
 input[name="uh"][value^="5"] ~ a:after {
     background: url(%%sidebars11e01img1%%);
 }
-input[name="uh"][value^="u"] ~ a:after,
-input[name="uh"][value^="y"] ~ a:after,
 input[name="uh"][value^="2"] ~ a:after,
 input[name="uh"][value^="6"] ~ a:after {
     background: url(%%sidebars11e01img2%%);
 }
-input[name="uh"][value^="v"] ~ a:after,
-input[name="uh"][value^="z"] ~ a:after,
 input[name="uh"][value^="3"] ~ a:after,
 input[name="uh"][value^="7"] ~ a:after {
     background: url(%%sidebars11e01img3%%);
 }
-input[name="uh"][value^="a"] ~ a:after,
-input[name="uh"][value^="e"] ~ a:after,
-input[name="uh"][value^="i"] ~ a:after,
 input[name="uh"][value^="l"] ~ a:after,
 input[name="uh"][value^="p"] ~ a:after {
     background: url(%%sidebars11e02img0%%);
 }
-input[name="uh"][value^="b"] ~ a:after,
-input[name="uh"][value^="f"] ~ a:after,
 input[name="uh"][value^="j"] ~ a:after,
 input[name="uh"][value^="m"] ~ a:after,
 input[name="uh"][value^="q"] ~ a:after {
     background: url(%%sidebars11e02img1%%);
 }
-input[name="uh"][value^="c"] ~ a:after,
-input[name="uh"][value^="g"] ~ a:after,
 input[name="uh"][value^="k"] ~ a:after,
 input[name="uh"][value^="n"] ~ a:after,
 input[name="uh"][value^="r"] ~ a:after {
     background: url(%%sidebars11e02img2%%);
 }
-input[name="uh"][value^="d"] ~ a:after,
-input[name="uh"][value^="9"] ~ a:after,
-input[name="uh"][value^="h"] ~ a:after,
 input[name="uh"][value^="8"] ~ a:after,
 input[name="uh"][value^="o"] ~ a:after {
     background: url(%%sidebars11e02img3%%);
+}
+input[name="uh"][value^="s"] ~ a:after,
+input[name="uh"][value^="w"] ~ a:after {
+    background: url(%%sidebars11e03img0%%);
+}
+input[name="uh"][value^="t"] ~ a:after,
+input[name="uh"][value^="x"] ~ a:after {
+    background: url(%%sidebars11e03img1%%);
+}
+input[name="uh"][value^="u"] ~ a:after,
+input[name="uh"][value^="y"] ~ a:after {
+    background: url(%%sidebars11e03img2%%);
+}
+input[name="uh"][value^="v"] ~ a:after,
+input[name="uh"][value^="z"] ~ a:after {
+    background: url(%%sidebars11e03img3%%);
+}
+input[name="uh"][value^="a"] ~ a:after,
+input[name="uh"][value^="e"] ~ a:after {
+    background: url(%%sidebars11e04img0%%);
+}
+input[name="uh"][value^="b"] ~ a:after,
+input[name="uh"][value^="f"] ~ a:after {
+    background: url(%%sidebars11e04img1%%);
+}
+input[name="uh"][value^="c"] ~ a:after,
+input[name="uh"][value^="g"] ~ a:after {
+    background: url(%%sidebars11e05img0%%);
+}
+input[name="uh"][value^="d"] ~ a:after,
+input[name="uh"][value^="9"] ~ a:after {
+    background: url(%%sidebars11e05img1%%);
+}
+input[name="uh"][value^="i"] ~ a:after,
+input[name="uh"][value^="h"] ~ a:after {
+    background: url(%%sidebars11e05img2%%);
 }
 .comments-page input[name=uh]~a:after {
     margin-top: 130px;
