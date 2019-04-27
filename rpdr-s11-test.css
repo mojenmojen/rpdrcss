@@ -96,7 +96,7 @@ a {
     border: none;
     z-index: 1;
     background-image: 
-        url(%%header-atsea%%),
+        url(%%header-plastique%%),
         url(%%header-layer02%%),
         url(%%header-layer01%%);
     background-repeat:
@@ -3946,7 +3946,7 @@ html.res-commentBoxes .comment {
 .flair-wplastique {
     width: 183px;
     height: 40px;
-    background-position: 0 -280px;
+    background-position: -183px -280px;
 }
 .flair-wrajah {
     width: 183px;
