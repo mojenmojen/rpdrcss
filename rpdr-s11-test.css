@@ -96,7 +96,7 @@ a {
     border: none;
     z-index: 1;
     background-image: 
-        url(%%header-plastique%%),
+        url(%%header-shuga%%),
         url(%%header-layer02%%),
         url(%%header-layer01%%);
     background-repeat:
@@ -3961,7 +3961,7 @@ html.res-commentBoxes .comment {
 .flair-wshuga {
     width: 183px;
     height: 40px;
-    background-position: 0 -400px;
+    background-position: -183px -400px;
 }
 .flair-wsilky {
     width: 183px;
