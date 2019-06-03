@@ -96,9 +96,9 @@ a {
     border: none;
     z-index: 1;
     background-image: 
-        url(%%header-nina%%),
+        url(%%header-yvie%%),
         url(%%header-layer02%%),
-        url(%%header-layer01%%);
+        url(%%yvie-layer01%%);
     background-repeat:
         no-repeat,
         no-repeat,
