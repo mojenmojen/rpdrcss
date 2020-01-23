@@ -1810,7 +1810,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12) */
 }
 
-.side .titlebox h1.redditname:before {
+/*.side .titlebox h1.redditname:before {
     content: " ";
     position: absolute;
     display: block;
@@ -1823,6 +1823,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
     border-radius: 0 0 2px 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
 }
+*/
+
+.side .titlebox {
+    display: flex;
+    flex-direction: column;
+}
 
 .side .titlebox h1.redditname {
     margin-bottom: 6px;
@@ -1833,16 +1839,28 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .side .titlebox h1.redditname a {
-    color: #333
+    /* color: #333; */
+    display: flex;
+    height: 65px;
+    width: 300px;
+    margin-top: -5px;
+    background-image: url(%%SIDELOGO%%);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    text-indent: -9999px;
 }
 
 .titlebox span.subscribers {
-    position: absolute;
     z-index: 100;
-    color: #333;
-    font-size: 12px;
-    top: 336px
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #15CEBE;
+    margin-bottom: 10px;
 }
+
 
 div.titlebox span.word {
     display: none
