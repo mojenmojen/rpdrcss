@@ -401,18 +401,25 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 #header .pagename a {
-    display: inline-block;
-    line-height: 42px;
-    color: #fff;
-    font: normal 700 42px/42px Lato, Arial, sans-serif;
-    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.2)
+    position: absolute;
+    top: -200px;
+    left: 0;
+    bottom: 45px;
+    right: 0;
+    width: 100vw;
+    text-indent: -999px;
+    cursor: pointer;
 }
 
 #header-bottom-left {
     position: absolute;
-    top: 100px;
+    bottom: 0;
     left: 16px;
-    right: 384px
+    right: 384px;
+}
+
+#header-img {
+    display: none;
 }
 
 #header .tabmenu {
