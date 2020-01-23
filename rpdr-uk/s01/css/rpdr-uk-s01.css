@@ -425,9 +425,9 @@ body:not(.loggedin) #header-bottom-right {
 #header .tabmenu {
     margin: 12px 0 0;
     display: block;
-    height: 42px;
-    line-height: 42px;
-    border: none
+    height: 25px;
+    line-height: 25px;
+    border: none;
 }
 
 #header .tabmenu:before {
@@ -436,18 +436,19 @@ body:not(.loggedin) #header-bottom-right {
     position: absolute;
     left: -16px;
     right: -384px;
-    background: rgba(0, 0, 0, 0.24);
-    height: 42px;
-    z-index: -1
+    background: rgba(0, 0, 0, .24);
+    height: 25px;
+    z-index: -1;
 }
 
 #header .tabmenu li a {
     margin: 0 16px;
     padding: 0;
     text-transform: uppercase;
-    font: 400 14px/32px Lato, Arial, sans-serif;
-    color: rgba(255, 255, 255, 0.7);
-    display: inline-block
+    letter-spacing: 1px;
+    font: 400 10px/28px Lato, Arial, sans-serif;
+    color: rgba(255, 255, 255, .7);
+    display: inline-block;
 }
 
 #header .tabmenu li a:hover {
