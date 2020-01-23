@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-    background: #eee;
+    background: #f6d8d6;
     min-width: 920px
 }
 
@@ -110,11 +110,11 @@ button:active,
 
 #header {
     margin: 0;
-    height: 196px;
+    height: 275px;
     border: none;
-    background: url(%%headerimg%%) 50% 50% / cover no-repeat;
+    background: url(%%HEADER%%) 50% 50% / cover no-repeat;
     z-index: 1;
-    box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12)
+    /* box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12) */
 }
 
 #sr-header-area {
