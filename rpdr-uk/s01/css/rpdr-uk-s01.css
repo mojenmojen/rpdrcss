@@ -1993,8 +1993,8 @@ div.titlebox span.number:after {
 
 #search input[type=text] {
     padding: 0 42px 0 16px;
-    border: 0 solid;
-    border-radius: 2px;
+    border: 0.1 solid;
+    border-radius: 8px;
     width: 320px;
     height: 42px;
     line-height: 41px;
