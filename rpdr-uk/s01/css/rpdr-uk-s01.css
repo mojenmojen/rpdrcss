@@ -3826,7 +3826,7 @@ ul.image-preview-list li {
     height: 800px;
     margin-top: 192px;
     padding: 528px 0 64px;
-    background: url(%%footer%%) 50% 0 / cover no-repeat
+    /* background: url(%%footer%%) 50% 0 / cover no-repeat */
 }
 
 .footer {
