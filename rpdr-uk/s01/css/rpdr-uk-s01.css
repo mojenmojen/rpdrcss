@@ -1861,7 +1861,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
     margin-bottom: 10px;
 }
 
-
 div.titlebox span.word {
     display: none
 }
@@ -1905,11 +1904,15 @@ div.titlebox span.number:after {
 }
 
 .titlebox .fancy-toggle-button {
-    margin: 0;
+    /* margin: 0;
+    margin-top: -25px;
     position: absolute;
     margin-left: 208px;
-    top: 314px;
-    z-index: 100
+    top: 314px; */
+    z-index: 100;
+    text-align: Center;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .titlebox .fancy-toggle-button .active {
@@ -1922,7 +1925,7 @@ div.titlebox span.number:after {
     padding: 0 12px;
     text-transform: capitalize;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
-    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1), padding .2s ease, margin .2s ease
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1), padding .2s ease, margin .2s ease;
 }
 
 .titlebox .fancy-toggle-button .active:hover {
