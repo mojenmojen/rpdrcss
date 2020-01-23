@@ -30,7 +30,7 @@ a {
 }
 
 :focus {
-    outline: none!important
+    outline: none !important
 }
 
 body .content .text,
@@ -169,7 +169,7 @@ a.random.choice {
 }
 
 .sr-bar .separator {
-    color: transparent!important
+    color: transparent !important
 }
 
 #sr-header-area .dropdown.srdrop .selected {
@@ -197,7 +197,7 @@ a.random.choice {
     border-radius: 2px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .24);
     opacity: 0;
-    top: 14px!important;
+    top: 14px !important;
     transition: all .2s cubic-bezier(.4, 0, .2, 1);
     visibility: hidden;
     border: none
@@ -205,7 +205,7 @@ a.random.choice {
 
 #sr-header-area .drop-choices.srdrop.inuse {
     opacity: 1;
-    top: 23px!important;
+    top: 23px !important;
     visibility: visible
 }
 
@@ -280,8 +280,8 @@ body:not(.loggedin) #header-bottom-right {
 #modmail {
     width: 16px;
     height: 14px;
-    background-image: url(%%spritesheet%%)!important;
-    background-repeat: no-repeat!important;
+    background-image: url(%%spritesheet%%) !important;
+    background-repeat: no-repeat !important;
     background-color: transparent;
     transition: all .25s ease
 }
@@ -304,7 +304,7 @@ body:not(.loggedin) #header-bottom-right {
     background: #f50;
     position: relative;
     top: -1px;
-    color: #fff!important
+    color: #fff !important
 }
 
 #mail.havemail:before {
@@ -457,15 +457,15 @@ body:not(.loggedin) #header-bottom-right {
     border-bottom: 2px solid
 }
 
-.listing-page .tabmenu li > a[href$="/controversial/"],
-.wiki-page .tabmenu li > a[href$="/controversial/"],
-.listing-page .tabmenu li > a[href$="/ads/"],
-.wiki-page .tabmenu li > a[href$="/ads/"] {
-    display: none!important
+.listing-page .tabmenu li>a[href$="/controversial/"],
+.wiki-page .tabmenu li>a[href$="/controversial/"],
+.listing-page .tabmenu li>a[href$="/ads/"],
+.wiki-page .tabmenu li>a[href$="/ads/"] {
+    display: none !important
 }
 
-body[class] > .content,
-body.listing-page[class] > .content {
+body[class]>.content,
+body.listing-page[class]>.content {
     margin: 16px 352px 64px 16px;
     padding: 0
 }
@@ -510,16 +510,16 @@ body.listing-page[class] > .content {
 }
 
 #newlink-with-image-upload #new-link-video-preview {
-    box-shadow: none!important
+    box-shadow: none !important
 }
 
-body > .content .link .rank,
+body>.content .link .rank,
 .rank-spacer {
     display: none
 }
 
 .link .midcol {
-    width: 32px!important;
+    width: 32px !important;
     margin: 0 16px 0 0;
     overflow: visible;
     height: 56px
@@ -542,7 +542,7 @@ body > .content .link .rank,
 
 .arrow {
     margin: 0;
-    background-image: url(%%spritesheet%%)!important;
+    background-image: url(%%spritesheet%%) !important;
     width: 32px;
     border-radius: 2px;
     transition: background-color .25s ease
@@ -738,12 +738,12 @@ body .content .sitetable .link .title a:hover {
     position: relative;
     top: -1px;
     margin: 2px 6px 2px 0 !important;
-    width: 16px!important;
-    height: 16px!important;
+    width: 16px !important;
+    height: 16px !important;
     border-radius: 2px;
     background-color: transparent;
-    background-image: url(%%spritesheet%%)!important;
-    background-size: 264px 264px!important;
+    background-image: url(%%spritesheet%%) !important;
+    background-size: 264px 264px !important;
     border: 1px solid #e9e9e9;
     cursor: pointer
 }
@@ -755,86 +755,86 @@ body .content .sitetable .link .title a:hover {
 
 .expando-button.selftext.collapsed,
 .expando-button.crosspost.collapsed {
-    background-position: 0 -48px!important
+    background-position: 0 -48px !important
 }
 
 .expando-button.selftext.collapsed:hover,
 .expando-button.crosspost.collapsed:hover {
-    background-position: -16px -48px!important
+    background-position: -16px -48px !important
 }
 
 .expando-button.selftext.expanded,
 .expando-button.crosspost.expanded {
-    background-position: -32px -48px!important
+    background-position: -32px -48px !important
 }
 
 .expando-button.selftext.expanded:hover,
 .expando-button.crosspost.expanded:hover {
-    background-position: -48px -48px!important
+    background-position: -48px -48px !important
 }
 
 .expando-button.video.collapsed {
-    background-position: -64px -48px!important
+    background-position: -64px -48px !important
 }
 
 .expando-button.video.collapsed:hover {
-    background-position: -80px -48px!important
+    background-position: -80px -48px !important
 }
 
 .expando-button.video.expanded {
-    background-position: -32px -48px!important
+    background-position: -32px -48px !important
 }
 
 .expando-button.video.expanded:hover {
-    background-position: -48px -48px!important
+    background-position: -48px -48px !important
 }
 
 .expando-button.image.collapsedExpando {
-    background-position: -32px -64px!important
+    background-position: -32px -64px !important
 }
 
 .expando-button.image.collapsedExpando:hover {
-    background-position: -48px -64px!important
+    background-position: -48px -64px !important
 }
 
 .expando-button.image.expanded {
-    background-position: -32px -48px!important
+    background-position: -32px -48px !important
 }
 
 .expando-button.image.expanded:hover {
-    background-position: -48px -48px!important
+    background-position: -48px -48px !important
 }
 
 .expando-button.image.gallery.collapsedExpando {
-    background-position: 0 -64px!important
+    background-position: 0 -64px !important
 }
 
 .expando-button.image.gallery.collapsedExpando:hover {
-    background-position: -16px -64px!important
+    background-position: -16px -64px !important
 }
 
 .expando-button.image.gallery.expanded {
-    background-position: -32px -48px!important
+    background-position: -32px -48px !important
 }
 
 .expando-button.image.gallery.expanded:hover {
-    background-position: -48px -48px!important
+    background-position: -48px -48px !important
 }
 
 .expando-button.video-muted.collapsed {
-    background-position: -64px -64px!important
+    background-position: -64px -64px !important
 }
 
 .expando-button.video-muted.collapsed:hover {
-    background-position: -80px -64px!important
+    background-position: -80px -64px !important
 }
 
 .expando-button.video-muted.expanded {
-    background-position: -32px -48px!important
+    background-position: -32px -48px !important
 }
 
 .expando-button.video-muted.expanded:hover {
-    background-position: -48px -48px!important
+    background-position: -48px -48px !important
 }
 
 .expando-gate .expando-gate__show-once {
@@ -897,10 +897,10 @@ body .content .sitetable .link .title a:hover {
     font-size: 0
 }
 
-.tagline .userattrs > * {
+.tagline .userattrs>* {
     cursor: help;
     display: inline-block;
-    color: #fff!important;
+    color: #fff !important;
     line-height: 13px;
     padding: 0 3px;
     border-radius: 2px;
@@ -909,7 +909,7 @@ body .content .sitetable .link .title a:hover {
     margin-left: 4px
 }
 
-.tagline .userattrs >:hover {
+.tagline .userattrs>:hover {
     text-decoration: none
 }
 
@@ -976,7 +976,7 @@ body .content .sitetable .link .title a:hover {
 .entry .buttons li.spoiler-stamp {
     padding: 0;
     border-radius: 0;
-    border: none!important
+    border: none !important
 }
 
 .nsfw-stamp,
@@ -1000,8 +1000,8 @@ body .content .sitetable .link .title a:hover {
 
 .link .entry .buttons li a.comments {
     color: #24a0ed;
-    font-weight: 700!important;
-    transition: all .25s ease-in-out!important
+    font-weight: 700 !important;
+    transition: all .25s ease-in-out !important
 }
 
 .link .entry li .comments:hover {
@@ -1129,7 +1129,7 @@ body .content .thing.spam {
 
 .entry .buttons li.reported-stamp {
     background-color: transparent;
-    border: none!important;
+    border: none !important;
     text-transform: uppercase;
     color: #F44336
 }
@@ -1199,7 +1199,7 @@ a.pretty-button.negative.pressed {
     margin: 0
 }
 
-.buttons > .pretty-button {
+.buttons>.pretty-button {
     border-radius: 3px
 }
 
@@ -1224,12 +1224,12 @@ b {
 .thing.link.stickied a.title,
 .thing.link.stickied li a,
 .thing.link.stickied .entry li .comments {
-    color: #27b062!important
+    color: #27b062 !important
 }
 
 .thing.link.stickied .expando-button:hover {
-    background-color: #27b062!important;
-    border-color: #27b062!important
+    background-color: #27b062 !important;
+    border-color: #27b062 !important
 }
 
 .tagline .stickied-tagline {
@@ -1237,7 +1237,7 @@ b {
     cursor: help
 }
 
-.stickied.comment > .entry a,
+.stickied.comment>.entry a,
 .stickied.comment .tagline .stickied-tagline {
     color: #27b062
 }
@@ -1264,7 +1264,7 @@ b {
 }
 
 .organic-listing {
-    background: #fff!important;
+    background: #fff !important;
     padding: 0;
     position: relative;
     margin-bottom: 0;
@@ -1309,18 +1309,18 @@ b {
     margin: 0
 }
 
-body > .content .link.compressed .midcol {
+body>.content .link.compressed .midcol {
     height: auto;
     margin: 8px 4px 0 0
 }
 
 .flairselector {
     position: fixed;
-    top: 20%!important;
-    left: 50%!important;
+    top: 20% !important;
+    left: 50% !important;
     margin-left: -125px;
-    padding: 16px!important;
-    width: 250px!important;
+    padding: 16px !important;
+    width: 250px !important;
     border: none;
     border-radius: 2px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.12)
@@ -1346,7 +1346,7 @@ body > .content .link.compressed .midcol {
 }
 
 .flairselector .flairoptionpane ul li {
-    padding: 0!important
+    padding: 0 !important
 }
 
 .flairoptionpane ul li .linkflair {
@@ -1367,9 +1367,9 @@ body > .content .link.compressed .midcol {
 }
 
 .flairoptionpane ul li .linkflair a.title {
-    font-size: 18px!important;
-    opacity: 100!important;
-    color: #24a0ed!important
+    font-size: 18px !important;
+    opacity: 100 !important;
+    color: #24a0ed !important
 }
 
 .flairselector form {
@@ -1388,9 +1388,9 @@ body > .content .link.compressed .midcol {
 }
 
 .flairselector form .flairselection .linkflair a.title {
-    font-size: 18px!important;
-    opacity: 100!important;
-    color: #24a0ed!important;
+    font-size: 18px !important;
+    opacity: 100 !important;
+    color: #24a0ed !important;
     cursor: default
 }
 
@@ -1398,13 +1398,13 @@ body > .content .link.compressed .midcol {
     padding: 4px 0;
     margin-bottom: 8px;
     visibility: hidden;
-    display: block!important
+    display: block !important
 }
 
 .flairselector form .flairselection .flairremove a {
     visibility: visible;
-    opacity: 100!important;
-    color: #24a0ed!important;
+    opacity: 100 !important;
+    color: #24a0ed !important;
     margin-left: -4px;
     text-transform: capitalize
 }
@@ -1414,7 +1414,7 @@ body > .content .link.compressed .midcol {
 }
 
 .flairselector form .flairselection .flairremove a:hover {
-    text-decoration: underline!important
+    text-decoration: underline !important
 }
 
 .flairselector .customizer {
@@ -1458,13 +1458,13 @@ body > .content .link.compressed .midcol {
 }
 
 .flairselector .flairoptionpane ul li.flairsample-right {
-    padding: 5px 0!important;
+    padding: 5px 0 !important;
     border: none
 }
 
 .flairselector li a,
 .flairselector form .flairselection a.author {
-    color: #738491!important;
+    color: #738491 !important;
     font-size: 11px
 }
 
@@ -1478,7 +1478,7 @@ body > .content .link.compressed .midcol {
 }
 
 .res .RES-keyNav-activeElement {
-    outline: 0 dashed #EEE!important;
+    outline: 0 dashed #EEE !important;
     transition: all .15s ease
 }
 
@@ -1488,13 +1488,13 @@ body > .content .link.compressed .midcol {
 
 div.RES-keyNav-activeElement,
 div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-    background-color: transparent!important;
-    padding-left: 8px!important;
+    background-color: transparent !important;
+    padding-left: 8px !important;
     border-left: 3px solid #C2C2C2
 }
 
 div.commentarea div.RES-keyNav-activeElement .md {
-    background-color: transparent!important
+    background-color: transparent !important
 }
 
 .res .commentarea .thing {
@@ -1502,7 +1502,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .res .commentarea .thing.collapsed {
-    padding-bottom: 16px!important
+    padding-bottom: 16px !important
 }
 
 .res .commentarea .entry .flat-list {
@@ -1516,11 +1516,11 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .userTagLink.hasTag,
 #userTaggerPreview {
-    font-size: 11px!important;
-    border-radius: 0!important;
-    border: 0 solid!important;
-    margin-top: 0!important;
-    margin-left: 4px!important
+    font-size: 11px !important;
+    border-radius: 0 !important;
+    border: 0 solid !important;
+    margin-top: 0 !important;
+    margin-left: 4px !important
 }
 
 .RESDialogSmall {
@@ -1529,7 +1529,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     margin-top: 8px
 }
 
-.RESDialogSmall > h3 {
+.RESDialogSmall>h3 {
     color: #4F8EF7;
     background-color: #FFF;
     border-bottom: 1px solid #EDEDED;
@@ -1557,7 +1557,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 #userTaggerToolTip select {
     line-height: 22px;
     padding-left: 4px;
-    border: 1px solid #E5E5E5!important
+    border: 1px solid #E5E5E5 !important
 }
 
 .toggleButton {
@@ -1580,10 +1580,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 #userTaggerToolTip input[type=submit] {
-    bottom: 10px!important
+    bottom: 10px !important
 }
 
-.content > .menuarea {
+.content>.menuarea {
     margin: 0;
     padding: 0 20px;
     border: none;
@@ -1892,7 +1892,7 @@ div.titlebox span.number:after {
     height: 32px;
     border-radius: 2px;
     line-height: 30px;
-    background-image: none!important;
+    background-image: none !important;
     padding: 0 12px;
     text-transform: capitalize;
     box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
@@ -1939,7 +1939,7 @@ div.titlebox span.number:after {
 }
 
 .hover-bubble.multi-selector {
-    right: 346px!important;
+    right: 346px !important;
     margin-top: -56px;
     border: none
 }
@@ -1982,7 +1982,7 @@ div.titlebox span.number:after {
 }
 
 #search input[type=text]:focus:hover {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24)!important
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24) !important
 }
 
 #search input[type="text"]:-moz-placeholder {
@@ -2027,7 +2027,7 @@ div.titlebox span.number:after {
     width: 32px;
     margin-left: -38px;
     background: url(%%spritesheet%%) -64px -97px no-repeat;
-    border: none!important;
+    border: none !important;
     border-radius: 16px;
     transition: background .2s cubic-bezier(.4, 0, .2, 1)
 }
@@ -2058,7 +2058,7 @@ div.titlebox span.number:after {
 }
 
 #search #searchexpando p {
-    display: none!important
+    display: none !important
 }
 
 @media screen and (max-width: 1085px) {
@@ -2128,7 +2128,7 @@ div.titlebox span.number:after {
 }
 
 .disabled .morelink {
-    box-shadow: none!important;
+    box-shadow: none !important;
     background: rgba(0, 0, 0, 0.08);
     width: 320px
 }
@@ -2239,7 +2239,7 @@ div.titlebox span.number:after {
 
 .side .titlebox .md h1 {
     line-height: 18px;
-    margin: .5em 0 0!important
+    margin: .5em 0 0 !important
 }
 
 .side .titlebox .md h2 {
@@ -2420,7 +2420,7 @@ div.titlebox span.number:after {
     font-size: x-small
 }
 
-.commentarea > .usertext {
+.commentarea>.usertext {
     background: #FAFAFA;
     margin: 0;
     padding: 16px;
@@ -2444,7 +2444,7 @@ div.titlebox span.number:after {
     width: 100%
 }
 
-.commentarea > .usertext textarea:not(:focus) {
+.commentarea>.usertext textarea:not(:focus) {
     background: url(%%commentboxbg%%) no-repeat 50% 50%
 }
 
@@ -2494,7 +2494,7 @@ div.titlebox span.number:after {
     width: 16px
 }
 
-.user-gilded > .entry .gilded-icon:before {
+.user-gilded>.entry .gilded-icon:before {
     width: 16px
 }
 
@@ -2585,7 +2585,7 @@ div.titlebox span.number:after {
 }
 
 .green {
-    color: #27b062!important;
+    color: #27b062 !important;
     font-weight: 700
 }
 
@@ -2602,23 +2602,23 @@ div.titlebox span.number:after {
 }
 
 .res-nightmode .arrow {
-    background-image: url(%%spritesheet%%)!important
+    background-image: url(%%spritesheet%%) !important
 }
 
 .res-nightmode .arrow.up {
-    background-position: 0 -80px!important
+    background-position: 0 -80px !important
 }
 
 .res-nightmode .arrow.upmod {
-    background-position: -32px -80px!important
+    background-position: -32px -80px !important
 }
 
 .res-nightmode .arrow.down {
-    background-position: -64px -80px!important
+    background-position: -64px -80px !important
 }
 
 .res-nightmode .arrow.downmod {
-    background-position: 0 -100px!important
+    background-position: 0 -100px !important
 }
 
 .res-nightmode .thumbnail.default {
@@ -2636,7 +2636,7 @@ div.titlebox span.number:after {
 .res-nightmode body,
 .res-nightmode .listing.search-result-listing,
 .res-nightmode .res-searchHelper-searchPageTabs ul.res-search-tabs {
-    background-color: #000!important
+    background-color: #000 !important
 }
 
 .res-nightmode .side,
@@ -2654,23 +2654,23 @@ div.titlebox span.number:after {
 .res-nightmode #progressIndicator,
 .res-nightmode body .content,
 .res-nightmode .voteWeight {
-    background-color: transparent!important
+    background-color: transparent !important
 }
 
 .res-nightmode #header .tabmenu:before {
-    background-color: rgba(0, 0, 0, 0.24)!important
+    background-color: rgba(0, 0, 0, 0.24) !important
 }
 
 .res-nightmode #sr-header-area {
-    background-color: rgba(0, 0, 0, 0.08)!important
+    background-color: rgba(0, 0, 0, 0.08) !important
 }
 
-.res-nightmode body.listing-page > .content,
-.res-nightmode body.other-discussions-page > .content,
+.res-nightmode body.listing-page>.content,
+.res-nightmode body.other-discussions-page>.content,
 .res-nightmode .comments-page .link,
-.res-nightmode .commentarea > .sitetable > .comment,
+.res-nightmode .commentarea>.sitetable>.comment,
 .res-nightmode #images,
-.res-nightmode .combined-search-page > .content,
+.res-nightmode .combined-search-page>.content,
 .res-nightmode .sponsorshipbox,
 .res-nightmode .stylesheet-customize-container .pretty-form,
 .res-nightmode .side .sidecontentbox,
@@ -2691,11 +2691,11 @@ div.titlebox span.number:after {
 .res-nightmode #newlink-with-image-upload .media-post-upload-progress,
 .res-nightmode .gold-accent.comment-visits-box,
 .res-nightmode .wiki-page .wikititle {
-    background-color: #121212!important
+    background-color: #121212 !important
 }
 
 .res-nightmode .submit-page button {
-    border: 0 none #000!important
+    border: 0 none #000 !important
 }
 
 .res-nightmode .flairselector,
@@ -2715,7 +2715,7 @@ div.titlebox span.number:after {
 .res-nightmode .other-discussions-page .side .linkinfo,
 .res-nightmode .side .md pre,
 .res-nightmode .drop-choices a.choice:hover {
-    background-color: #212121!important
+    background-color: #212121 !important
 }
 
 .res-nightmode .side .md .-blocks,
@@ -2740,7 +2740,7 @@ div.titlebox span.number:after {
 .res-nightmode #newlink-with-image-upload .media-uploading-label,
 .res-nightmode .gold-accent.comment-visits-box,
 .res-nightmode .wiki-page .wikititle strong {
-    color: #E0E0E0!important
+    color: #E0E0E0 !important
 }
 
 .res-nightmode .flairoptionpane ul li .linkflair:hover,
@@ -2748,7 +2748,7 @@ div.titlebox span.number:after {
 .res-nightmode .side .titlebox .md h4 a,
 .res-nightmode .side .titlebox .tagline a.flairselectbtn,
 .res-nightmode .leavemoderator a {
-    background-color: #212121!important
+    background-color: #212121 !important
 }
 
 .res-nightmode .link .entry .tagline a,
@@ -2770,11 +2770,11 @@ div.titlebox span.number:after {
 .res-nightmode .RESDropdownList li a,
 .res-nightmode .reason-popup .reason-popup-content,
 .drop-choices a.choice {
-    color: #D2D2D2!important
+    color: #D2D2D2 !important
 }
 
 .res-nightmode .hover-bubble {
-    border: 1px solid #121212!important
+    border: 1px solid #121212 !important
 }
 
 .res-nightmode .submit-page #newlink.submit.content .tabmenu.formtab .selected a,
@@ -2785,17 +2785,17 @@ div.titlebox span.number:after {
 .res-nightmode .side *,
 .res-nightmode .submit-page #url-field button,
 .res-nightmode .submit-page #newlink.submit.content .btn {
-    color: #fff!important
+    color: #fff !important
 }
 
 .res #userbarToggle {
-    color: rgba(255, 255, 255, 0.45)!important
+    color: rgba(255, 255, 255, 0.45) !important
 }
 
 .res-nightmode .submit-page #url-field button,
 .res-nightmode .submit-page #newlink.submit.content .btn,
 .res-nightmode .sidebox.create .morelink {
-    background-color: #0079d3!important
+    background-color: #0079d3 !important
 }
 
 .res-nightmode body .content .text,
@@ -2804,16 +2804,16 @@ div.titlebox span.number:after {
 .res-nightmode body .content input[type="password"],
 .res-nightmode body .content input[type="url"],
 .res-nightmode #newlink-with-image-upload .image-upload-drop-target {
-    background-color: #212121!important;
-    border: 1px solid #121212!important;
-    color: #D2D2D2!important
+    background-color: #212121 !important;
+    border: 1px solid #121212 !important;
+    color: #D2D2D2 !important
 }
 
 .res-nightmode .side .spacer input,
-.res-nightmode .commentarea > .usertext,
+.res-nightmode .commentarea>.usertext,
 .res-nightmode .side .titlebox h1.redditname:before {
-    background-color: #212121!important;
-    color: #D2D2D2!important
+    background-color: #212121 !important;
+    color: #D2D2D2 !important
 }
 
 .res-nightmode #search input[type="text"] {
@@ -2839,17 +2839,17 @@ div.titlebox span.number:after {
 .res-nightmode .search-page #previoussearch label,
 .res-nightmode #search #searchexpando label,
 .res-nightmode #search #searchexpando {
-    background-color: #212223!important
+    background-color: #212223 !important
 }
 
 .res .thing .tagline .author {
-    border-radius: 2px!important
+    border-radius: 2px !important
 }
 
 .res-nightmode .titlebox form.toggle,
 .res-nightmode .leavemoderator {
-    color: gray!important;
-    background: none!important
+    color: gray !important;
+    background: none !important
 }
 
 .mod-toolbox.res-nightmode .reason-popup {
@@ -2861,10 +2861,10 @@ div.titlebox span.number:after {
 .res-nightmode body.mod-toolbox .tb-bracket-button {
     background-color: transparent;
     color: gray;
-    font-size: 9px!important;
+    font-size: 9px !important;
     border-width: 1px 1px 1px 2px;
     border-color: gray;
-    padding: 1px 4px!important;
+    padding: 1px 4px !important;
     border-radius: 0 2px 2px 0
 }
 
@@ -2876,7 +2876,7 @@ div.titlebox span.number:after {
 .res .thing .tagline .author.submitter {
     padding: 1px 4px;
     border-radius: 1px;
-    background-color: #4F8EF7!important;
+    background-color: #4F8EF7 !important;
     color: #FFF;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     transition: all .15s ease
@@ -2884,7 +2884,7 @@ div.titlebox span.number:after {
 
 .res .thing .tagline .author.submitter:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    background-color: #4F8EF7!important
+    background-color: #4F8EF7 !important
 }
 
 .comment .score {
@@ -2920,7 +2920,7 @@ div.titlebox span.number:after {
 
 .res-nightmode .content .md pre,
 .res-nightmode .md code {
-    border-color: #121212!important
+    border-color: #121212 !important
 }
 
 .res-nightmode.res-searchHelper-searchPageTabs .combined-search-page .search-result .search-expando.collapsed::before {
@@ -2938,7 +2938,7 @@ div.titlebox span.number:after {
 }
 
 body.mod-toolbox .tb-action-button {
-    height: 22px!important;
+    height: 22px !important;
     line-height: 0
 }
 
@@ -2982,7 +2982,7 @@ body.mod-toolbox .tb-action-button {
     padding: 0
 }
 
-.comment.spam > .child {
+.comment.spam>.child {
     padding-left: 0;
     margin-left: 16px
 }
@@ -3149,7 +3149,7 @@ body.mod-toolbox .tb-action-button {
     margin: 0 auto
 }
 
-.submit-page #newlink.submit.content form .spacer + .spacer {
+.submit-page #newlink.submit.content form .spacer+.spacer {
     margin: 0
 }
 
@@ -3221,7 +3221,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .submit-page .infobar {
-    display: none!important
+    display: none !important
 }
 
 .content.submit .info-notice {
@@ -3232,7 +3232,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 #items-required {
-    padding-bottom: 0!important;
+    padding-bottom: 0 !important;
     padding-top: 15px
 }
 
@@ -3260,7 +3260,7 @@ body #newlink-with-image-upload .file-upload-button {
     line-height: 37px
 }
 
-#new-link-image-input > div:first-of-type {
+#new-link-image-input>div:first-of-type {
     display: inline-block;
     padding-right: 16px
 }
@@ -3410,7 +3410,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .combined-search-page .search-result a,
-.combined-search-page .search-result a > mark {
+.combined-search-page .search-result a>mark {
     color: #24a0ed
 }
 
@@ -3436,15 +3436,15 @@ body #newlink-with-image-upload .file-upload-button {
     color: #24a0ed
 }
 
-.search-result.has-thumbnail > .thumbnail {
+.search-result.has-thumbnail>.thumbnail {
     margin-right: 16px;
     flex: 0 0 80px
 }
 
-.search-result.has-thumbnail > .thumbnail.self,
-.search-result.has-thumbnail > .thumbnail.default,
-.search-result.has-thumbnail > .thumbnail.nsfw,
-.search-result.has-thumbnail > .thumbnail.image,
+.search-result.has-thumbnail>.thumbnail.self,
+.search-result.has-thumbnail>.thumbnail.default,
+.search-result.has-thumbnail>.thumbnail.nsfw,
+.search-result.has-thumbnail>.thumbnail.image,
 .search-result.has-thumbnail>.thumbnail.spoiler {
     margin-right: 28px;
     flex: 0 0 56px
@@ -3547,7 +3547,7 @@ body #newlink-with-image-upload .file-upload-button {
     padding: 8px 0
 }
 
-.wiki-page .wiki-page-content .wiki > .toc > ul {
+.wiki-page .wiki-page-content .wiki>.toc>ul {
     border: none
 }
 
@@ -3569,7 +3569,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .wiki-page .wiki-page-content .wikirevisionlisting table tr:hover {
-    background-color: rgba(0, 0, 0, .10)!important
+    background-color: rgba(0, 0, 0, .10) !important
 }
 
 .linefield,
@@ -3623,7 +3623,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .tabmenu li {
-    margin: 0!important
+    margin: 0 !important
 }
 
 .tabmenu li a {
@@ -3828,18 +3828,18 @@ ul.image-preview-list li {
 }
 
 .res .link .tagline a.voteWeight {
-    background-color: transparent!important
+    background-color: transparent !important
 }
 
 .res .thing .tagline .author.moderator {
-    background-color: #27b062!important;
+    background-color: #27b062 !important;
     color: #FFF;
     padding: 1px 4px;
     border-radius: 1px
 }
 
-#header-bottom-right #userbarToggle + * {
-    margin-left: 0!important
+#header-bottom-right #userbarToggle+* {
+    margin-left: 0 !important
 }
 
 .res .srSep {
@@ -3860,9 +3860,9 @@ ul.image-preview-list li {
 #RESShortcutsLeft,
 #RESShortcutsAdd,
 #RESShortcutsTrash {
-    background-color: transparent!important;
-    color: rgba(255, 255, 255, 0.45)!important;
-    top: 1px!important;
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.45) !important;
+    top: 1px !important;
     padding-right: 23px
 }
 
@@ -3882,11 +3882,11 @@ ul.image-preview-list li {
 }
 
 .pinHeader-header:before {
-    display: none!important
+    display: none !important
 }
 
 .pinHeader-header .content {
-    margin-top: 12px!important
+    margin-top: 12px !important
 }
 
 .pinHeader-header .side {
@@ -3905,7 +3905,7 @@ ul.image-preview-list li {
 }
 
 .res.search-page #header .tabmenu {
-    display: none!important
+    display: none !important
 }
 
 .res #header-bottom-right {
@@ -3933,7 +3933,7 @@ ul.image-preview-list li {
 }
 
 .res #header-bottom-right .user {
-    font-size: 0!important
+    font-size: 0 !important
 }
 
 .res #header-bottom-right .user a {
@@ -3943,7 +3943,7 @@ ul.image-preview-list li {
 
 .res #sr-header-area a.RESShortcutsCurrentSub,
 .res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-    color: #fff!important;
+    color: #fff !important;
     border-bottom: 2px solid #fff
 }
 
@@ -3964,9 +3964,9 @@ ul.image-preview-list li {
     max-width: 100%
 }
 
-.res .commentarea > .usertext {
+.res .commentarea>.usertext {
     margin-top: -76px;
-    padding-top: 80px!important
+    padding-top: 80px !important
 }
 
 .res .content .RESBigEditorPop {
@@ -3984,13 +3984,13 @@ ul.image-preview-list li {
 }
 
 html.res-commentBoxes .comment {
-    margin-left: 0!important;
-    margin-right: 0!important
+    margin-left: 0 !important;
+    margin-right: 0 !important
 }
 
 .res .commentarea .thing {
-    border: none!important;
-    border-radius: 2px!important
+    border: none !important;
+    border-radius: 2px !important
 }
 
 .res .titlebox .tagline {
@@ -3999,7 +3999,7 @@ html.res-commentBoxes .comment {
 
 .res .RESshortcutside,
 .res .RESDashboardToggle {
-    background-image: none!important;
+    background-image: none !important;
     border: none;
     color: #4D5763;
     text-transform: uppercase;
@@ -4059,7 +4059,7 @@ html.res-commentBoxes .comment {
 }
 
 .res h1.hover.redditname {
-    overflow: visible!important
+    overflow: visible !important
 }
 
 .res .commentarea .panestack-title {
@@ -4073,7 +4073,7 @@ html.res-commentBoxes .comment {
 }
 
 .gearIcon {
-    background: url(%%spritesheet%%) -64px 0!important;
+    background: url(%%spritesheet%%) -64px 0 !important;
     position: relative;
     top: 2px;
     transition: all .25s ease
@@ -4081,9 +4081,9 @@ html.res-commentBoxes .comment {
 
 #RESMainGearOverlay {
     background-color: #516ae8;
-    top: 0!important;
-    height: 26px!important;
-    border-radius: 0!important
+    top: 0 !important;
+    height: 26px !important;
+    border-radius: 0 !important
 }
 
 .RESDropdownList {
@@ -4154,16 +4154,16 @@ html.res-commentBoxes .comment {
 }
 
 .markdownEditor .edit-btn:not(.btn-macro) {
-    border: 0 solid!important;
+    border: 0 solid !important;
     border-radius: 1px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12)
 }
 
-body.listing-page > .content,
-body.other-discussions-page > .content,
+body.listing-page>.content,
+body.other-discussions-page>.content,
 .comments-page .link,
-.commentarea > .sitetable > .comment,
-#bottom-comments:not(.child) > .sitetable > .comment,
+.commentarea>.sitetable>.comment,
+#bottom-comments:not(.child)>.sitetable>.comment,
 #images,
 .sponsorshipbox,
 .stylesheet-customize-container .pretty-form,
@@ -4179,7 +4179,7 @@ body.other-discussions-page > .content,
 .login-form-side,
 #ad_main_top,
 .search-result-subreddit,
-.search-result-listing + .search-result-listing .contents,
+.search-result-listing+.search-result-listing .contents,
 [class] .searchfacets {
     background: #fff;
     padding: 16px;
@@ -4187,8 +4187,8 @@ body.other-discussions-page > .content,
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
 }
 
-.commentarea > .sitetable > .comment,
-#bottom-comments > .sitetable > .comment {
+.commentarea>.sitetable>.comment,
+#bottom-comments>.sitetable>.comment {
     padding-left: 10px
 }
 
@@ -4232,31 +4232,37 @@ body.other-discussions-page > .content,
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     20% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     25% {
         transform: translateY(-8px);
         -webkit-transform: translateY(-8px);
         opacity: 1
     }
+
     27% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     92% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     97% {
         transform: translateY(16px);
         -webkit-transform: translateY(16px);
         opacity: 1
     }
+
     100% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
@@ -4270,31 +4276,37 @@ body.other-discussions-page > .content,
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     20% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     25% {
         transform: translateY(-8px);
         -webkit-transform: translateY(-8px);
         opacity: 1
     }
+
     27% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     92% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     97% {
         transform: translateY(16px);
         -webkit-transform: translateY(16px);
         opacity: 1
     }
+
     100% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
@@ -4308,31 +4320,37 @@ body.other-discussions-page > .content,
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     20% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     25% {
         transform: translateY(-8px);
         -webkit-transform: translateY(-8px);
         opacity: 1
     }
+
     27% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     92% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     97% {
         transform: translateY(16px);
         -webkit-transform: translateY(16px);
         opacity: 1
     }
+
     100% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
@@ -4346,31 +4364,37 @@ body.other-discussions-page > .content,
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     20% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
         opacity: 0
     }
+
     25% {
         transform: translateY(-8px);
         -webkit-transform: translateY(-8px);
         opacity: 1
     }
+
     27% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     92% {
         transform: translateY(00px);
         -webkit-transform: translateY(00px);
         opacity: 1
     }
+
     97% {
         transform: translateY(16px);
         -webkit-transform: translateY(16px);
         opacity: 1
     }
+
     100% {
         transform: translateY(76px);
         -webkit-transform: translateY(76px);
@@ -4384,12 +4408,15 @@ body.other-discussions-page > .content,
         -webkit-transform: scale(0, 0);
         opacity: 1
     }
+
     45% {
         opacity: 1
     }
+
     98% {
         opacity: 0
     }
+
     100% {
         transform: scale(1.5, 1.5);
         -webkit-transform: scale(1.5, 1.5);
@@ -4403,12 +4430,15 @@ body.other-discussions-page > .content,
         -webkit-transform: scale(0, 0);
         opacity: 1
     }
+
     45% {
         opacity: 1
     }
+
     98% {
         opacity: 0
     }
+
     100% {
         transform: scale(1.5, 1.5);
         -webkit-transform: scale(1.5, 1.5);
@@ -4422,12 +4452,15 @@ body.other-discussions-page > .content,
         -webkit-transform: scale(0, 0);
         opacity: 1
     }
+
     45% {
         opacity: 1
     }
+
     98% {
         opacity: 0
     }
+
     100% {
         transform: scale(1.5, 1.5);
         -webkit-transform: scale(1.5, 1.5);
@@ -4441,12 +4474,15 @@ body.other-discussions-page > .content,
         -webkit-transform: scale(0, 0);
         opacity: 1
     }
+
     45% {
         opacity: 1
     }
+
     98% {
         opacity: 0
     }
+
     100% {
         transform: scale(1.5, 1.5);
         -webkit-transform: scale(1.5, 1.5);
