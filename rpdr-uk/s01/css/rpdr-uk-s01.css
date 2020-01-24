@@ -2136,7 +2136,7 @@ div.titlebox span.number:after {
 
 .submit-text .morelink a:before {
     font-size: 12px;
-    content: "Submit Text";
+    content: "Submit A New Text Post";
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -2147,7 +2147,7 @@ div.titlebox span.number:after {
 
 .submit-link .morelink a:before {
     font-size: 12px;
-    content: "Submit Link";
+    content: "Submit A New Link";
     text-transform: uppercase;
     letter-spacing: 1px;
 }
