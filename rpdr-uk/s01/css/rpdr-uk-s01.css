@@ -146,6 +146,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
     transition: all .15s ease
 }
 
+/*
 #sr-header-area:hover .sr-bar a,
 #sr-header-area:hover #sr-more-link,
 #sr-header-area:hover .seperator,
@@ -153,13 +154,14 @@ body:not(.loggedin) #sr-header-area .width-clip {
     color: rgba(255, 255, 255, 0.8)
 }
 
-#sr-header-area .sr-bar a:hover,
+ #sr-header-area .sr-bar a:hover,
 #sr-more-link:hover,
 #sr-header-area .dropdown.srdrop .selected:hover {
     background: none;
     border: none;
     transition: all .15s ease
 }
+*/
 
 a.random.choice {
     padding-top: 2px;
