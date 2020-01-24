@@ -2131,7 +2131,9 @@ div.titlebox span.number:after {
 }
 
 .submit-text .morelink a {
-    background-color: #f7c6c2;
+    /* background-color: #f7c6c2; */
+    background: rgb(254,238,237);
+    background: linear-gradient(180deg, rgba(254,238,237,1) 0%, rgba(247,203,200,1) 52%, rgba(247,198,194,1) 100%);
 }
 
 .submit-text .morelink a:before {
@@ -2142,7 +2144,9 @@ div.titlebox span.number:after {
 }
 
 .submit-link .morelink a {
-    background-color: #f7c6c2 !important;
+    /* background-color: #f7c6c2 !important; */
+    background: rgb(254,238,237);
+    background: linear-gradient(180deg, rgba(254,238,237,1) 0%, rgba(247,203,200,1) 52%, rgba(247,198,194,1) 100%);
 }
 
 .submit-link .morelink a:before {
