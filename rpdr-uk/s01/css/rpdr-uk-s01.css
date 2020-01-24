@@ -2098,12 +2098,12 @@ div.titlebox span.number:after {
 }
 
 .morelink {
-    background: #0079d3;
     height: 36px;
     border-radius: 2px;
     font-size: 14px;
     line-height: 36px;
-    border: none;
+    border-color: #eaaeae;
+    border-width: 2px;
     text-align: center;
     padding: 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
@@ -2124,30 +2124,39 @@ div.titlebox span.number:after {
 }
 
 .morelink a {
-    color: #fff;
-    font-weight: 400;
-    letter-spacing: 0
+    color: #a9282c;
+    font-weight: 700;
+    letter-spacing: 0.5
+}
+
+.submit-text .morelink a {
+    background-color: #f7c6c2;
 }
 
 .submit-text .morelink a:before {
-    font-size: 14px;
-    content: "Submit Text"
+    font-size: 12px;
+    content: "Submit Text";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submit-link .morelink a {
+    background-color: #f7c6c2 !important;
 }
 
 .submit-link .morelink a:before {
-    font-size: 14px;
-    content: "Submit Link"
+    font-size: 12px;
+    content: "Submit Link";
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .submit-text .morelink:before,
 .submit-link .morelink:after {
-    content: "N/A";
     position: absolute;
     left: -168px;
     top: 0;
     width: 152px;
-    color: rgba(0, 0, 0, 0.32);
-    border-radius: 2px;
     background: rgba(0, 0, 0, 0.08);
     font-weight: 400;
     z-index: -1
