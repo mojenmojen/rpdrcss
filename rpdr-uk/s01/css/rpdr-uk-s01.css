@@ -1788,7 +1788,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .side {
     margin: 282px 16px 108px 0;
-    padding-top: 275px;
+    padding-top: 305px;
     background: none;
     width: 320px
 }
@@ -1802,7 +1802,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     content: "";
     display: block;
     position: absolute;
-    top: 500px;
+    top: 545px;
     width: 320px;
     height: 320px;
     z-index: 1;
@@ -2120,13 +2120,14 @@ div.titlebox span.number:after {
 }
 
 .sidebox.submit.submit-text .morelink {
-    margin-left: 168px
+    /* margin-left: 168px */
+    margin-top: 50px;
 }
 
 .morelink a {
     color: #a9282c;
     font-weight: 700;
-    letter-spacing: 0.5
+    letter-spacing: 0.5px;
 }
 
 .submit-text .morelink a {
@@ -2196,7 +2197,7 @@ div.titlebox span.number:after {
     position: absolute;
     top: 442px;
     font-size: 0;
-    width: 152px
+    width: 320px
 }
 
 .wiki-page .wiki-page-content .discussionlink {
