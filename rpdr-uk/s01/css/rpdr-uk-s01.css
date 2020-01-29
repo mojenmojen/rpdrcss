@@ -4576,3 +4576,79 @@ body.other-discussions-page>.content,
         opacity: 0
     }
 }
+
+/*** FLAIRS ***/
+.flair-plain:before {
+    content: normal;
+}
+
+.flair {
+    cursor: default;
+    padding: 0;
+    border: 0;
+    background: url(%%uk-s01-flairsheet%%) no-repeat -9999px;
+    text-indent: -9999em;
+    white-space: nowrap;
+}
+
+
+.flair-baga {
+    width: 154px;
+    height: 40px;
+    background-position: -5px -5px;
+}
+
+.flair-blu {
+    width: 154px;
+    height: 40px;
+    background-position: -5px -55px;
+}
+
+.flair-cheryl {
+    width: 154px;
+    height: 40px;
+    background-position: -5px -105px;
+}
+
+.flair-crystal {
+    width: 154px;
+    height: 40px;
+    background-position: -5px -155px;
+}
+
+.flair-divina {
+    width: 154px;
+    height: 40px;
+    background-position: -5px -205px;
+}
+
+.flair-gothy {
+    width: 180px;
+    height: 40px;
+    background-position: -169px -5px;
+}
+
+.flair-scaredy {
+    width: 180px;
+    height: 40px;
+    background-position: -169px -55px;
+}
+
+.flair-sum {
+    width: 154px;
+    height: 40px;
+    background-position: -169px -105px;
+}
+
+.flair-vinegar {
+    width: 154px;
+    height: 40px;
+    background-position: -169px -155px;
+}
+
+.flair-vivienne {
+    width: 154px;
+    height: 40px;
+    background-position: -169px -205px;
+}
+
