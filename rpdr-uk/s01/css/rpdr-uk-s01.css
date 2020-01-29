@@ -702,6 +702,30 @@ body>.content .link .rank,
     border-radius: 0;
 }
 
+.spoiler .entry .title a.title:before {
+    font-size: 0;
+    position: absolute;
+    display: block;
+    content: '';
+    background: url(%%spritesheet-icons%%) no-repeat -5px -87px;
+    width: 385px;
+    height: 21px;
+}
+
+.spoiler .entry .title a.title {
+    color: #51060a !important;
+    background-color: #51060a;
+}
+
+.spoiler .entry .title a.title:hover {
+    color: inherit !important;
+    background: 0 0 !important;
+}
+
+.spoiler .entry .title a.title:hover:before {
+    display: none;
+}
+
 .link .entry {
     padding: 0;
     margin: 0;
