@@ -666,7 +666,10 @@ body>.content .link .rank,
 }
 
 .thumbnail.nsfw {
-    background: #e85881 url(%%spritesheet%%) -96px -104px
+    background: url(%%spritesheet-icons%%) no-repeat -5px -5px;
+    width: 73px;
+    height: 72px;
+    border-radius: 0;
 }
 
 .thumbnail[data-href-url*="reddit.com"] {
@@ -681,8 +684,22 @@ body>.content .link .rank,
     background-color: #2db747
 }
 
+.over18 .thumbnail img {
+    display: none;
+}
+
+.over18 .thumbnail {
+    background: url(%%spritesheet-icons%%) no-repeat -5px -5px;
+    width: 73px;
+    height: 72px;
+    border-radius: 0;
+}
+
 .thumbnail.spoiler {
-    background: #F44336 url(%%spritesheet%%) -208px -148px
+    background: url(%%spritesheet-icons%%) no-repeat -88px -5px;
+    width: 73px;
+    height: 72px;
+    border-radius: 0;
 }
 
 .link .entry {
