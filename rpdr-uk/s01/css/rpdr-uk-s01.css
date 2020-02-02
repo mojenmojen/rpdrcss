@@ -2442,7 +2442,9 @@ div.titlebox span.number:after {
     padding: 10px 0;
     color: #49506d;
     content: "Subreddit CSS Theme by /r/Naut";
-    font: 16px Lato, Arial, sans-serif;
+    font: 12px Lato, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     position: absolute;
     width: 320px;
     border: 1px solid rgba(0, 0, 0, 0.06);
