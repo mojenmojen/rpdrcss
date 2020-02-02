@@ -681,7 +681,7 @@ body>.content .link .rank,
 }
 
 .stickied .thumbnail {
-    background-color: #2db747
+    background-color: #ad4347
 }
 
 .over18 .thumbnail img {
@@ -2717,7 +2717,7 @@ div.titlebox span.number:after {
 }
 
 .res-nightmode .stickied .thumbnail {
-    background: #2db747 url(%%spritesheet%%) -96px -48px
+    background: #ad4347 url(%%spritesheet%%) -96px -48px
 }
 
 .res-nightmode body,
