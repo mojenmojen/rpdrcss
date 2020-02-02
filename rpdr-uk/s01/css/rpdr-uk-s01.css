@@ -3293,7 +3293,9 @@ body.mod-toolbox .tb-action-button {
 
 .submit-page .roundfield span.title {
     color: #292f34;
-    text-transform: capitalize
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 90%;
 }
 
 .submit-page #url-field button {
