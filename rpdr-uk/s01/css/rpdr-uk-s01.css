@@ -3107,6 +3107,10 @@ body.mod-toolbox .tb-action-button {
     margin-top: 400px
 }
 
+.comments-page .side:before {
+    margin-top: 95px;
+}
+
 .comments-page .side .linkinfo,
 .other-discussions-page .side .linkinfo {
     position: absolute;
