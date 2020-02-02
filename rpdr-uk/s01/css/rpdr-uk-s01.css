@@ -965,7 +965,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .tagline .userattrs .moderator {
-    background: #27b062
+    background: #ad4347
 }
 
 .tagline .userattrs .admin {
@@ -1165,13 +1165,13 @@ body .content .sitetable .link .title a:hover {
 }
 
 .linkflair-mod .linkflairlabel {
-    background: #27b062;
+    background: #ad4347;
     color: #fff
 }
 
 .linkflair-mod .thumbnail.default,
 .linkflair-mod .thumbnail.self {
-    background: #27b062 url(%%spritesheet%%) -208px -104px
+    background: #ad4347 url(%%spritesheet%%) -208px -104px
 }
 
 body .content .thing.spam {
@@ -1275,12 +1275,12 @@ b {
 .thing.link.stickied a.title,
 .thing.link.stickied li a,
 .thing.link.stickied .entry li .comments {
-    color: #27b062 !important
+    color: #ad4347 !important
 }
 
 .thing.link.stickied .expando-button:hover {
-    background-color: #27b062 !important;
-    border-color: #27b062 !important
+    background-color: #ad4347 !important;
+    border-color: #ad4347 !important
 }
 
 .tagline .stickied-tagline {
@@ -1290,7 +1290,7 @@ b {
 
 .stickied.comment>.entry a,
 .stickied.comment .tagline .stickied-tagline {
-    color: #27b062
+    color: #ad4347
 }
 
 .content .spacer {
@@ -1769,7 +1769,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar {
-    background: #27B062
+    background: #ad4347
 }
 
 .reddit-infobar.with-icon.locked-infobar .md {
@@ -1781,7 +1781,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar:before {
-    background-color: #27B062;
+    background-color: #ad4347;
     border-right: 1px solid rgba(0, 0, 0, 0.08)
 }
 
@@ -1981,7 +1981,7 @@ div.titlebox span.number:after {
 }
 
 .titlebox .fancy-toggle-button .active.add {
-    background: #27b062;
+    background: #ad4347;
     color: #fff
 }
 
@@ -2672,7 +2672,7 @@ div.titlebox span.number:after {
 }
 
 .green {
-    color: #27b062 !important;
+    color: #ad4347 !important;
     font-weight: 700
 }
 
@@ -3919,7 +3919,7 @@ ul.image-preview-list li {
 }
 
 .res .thing .tagline .author.moderator {
-    background-color: #27b062 !important;
+    background-color: #ad4347 !important;
     color: #FFF;
     padding: 1px 4px;
     border-radius: 1px
