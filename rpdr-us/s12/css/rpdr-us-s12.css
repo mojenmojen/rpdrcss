@@ -8,7 +8,7 @@
 
 body {
     overflow-x: hidden;
-    background: #f6d8d6;
+    background: #1a2f6e;
     min-width: 920px
 }
 
@@ -113,7 +113,7 @@ button:active,
     margin: 0;
     height: 275px;
     border: none;
-    background: url(%%HEADER%%) 50% 50% / cover no-repeat;
+    background: url(%%header-s12%%) 50% 50% / cover no-repeat;
     z-index: 1;
     /* box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12) */
 }
