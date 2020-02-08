@@ -3972,7 +3972,7 @@ ul.image-preview-list li {
 
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
-    background-image: url(%%HEADER%%);
+    background-image: url(%%header-s12%%);
     background-position: 50% 0
 }
 
@@ -3999,7 +3999,7 @@ ul.image-preview-list li {
 
 .pinHeader-header #header {
     top: 0;
-    background-image: url(%%HEADER%%);
+    background-image: url(%%header-s12%%);
     height: 84px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24)
 }
@@ -4599,69 +4599,164 @@ body.other-discussions-page>.content,
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%uk-s01-flairsheet%%) no-repeat -9999px;
+    background: url(%%us-s12-flairsheet%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
 
 
-.flair-baga {
-    width: 154px;
-    height: 40px;
+.flair-aiden {
+    width: 122px;
+    height: 28px;
     background-position: -5px -5px;
 }
 
-.flair-blu {
-    width: 154px;
-    height: 40px;
-    background-position: -5px -55px;
-}
-
-.flair-cheryl {
-    width: 154px;
-    height: 40px;
-    background-position: -5px -105px;
+.flair-brita {
+    width: 112px;
+    height: 28px;
+    background-position: -137px -5px;
 }
 
 .flair-crystal {
-    width: 154px;
-    height: 40px;
-    background-position: -5px -155px;
+    width: 142px;
+    height: 28px;
+    background-position: -5px -43px;
 }
 
-.flair-divina {
-    width: 154px;
-    height: 40px;
-    background-position: -5px -205px;
+.flair-dahlia {
+    width: 111px;
+    height: 28px;
+    background-position: -157px -43px;
 }
 
-.flair-gothy {
-    width: 180px;
-    height: 40px;
-    background-position: -169px -5px;
+.flair-gigi {
+    width: 111px;
+    height: 28px;
+    background-position: -5px -81px;
 }
 
-.flair-scaredy {
-    width: 180px;
-    height: 40px;
-    background-position: -169px -55px;
+.flair-heidi {
+    width: 133px;
+    height: 28px;
+    background-position: -126px -81px;
 }
 
-.flair-sum {
-    width: 154px;
-    height: 40px;
-    background-position: -169px -105px;
+.flair-jackie {
+    width: 122px;
+    height: 28px;
+    background-position: -5px -119px;
 }
 
-.flair-vinegar {
-    width: 154px;
-    height: 40px;
-    background-position: -169px -155px;
+.flair-jaida {
+    width: 142px;
+    height: 28px;
+    background-position: -137px -119px;
 }
 
-.flair-vivienne {
-    width: 154px;
-    height: 40px;
-    background-position: -169px -205px;
+.flair-jan {
+    width: 78px;
+    height: 28px;
+    background-position: -259px -5px;
 }
 
+.flair-nicky {
+    width: 111px;
+    height: 28px;
+    background-position: -5px -157px;
+}
+
+.flair-rock {
+    width: 142px;
+    height: 28px;
+    background-position: -126px -157px;
+}
+
+.flair-sherry {
+    width: 122px;
+    height: 28px;
+    background-position: -5px -195px;
+}
+
+.flair-widow {
+    width: 142px;
+    height: 28px;
+    background-position: -137px -195px;
+}
+
+.flair-z-aiden {
+    width: 122px;
+    height: 28px;
+    background-position: -5px -233px;
+}
+
+.flair-z-brita {
+    width: 112px;
+    height: 28px;
+    background-position: -137px -233px;
+}
+
+.flair-z-crystal {
+    width: 142px;
+    height: 28px;
+    background-position: -5px -271px;
+}
+
+.flair-z-dahlia {
+    width: 111px;
+    height: 28px;
+    background-position: -157px -271px;
+}
+
+.flair-z-gigi {
+    width: 111px;
+    height: 28px;
+    background-position: -5px -309px;
+}
+
+.flair-z-heidi {
+    width: 133px;
+    height: 28px;
+    background-position: -126px -309px;
+}
+
+.flair-z-jackie {
+    width: 122px;
+    height: 28px;
+    background-position: -347px -5px;
+}
+
+.flair-z-jaida {
+    width: 142px;
+    height: 28px;
+    background-position: -278px -43px;
+}
+
+.flair-z-jan {
+    width: 78px;
+    height: 28px;
+    background-position: -269px -81px;
+}
+
+.flair-z-nicky {
+    width: 111px;
+    height: 28px;
+    background-position: -357px -81px;
+}
+
+.flair-z-rock {
+    width: 142px;
+    height: 28px;
+    background-position: -289px -119px;
+}
+
+.flair-z-sherry {
+    width: 122px;
+    height: 28px;
+    background-position: -278px -157px;
+}
+
+.flair-z-widow {
+    width: 142px;
+    height: 28px;
+    background-position: -289px -195px;
+}
