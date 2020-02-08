@@ -1889,7 +1889,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     height: 65px;
     width: 300px;
     margin-top: -5px;
-    background-image: url(%%SIDELOGO%%);
+    background-image: url(%%sidelogo-s12%%);
     background-repeat: no-repeat;
     background-size: auto 100%;
     text-indent: -9999px;
@@ -2146,7 +2146,7 @@ div.titlebox span.number:after {
     border-radius: 2px;
     font-size: 14px;
     line-height: 36px;
-    border-color: #eaaeae;
+    border-color: #9da7c0; /* button box border */
     border-width: 2px;
     text-align: center;
     padding: 0;
@@ -2169,15 +2169,15 @@ div.titlebox span.number:after {
 }
 
 .morelink a {
-    color: #a9282c;
+    color: #e3e5f1;  /* letter colour on buttons */
     font-weight: 700;
     letter-spacing: 0.5px;
 }
 
 .submit-text .morelink a {
-    /* background-color: #f7c6c2; */
-    background: rgb(254,238,237);
-    background: linear-gradient(180deg, rgba(254,238,237,1) 0%, rgba(247,203,200,1) 52%, rgba(247,198,194,1) 100%);
+    /* text button gradient */
+    background: rgb(198,206,242);
+    background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);
 }
 
 .submit-text .morelink a:before {
@@ -2188,9 +2188,9 @@ div.titlebox span.number:after {
 }
 
 .submit-link .morelink a {
-    /* background-color: #f7c6c2 !important; */
-    background: rgb(254,238,237);
-    background: linear-gradient(180deg, rgba(254,238,237,1) 0%, rgba(247,203,200,1) 52%, rgba(247,198,194,1) 100%);
+    /* link button gradient */
+    background: rgb(198,206,242);
+    background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);
 }
 
 .submit-link .morelink a:before {
