@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #49506d;
+    color: #414d63; /* post title colour */
     transition: color .15s ease
 }
 
@@ -62,7 +62,7 @@ body .content input[type=text]:focus,
 body .content input[type=password]:focus,
 .side .spacer input:active,
 body .content input[type=url]:focus {
-    border-color: #49506d;
+    border-color: #6e6d7b;
     color: #292f34
 }
 
@@ -674,7 +674,7 @@ body>.content .link .rank,
 }
 
 .thumbnail[data-href-url*="reddit.com"] {
-    background: #49506d url(%%spritesheet%%) -152px -104px
+    background: #6e6d7b url(%%spritesheet%%) -152px -104px
 }
 
 .thumbnail[data-href-url*="reddit.com"] img {
@@ -682,7 +682,7 @@ body>.content .link .rank,
 }
 
 .stickied .thumbnail {
-    background-color: #ad4347
+    background-color: #1748b1
 }
 
 .over18 .thumbnail img {
@@ -741,14 +741,14 @@ body>.content .link .rank,
 }
 
 body .content .sitetable .link .title a:hover {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .thing .title.loggedin.click,
 .thing .title.click,
 .thing .title.loggedin,
 .thing .title {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .content .thing .title:visited,
@@ -758,7 +758,7 @@ body .content .sitetable .link .title a:hover {
 
 .thing .title.loggedin.click:visited,
 .thing .title.click:visited {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .link .domain {
@@ -774,7 +774,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .domain a:hover {
-    color: #49506d;
+    color: #6e6d7b;
     text-decoration: none
 }
 
@@ -937,7 +937,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .entry .tagline a:hover {
-    color: #49506d;
+    color: #6e6d7b;
     text-decoration: none
 }
 
@@ -966,7 +966,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .tagline .userattrs .moderator {
-    background: #ad4347
+    background: #1748b1
 }
 
 .tagline .userattrs .admin {
@@ -974,7 +974,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .tagline .userattrs .submitter {
-    background: #49506d
+    background: #6e6d7b
 }
 
 .tagline .userattrs .friend {
@@ -1020,7 +1020,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .entry .buttons li a:hover {
-    color: #49506d;
+    color: #6e6d7b;
     text-decoration: none
 }
 
@@ -1051,7 +1051,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .entry .buttons li a.comments {
-    color: #49506d;
+    color: #6e6d7b;
     font-weight: 700 !important;
     transition: all .25s ease-in-out !important
 }
@@ -1166,13 +1166,13 @@ body .content .sitetable .link .title a:hover {
 }
 
 .linkflair-mod .linkflairlabel {
-    background: #ad4347;
+    background: #1748b1;
     color: #fff
 }
 
 .linkflair-mod .thumbnail.default,
 .linkflair-mod .thumbnail.self {
-    background: #ad4347 url(%%spritesheet%%) -208px -104px
+    background: #1748b1 url(%%spritesheet%%) -208px -104px
 }
 
 body .content .thing.spam {
@@ -1276,12 +1276,12 @@ b {
 .thing.link.stickied a.title,
 .thing.link.stickied li a,
 .thing.link.stickied .entry li .comments {
-    color: #ad4347 !important
+    color: #1748b1 !important
 }
 
 .thing.link.stickied .expando-button:hover {
-    background-color: #ad4347 !important;
-    border-color: #ad4347 !important
+    background-color: #1748b1 !important;
+    border-color: #1748b1 !important
 }
 
 .tagline .stickied-tagline {
@@ -1291,7 +1291,7 @@ b {
 
 .stickied.comment>.entry a,
 .stickied.comment .tagline .stickied-tagline {
-    color: #ad4347
+    color: #1748b1
 }
 
 .content .spacer {
@@ -1385,7 +1385,7 @@ body>.content .link.compressed .midcol {
 .flairselector h2 {
     margin-bottom: 4px;
     background: none;
-    color: #49506d;
+    color: #6e6d7b;
     text-align: left;
     text-transform: capitalize;
     font-weight: 400;
@@ -1421,7 +1421,7 @@ body>.content .link.compressed .midcol {
 .flairoptionpane ul li .linkflair a.title {
     font-size: 18px !important;
     opacity: 100 !important;
-    color: #49506d !important
+    color: #6e6d7b !important
 }
 
 .flairselector form {
@@ -1442,7 +1442,7 @@ body>.content .link.compressed .midcol {
 .flairselector form .flairselection .linkflair a.title {
     font-size: 18px !important;
     opacity: 100 !important;
-    color: #49506d !important;
+    color: #6e6d7b !important;
     cursor: default
 }
 
@@ -1456,7 +1456,7 @@ body>.content .link.compressed .midcol {
 .flairselector form .flairselection .flairremove a {
     visibility: visible;
     opacity: 100 !important;
-    color: #49506d !important;
+    color: #6e6d7b !important;
     margin-left: -4px;
     text-transform: capitalize
 }
@@ -1770,7 +1770,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar {
-    background: #ad4347
+    background: #1748b1
 }
 
 .reddit-infobar.with-icon.locked-infobar .md {
@@ -1782,7 +1782,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar:before {
-    background-color: #ad4347;
+    background-color: #1748b1;
     border-right: 1px solid rgba(0, 0, 0, 0.08)
 }
 
@@ -1982,7 +1982,7 @@ div.titlebox span.number:after {
 }
 
 .titlebox .fancy-toggle-button .active.add {
-    background: #ad4347;
+    background: #1748b1;
     color: #fff
 }
 
@@ -2362,7 +2362,7 @@ div.titlebox span.number:after {
     padding: 0 16px;
     background: #FFF;
     border-radius: 2px;
-    color: #49506d;
+    color: #6e6d7b;
     font-weight: 700;
     display: block;
     margin: 1.5em 0;
@@ -2414,7 +2414,7 @@ div.titlebox span.number:after {
 
 .sidebox.create .morelink a {
     font-size: 14px;
-    color: #49506d
+    color: #6e6d7b
 }
 
 .sidebox .spacer {
@@ -2441,7 +2441,7 @@ div.titlebox span.number:after {
     display: block;
     margin: 0;
     padding: 10px 0;
-    color: #49506d;
+    color: #6e6d7b;
     content: "Subreddit CSS Theme by /r/Naut";
     font: 12px Lato, Arial, sans-serif;
     text-transform: uppercase;
@@ -2503,7 +2503,7 @@ div.titlebox span.number:after {
 
 .commentarea .menuarea .toggle a:hover,
 .help-hoverable:hover {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .help-hoverable {
@@ -2543,7 +2543,7 @@ div.titlebox span.number:after {
 }
 
 .usertext .bottom-area a.reddiquette {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .commentarea .usertext-edit .md {
@@ -2670,12 +2670,12 @@ div.titlebox span.number:after {
 }
 
 .comment .author:hover {
-    color: #49506d;
+    color: #6e6d7b;
     text-decoration: none
 }
 
 .green {
-    color: #ad4347 !important;
+    color: #1748b1 !important;
     font-weight: 700
 }
 
@@ -2720,7 +2720,7 @@ div.titlebox span.number:after {
 }
 
 .res-nightmode .stickied .thumbnail {
-    background: #ad4347 url(%%spritesheet%%) -96px -48px
+    background: #1748b1 url(%%spritesheet%%) -96px -48px
 }
 
 .res-nightmode body,
@@ -3037,7 +3037,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .md a {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .md a:visited {
@@ -3084,18 +3084,18 @@ body.mod-toolbox .tb-action-button {
 }
 
 .comment .flat-list li a:hover {
-    color: #49506d;
+    color: #6e6d7b;
     text-decoration: none
 }
 
 .comment .flat-list li a[onclick*="reply"] {
-    color: #49506d;
+    color: #6e6d7b;
     font-weight: 700;
     font-size: 11px
 }
 
 .deepthread a {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .morecomments a {
@@ -3502,7 +3502,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .combined-search-page .search-result .search-result-header .search-title {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .combined-search-page .search-result .search-result-meta {
@@ -3511,7 +3511,7 @@ body #newlink-with-image-upload .file-upload-button {
 
 .combined-search-page .search-result a,
 .combined-search-page .search-result a>mark {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .combined-search-page .search-result-subreddit .search-subscribe-button {
@@ -3533,7 +3533,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .combined-search-page .search-result .search-comments {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .search-result.has-thumbnail>.thumbnail {
@@ -3632,8 +3632,8 @@ body #newlink-with-image-upload .file-upload-button {
 
 .wiki-page .pageactions .wikiaction-current {
     padding: 10px 16px 9px;
-    border-bottom: 2px solid #49506d;
-    color: #49506d
+    border-bottom: 2px solid #6e6d7b;
+    color: #6e6d7b
 }
 
 .wiki-page .pageactions .wikiaction:hover,
@@ -3682,7 +3682,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .linefield .title {
-    color: #49506d;
+    color: #6e6d7b;
     text-transform: capitalize;
     padding: 0
 }
@@ -3701,7 +3701,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .usertext .bottom-area a:hover {
-    color: #49506d
+    color: #6e6d7b
 }
 
 .pretty-form {
@@ -3733,7 +3733,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
 .tabmenu li.selected a {
-    color: #49506d;
+    color: #6e6d7b;
     background: none;
     border: none
 }
@@ -3932,7 +3932,7 @@ ul.image-preview-list li {
 }
 
 .res .thing .tagline .author.moderator {
-    background-color: #ad4347 !important;
+    background-color: #1748b1 !important;
     color: #FFF;
     padding: 1px 4px;
     border-radius: 1px
@@ -4114,7 +4114,7 @@ html.res-commentBoxes .comment {
 .res .RESshortcutside:hover,
 .res .RESDashboardToggle:hover {
     background-color: transparent;
-    color: #49506d
+    color: #6e6d7b
 }
 
 .res #progressIndicator {
