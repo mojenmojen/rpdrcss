@@ -73,7 +73,7 @@ body button,
     margin: 4px 16px 4px 0;
     padding: 0 16px;
     /* background: #0079d3; */
-    background: #a3363c;
+    background: #cb0101;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -143,7 +143,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 #sr-header-area .separator,
 #sr-header-area .dropdown.srdrop .selected {
     background: none;
-    color: #a9282c;
+    color: #cb0101;
     transition: all .15s ease
 }
 
@@ -1047,7 +1047,7 @@ body .content .sitetable .link .title a:hover {
     position: relative;
     top: -1px;
     padding: 2px 3px;
-    background: #ea4876;
+    background: #cb0101;
     border-radius: 0;
     color: #fff;
     cursor: help
@@ -1905,7 +1905,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #a9282c;
+    color: #cb0101;
     margin-bottom: 10px;
 }
 
@@ -2667,13 +2667,13 @@ div.titlebox span.number:after {
 }
 
 .comment .author {
-    color: #292f34;
+    color: #d3d3d7;
     margin-right: 0;
     font-weight: 700
 }
 
 .comment .author:hover {
-    color: #6e6d7b;
+    color: #d3d3d7;
     text-decoration: none
 }
 
@@ -3272,7 +3272,7 @@ body.mod-toolbox .tb-action-button {
     letter-spacing: 2px;
     border: none;
     border-bottom: 4px solid transparent;
-    background-color: #b3545a;
+    background-color: #3e6a97;
     color: #aaa;
 }
 
@@ -3281,7 +3281,7 @@ body.mod-toolbox .tb-action-button {
     background: none;
     color: #fff;
     border-bottom: 4px solid;
-    background-color: #51060a;
+    background-color: #a11520;
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab a:hover {
