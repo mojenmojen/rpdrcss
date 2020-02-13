@@ -667,9 +667,9 @@ body>.content .link .rank,
 }
 
 .thumbnail.nsfw {
-    background: url(%%spritesheet-icons%%) no-repeat -5px -5px;
-    width: 73px;
-    height: 72px;
+    background: url(%%us-s12-icons%%) no-repeat -5px -5px;
+    width: 75px;
+    height: 75px;
     border-radius: 0;
 }
 
@@ -682,7 +682,10 @@ body>.content .link .rank,
 }
 
 .stickied .thumbnail {
-    background-color: #1748b1
+    background: url(%%us-s12-icons%%) -90px -5px;
+    width: 75px;
+    height: 75px;
+    border-radius: 0;
 }
 
 .over18 .thumbnail img {
@@ -690,16 +693,16 @@ body>.content .link .rank,
 }
 
 .over18 .thumbnail {
-    background: url(%%spritesheet-icons%%) no-repeat -5px -5px;
-    width: 73px;
-    height: 72px;
+    background: url(%%us-s12-icons%%) no-repeat -5px -5px;
+    width: 75px;
+    height: 75px;
     border-radius: 0;
 }
 
 .thumbnail.spoiler {
-    background: url(%%spritesheet-icons%%) no-repeat -88px -5px;
-    width: 73px;
-    height: 72px;
+    background: url(%%us-s12-icons%%) no-repeat -175px -5px;
+    width: 75px;
+    height: 75px;
     border-radius: 0;
 }
 
@@ -708,14 +711,14 @@ body>.content .link .rank,
     position: absolute;
     display: block;
     content: '';
-    background: url(%%spritesheet-icons%%) no-repeat -5px -87px;
+    background: url(%%us-s12-icons%%) no-repeat -5px -90px;
     width: 385px;
     height: 21px;
 }
 
 .spoiler .entry .title a.title {
-    color: #51060a !important;
-    background-color: #51060a;
+    color: #1748b1 !important;
+    background-color: #1748b1;
 }
 
 .spoiler .entry .title a.title:hover {
