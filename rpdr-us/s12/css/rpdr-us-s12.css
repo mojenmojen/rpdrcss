@@ -2178,6 +2178,7 @@ div.titlebox span.number:after {
     color: #e3e5f1;  /* letter colour on buttons */
     font-weight: 700;
     letter-spacing: 0.5px;
+    padding-left: 20px; /* to offset the nub */
 }
 
 .submit-text .morelink a {
