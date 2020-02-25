@@ -2672,13 +2672,13 @@ div.titlebox span.number:after {
 }
 
 .comment .author {
-    color: #d3d3d7;
+    color: #2c313e;
     margin-right: 0;
     font-weight: 700
 }
 
 .comment .author:hover {
-    color: #d3d3d7;
+    color: #2c313e;
     text-decoration: none
 }
 
