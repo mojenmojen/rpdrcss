@@ -2152,8 +2152,9 @@ div.titlebox span.number:after {
     border-radius: 2px;
     font-size: 14px;
     line-height: 36px;
-    border-color: #9da7c0; /* button box border */
-    border-width: 2px;
+    border: none !important;
+    /* border-color: #9da7c0; */ /* button box border */
+    /* border-width: 2px; */
     text-align: center;
     padding: 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
@@ -2178,13 +2179,13 @@ div.titlebox span.number:after {
     color: #e3e5f1;  /* letter colour on buttons */
     font-weight: 700;
     letter-spacing: 0.5px;
-    padding-left: 20px; /* to offset the nub */
 }
 
 .submit-text .morelink a {
     /* text button gradient */
-    background: rgb(198,206,242);
-    background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);
+    /* background: rgb(198,206,242);
+    background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%); */
+    background: #1846a6; /* no gradient */
 }
 
 .submit-text .morelink a:before {
@@ -2196,8 +2197,9 @@ div.titlebox span.number:after {
 
 .submit-link .morelink a {
     /* link button gradient */
-    background: rgb(198,206,242);
-    background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);
+    /*background: rgb(198,206,242);
+    background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);*/
+    background: #1846a6; /* no gradient */
 }
 
 .submit-link .morelink a:before {
