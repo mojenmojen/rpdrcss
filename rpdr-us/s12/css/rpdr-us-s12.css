@@ -1838,7 +1838,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .side {
     margin: 282px 16px 108px 0;
-    padding-top: 305px;
+    padding-top: 270px;
     background: none;
     width: 320px
 }
@@ -1852,7 +1852,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     content: "";
     display: block;
     position: absolute;
-    top: 545px;
+    top: 500px;
     width: 320px;
     height: 320px;
     z-index: 1;
@@ -2170,8 +2170,8 @@ div.titlebox span.number:after {
 }
 
 .sidebox.submit.submit-text .morelink {
-    /* margin-left: 168px */
-    margin-top: 50px;
+    margin-left: 168px
+    /* margin-top: 50px; */
 }
 
 .morelink a {
@@ -2188,7 +2188,7 @@ div.titlebox span.number:after {
 
 .submit-text .morelink a:before {
     font-size: 12px;
-    content: "Submit A New Text Post";
+    content: "Submit Text";
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -2201,7 +2201,7 @@ div.titlebox span.number:after {
 
 .submit-link .morelink a:before {
     font-size: 12px;
-    content: "Submit A New Link";
+    content: "Submit Link";
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -2251,7 +2251,8 @@ div.titlebox span.number:after {
     position: absolute;
     top: 442px;
     font-size: 0;
-    width: 320px
+   /*  width: 320px */
+   width: 152px;
 }
 
 .wiki-page .wiki-page-content .discussionlink {
@@ -3978,7 +3979,7 @@ ul.image-preview-list li {
 
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
-    background-image: url(%%header-s12%%);
+    background-image: url(%%header-s12-v02%%);
     background-position: 50% 0
 }
 
@@ -4005,7 +4006,7 @@ ul.image-preview-list li {
 
 .pinHeader-header #header {
     top: 0;
-    background-image: url(%%header-s12%%);
+    background-image: url(%%header-s12-v02%%);
     height: 84px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24)
 }
