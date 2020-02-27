@@ -3864,6 +3864,8 @@ ul.image-preview-list li {
     background: transparent;
     color: #98abba;
     padding-left: 0;
+    margin-left: 5px;
+    padding-top: 6px !important;
     margin-right: inherit
 }
 
@@ -4612,6 +4614,15 @@ body.other-discussions-page>.content,
     background: url(%%us-s12-flairsheet%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
+}
+
+/* don't forget the plain! */
+.flair-plain {
+    color: #1748b1;
+    padding: 0 4px;
+    font-weight: 700;
+    text-indent: 0;
+    vertical-align: 0!important;
 }
 
 
