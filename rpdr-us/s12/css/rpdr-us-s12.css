@@ -754,12 +754,12 @@ body .content .sitetable .link .title a:hover {
 .thing .title.click,
 .thing .title.loggedin,
 .thing .title {
-    color: #6e6d7b
+    color: #282360
 }
 
 .content .thing .title:visited,
 .content .thing.visited .title {
-    color: #738491
+    color: #9a9a9a
 }
 
 .thing .title.loggedin.click:visited,
