@@ -4781,3 +4781,50 @@ body.other-discussions-page>.content,
     height: 28px;
     background-position: -289px -195px;
 }
+
+/* moderator custom flairs */
+.flair[class*="2-"] { 
+    background-image: url(%%us-s12-modflairs%%); 
+}
+
+.flair-2-imbusy {
+    width: 136px;
+    height: 28px;
+    background-position: -5px -5px;
+}
+
+.flair-2-lifesnotfair {
+    width: 142px;
+    height: 28px;
+    background-position: -5px -43px;
+}
+
+.flair-2-naomismalls {
+    width: 142px;
+    height: 28px;
+    background-position: -5px -81px;
+}
+
+.flair-2-ninawest {
+    width: 142px;
+    height: 28px;
+    background-position: -5px -119px;
+}
+
+.flair-2-professional {
+    width: 142px;
+    height: 28px;
+    background-position: -5px -157px;
+}
+
+.flair-2-vanjie {
+    width: 122px;
+    height: 28px;
+    background-position: -151px -5px;
+}
+
+.flair-2-yuhua {
+    width: 120px;
+    height: 28px;
+    background-position: -157px -43px;
+}
