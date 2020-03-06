@@ -1,1 +1,0 @@
-placeholder filed until we add art & css for spoiled sub
