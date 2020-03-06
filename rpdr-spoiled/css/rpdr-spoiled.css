@@ -4602,186 +4602,6 @@ body.other-discussions-page>.content,
     }
 }
 
-/*** FLAIRS ***/
-.flair-plain:before {
-    content: normal;
-}
-
-.flair {
-    cursor: default;
-    padding: 0;
-    border: 0;
-    background: url(%%us-s12-flairsheet%%) no-repeat -9999px;
-    text-indent: -9999em;
-    white-space: nowrap;
-}
-
-/* don't forget the plain! */
-.flair-plain {
-    color: #1748b1;
-    padding: 0 4px;
-    font-weight: 700;
-    text-indent: 0;
-    vertical-align: 0!important;
-}
-
-
-.flair-aiden {
-    width: 122px;
-    height: 28px;
-    background-position: -5px -5px;
-}
-
-.flair-brita {
-    width: 112px;
-    height: 28px;
-    background-position: -137px -5px;
-}
-
-.flair-crystal {
-    width: 142px;
-    height: 28px;
-    background-position: -5px -43px;
-}
-
-.flair-dahlia {
-    width: 111px;
-    height: 28px;
-    background-position: -157px -43px;
-}
-
-.flair-gigi {
-    width: 111px;
-    height: 28px;
-    background-position: -5px -81px;
-}
-
-.flair-heidi {
-    width: 133px;
-    height: 28px;
-    background-position: -126px -81px;
-}
-
-.flair-jackie {
-    width: 122px;
-    height: 28px;
-    background-position: -5px -119px;
-}
-
-.flair-jaida {
-    width: 142px;
-    height: 28px;
-    background-position: -137px -119px;
-}
-
-.flair-jan {
-    width: 78px;
-    height: 28px;
-    background-position: -259px -5px;
-}
-
-.flair-nicky {
-    width: 111px;
-    height: 28px;
-    background-position: -5px -157px;
-}
-
-.flair-rock {
-    width: 142px;
-    height: 28px;
-    background-position: -126px -157px;
-}
-
-.flair-sherry {
-    width: 122px;
-    height: 28px;
-    background-position: -5px -195px;
-}
-
-.flair-widow {
-    width: 142px;
-    height: 28px;
-    background-position: -137px -195px;
-}
-
-.flair-z-aiden {
-    width: 122px;
-    height: 28px;
-    background-position: -5px -233px;
-}
-
-.flair-z-brita {
-    width: 112px;
-    height: 28px;
-    background-position: -137px -233px;
-}
-
-.flair-z-crystal {
-    width: 142px;
-    height: 28px;
-    background-position: -5px -271px;
-}
-
-.flair-z-dahlia {
-    width: 111px;
-    height: 28px;
-    background-position: -157px -271px;
-}
-
-.flair-z-gigi {
-    width: 111px;
-    height: 28px;
-    background-position: -5px -309px;
-}
-
-.flair-z-heidi {
-    width: 133px;
-    height: 28px;
-    background-position: -126px -309px;
-}
-
-.flair-z-jackie {
-    width: 122px;
-    height: 28px;
-    background-position: -347px -5px;
-}
-
-.flair-z-jaida {
-    width: 142px;
-    height: 28px;
-    background-position: -278px -43px;
-}
-
-.flair-z-jan {
-    width: 78px;
-    height: 28px;
-    background-position: -269px -81px;
-}
-
-.flair-z-nicky {
-    width: 111px;
-    height: 28px;
-    background-position: -357px -81px;
-}
-
-.flair-z-rock {
-    width: 142px;
-    height: 28px;
-    background-position: -289px -119px;
-}
-
-.flair-z-sherry {
-    width: 122px;
-    height: 28px;
-    background-position: -278px -157px;
-}
-
-.flair-z-widow {
-    width: 142px;
-    height: 28px;
-    background-position: -289px -195px;
-}
-
 /* moderator custom flairs */
 .flair[class*="2-"] { 
     background-image: url(%%us-s12-modflairs%%); 
@@ -4827,4 +4647,86 @@ body.other-discussions-page>.content,
     width: 120px;
     height: 28px;
     background-position: -157px -43px;
+}
+
+/* Queen Flairs */
+.flair {
+    cursor: default;
+    padding: 0;
+    border: 0;
+    background: url(%%spoiled-flairsheet%%) no-repeat -9999px;
+    text-indent: -9999em;
+    white-space: nowrap;
+}
+
+.flair-aiden {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -5px;
+}
+
+.flair-brita {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -48px;
+}
+
+.flair-crystal {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -91px;
+}
+
+.flair-gigi {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -134px;
+}
+
+.flair-heidi {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -177px;
+}
+
+.flair-jackie {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -220px;
+}
+
+.flair-jaida {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -5px;
+}
+
+.flair-jan {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -48px;
+}
+
+.flair-nicki {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -91px;
+}
+
+.flair-rock {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -134px;
+}
+
+.flair-sherry {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -177px;
+}
+
+.flair-widow {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -220px;
 }
