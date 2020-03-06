@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-nsfw {
+    width: 75px;
+    height: 75px;
+    background-position: -5px -5px;
+}
+
+.sprite-speakingofficially {
+    width: 75px;
+    height: 75px;
+    background-position: -90px -5px;
+}
+
+.sprite-text {
+    width: 75px;
+    height: 75px;
+    background-position: -5px -90px;
+}

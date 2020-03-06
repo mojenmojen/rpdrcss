@@ -659,7 +659,7 @@ body>.content .link .rank,
 }
 
 .thumbnail.self {
-    background: url(%%us-s12-icons-v02%%) no-repeat -260px -5px;
+    background: url(%%spoiled-icons%%) no-repeat -5px -90px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -670,7 +670,7 @@ body>.content .link .rank,
 }
 
 .thumbnail.nsfw {
-    background: url(%%us-s12-icons-v02%%) no-repeat -5px -5px;
+    background: url(%%spoiled-icons%%) no-repeat -5px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -685,7 +685,7 @@ body>.content .link .rank,
 }
 
 .stickied .thumbnail {
-    background: url(%%us-s12-icons-v02%%) -90px -5px;
+    background: url(%%spoiled-icons%%) -90px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -696,14 +696,15 @@ body>.content .link .rank,
 }
 
 .over18 .thumbnail {
-    background: url(%%us-s12-icons-v02%%) no-repeat -5px -5px;
+    background: url(%%spoiled-icons%%) no-repeat -5px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
 }
 
+/*
 .thumbnail.spoiler {
-    background: url(%%us-s12-icons-v02%%) no-repeat -175px -5px;
+    background: url(%%spoiled-icons%%) no-repeat -175px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -714,11 +715,11 @@ body>.content .link .rank,
     position: absolute;
     display: block;
     content: '';
-    background: url(%%us-s12-icons-v02%%) no-repeat -5px -90px;
+    background: url(%%spoiled-icons%%) no-repeat -5px -90px;
     width: 385px;
     height: 21px;
 }
-
+*/
 .spoiler .entry .title a.title {
     color: #1748b1 !important;
     background-color: #1748b1;
