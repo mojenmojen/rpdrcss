@@ -566,7 +566,9 @@ body>.content .link .rank,
 .arrow.up {
     height: 20px;
     background-position: 0 -80px;
-    transition: background-color .25s ease
+    transition: background-color .25s ease;
+    background-color: #5472b3;
+    border-radius: 20px;
 }
 
 .arrow.upmod {
@@ -593,7 +595,9 @@ body>.content .link .rank,
 .arrow.down {
     height: 20px;
     background-position: -64px -80px;
-    transition: background-color .25s ease
+    transition: background-color .25s ease;
+    background-color: #ca8080;
+    border-radius: 20px;
 }
 
 .arrow.downmod {
