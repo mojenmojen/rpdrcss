@@ -113,7 +113,7 @@ button:active,
     margin: 0;
     height: 275px;
     border: none;
-    background: url(%%header-s12-e02%%) 50% 50% / cover no-repeat;
+    background: url(%%header-s12-e03%%) 50% 50% / cover no-repeat;
     z-index: 1;
     /* box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12) */
 }
@@ -3984,7 +3984,7 @@ ul.image-preview-list li {
 
 .pinHeader-sub #sr-header-area,
 .pinHeader-subanduser #sr-header-area {
-    background-image: url(%%header-s12-e02%%);
+    background-image: url(%%header-s12-e03%%);
     background-position: 50% 0
 }
 
@@ -4011,7 +4011,7 @@ ul.image-preview-list li {
 
 .pinHeader-header #header {
     top: 0;
-    background-image: url(%%header-s12-e02%%);
+    background-image: url(%%header-s12-e03%%);
     height: 84px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24)
 }
