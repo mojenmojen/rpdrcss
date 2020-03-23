@@ -4654,7 +4654,7 @@ body.other-discussions-page>.content,
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%spoiled-flairsheet%%) no-repeat -9999px;
+    background: url(%%spoiled-flairsheet-v02%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -4677,49 +4677,49 @@ body.other-discussions-page>.content,
     background-position: -5px -91px;
 }
 
-.flair-gigi {
+.flair-dahlia {
     width: 142px;
     height: 33px;
     background-position: -5px -134px;
 }
 
-.flair-heidi {
+.flair-gigi {
     width: 142px;
     height: 33px;
     background-position: -5px -177px;
 }
 
-.flair-jackie {
+.flair-heidi {
     width: 142px;
     height: 33px;
     background-position: -5px -220px;
 }
 
-.flair-jaida {
+.flair-jackie {
     width: 142px;
     height: 33px;
     background-position: -157px -5px;
 }
 
-.flair-jan {
+.flair-jaida {
     width: 142px;
     height: 33px;
     background-position: -157px -48px;
 }
 
-.flair-nicki {
+.flair-jan {
     width: 142px;
     height: 33px;
     background-position: -157px -91px;
 }
 
-.flair-rock {
+.flair-nicki {
     width: 142px;
     height: 33px;
     background-position: -157px -134px;
 }
 
-.flair-sherry {
+.flair-rock {
     width: 142px;
     height: 33px;
     background-position: -157px -177px;
