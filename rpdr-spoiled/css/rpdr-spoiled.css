@@ -73,7 +73,7 @@ body button,
     margin: 4px 16px 4px 0;
     padding: 0 16px;
     /* background: #0079d3; */
-    background: #cb0101;
+    background: #be0800;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -143,7 +143,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 #sr-header-area .separator,
 #sr-header-area .dropdown.srdrop .selected {
     background: none;
-    color: #cb0101;
+    color: #be0800;
     transition: all .15s ease
 }
 
@@ -2186,7 +2186,7 @@ div.titlebox span.number:after {
     /* text button gradient */
     /* background: rgb(198,206,242);
     background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%); */
-    background: #1846a6; /* no gradient */
+    background: #be0800; /* no gradient */
 }
 
 .submit-text .morelink a:before {
@@ -2200,7 +2200,7 @@ div.titlebox span.number:after {
     /* link button gradient */
     /*background: rgb(198,206,242);
     background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);*/
-    background: #1846a6; /* no gradient */
+    background: #be0800; /* no gradient */
 }
 
 .submit-link .morelink a:before {
