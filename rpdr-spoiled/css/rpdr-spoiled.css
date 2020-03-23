@@ -712,7 +712,7 @@ body>.content .link .rank,
 .spoiler .entry .title a.title:before {
     font-size: 0;
     position: absolute;
-    display: block;
+    /* display: block; */
     content: '';
     background: url(%%spoiled-icons-v02%%) no-repeat -5px -90px;
     width: 385px;
