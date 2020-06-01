@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-NSFW {
+    width: 75px;
+    height: 75px;
+    background-position: -5px -5px;
+}
+
+.sprite-SpeakingOfficially {
+    width: 75px;
+    height: 75px;
+    background-position: -90px -5px;
+}
+
+.sprite-Spoiler {
+    width: 75px;
+    height: 75px;
+    background-position: -175px -5px;
+}
+
+.sprite-SpoilerCover {
+    width: 386px;
+    height: 21px;
+    background-position: -5px -90px;
+}
+
+.sprite-text {
+    width: 75px;
+    height: 75px;
+    background-position: -260px -5px;
+}
