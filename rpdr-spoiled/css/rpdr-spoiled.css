@@ -4602,51 +4602,9 @@ body.other-discussions-page>.content,
     }
 }
 
-/* moderator custom flairs */
-.flair[class*="2-"] { 
-    background-image: url(%%us-s12-modflairs%%); 
-}
-
-.flair-2-imbusy {
-    width: 136px;
-    height: 28px;
-    background-position: -5px -5px;
-}
-
-.flair-2-lifesnotfair {
-    width: 142px;
-    height: 28px;
-    background-position: -5px -43px;
-}
-
-.flair-2-naomismalls {
-    width: 142px;
-    height: 28px;
-    background-position: -5px -81px;
-}
-
-.flair-2-ninawest {
-    width: 142px;
-    height: 28px;
-    background-position: -5px -119px;
-}
-
-.flair-2-professional {
-    width: 142px;
-    height: 28px;
-    background-position: -5px -157px;
-}
-
-.flair-2-vanjie {
-    width: 122px;
-    height: 28px;
-    background-position: -151px -5px;
-}
-
-.flair-2-yuhua {
-    width: 120px;
-    height: 28px;
-    background-position: -157px -43px;
+/*** FLAIRS ***/
+.flair-plain:before {
+    content: normal;
 }
 
 /* Queen Flairs */
@@ -4657,6 +4615,15 @@ body.other-discussions-page>.content,
     background: url(%%spoiled-flairsheet%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
+}
+
+/* don't forget the plain! */
+.flair-plain {
+    color: #1748b1;
+    padding: 0 4px;
+    font-weight: 700;
+    text-indent: 0;
+    vertical-align: 0!important;
 }
 
 
@@ -4790,4 +4757,40 @@ body.other-discussions-page>.content,
     width: 142px;
     height: 33px;
     background-position: -309px -220px;
+}
+
+
+/* moderator custom flairs */
+.flair[class*="2-"] { 
+    background-image: url(%%spoiled-modflairs%%); 
+}
+
+.flair-2-mercedes {
+    width: 131px;
+    height: 33px;
+    background-position: -5px -5px;
+}
+
+.flair-2-nina {
+    width: 132px;
+    height: 33px;
+    background-position: -5px -48px;
+}
+
+.flair-2-plastique {
+    width: 132px;
+    height: 33px;
+    background-position: -5px -91px;
+}
+
+.flair-2-vanjie {
+    width: 115px;
+    height: 33px;
+    background-position: -146px -5px;
+}
+
+.flair-2-yuhua {
+    width: 110px;
+    height: 33px;
+    background-position: -147px -48px;
 }
