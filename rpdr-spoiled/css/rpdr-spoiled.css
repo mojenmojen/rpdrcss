@@ -4654,79 +4654,140 @@ body.other-discussions-page>.content,
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%spoiled-flairsheet-v02%%) no-repeat -9999px;
+    background: url(%%spoiled-flairsheet%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
 
-.flair-aiden {
-    width: 142px;
+
+.flair-as5alexis {
+    width: 143px;
     height: 33px;
     background-position: -5px -5px;
 }
 
-.flair-brita {
-    width: 142px;
+.flair-as5blair {
+    width: 166px;
+    height: 33px;
+    background-position: -158px -5px;
+}
+
+.flair-as5derrick {
+    width: 166px;
     height: 33px;
     background-position: -5px -48px;
 }
 
-.flair-crystal {
-    width: 142px;
+.flair-as5india {
+    width: 161px;
+    height: 33px;
+    background-position: -181px -48px;
+}
+
+.flair-as5juju {
+    width: 133px;
     height: 33px;
     background-position: -5px -91px;
 }
 
-.flair-dahlia {
-    width: 142px;
+.flair-as5mariah {
+    width: 166px;
+    height: 33px;
+    background-position: -148px -91px;
+}
+
+.flair-as5mayhem {
+    width: 161px;
     height: 33px;
     background-position: -5px -134px;
 }
 
-.flair-gigi {
-    width: 142px;
+.flair-as5mizcracker {
+    width: 152px;
+    height: 33px;
+    background-position: -176px -134px;
+}
+
+.flair-as5ongina {
+    width: 126px;
     height: 33px;
     background-position: -5px -177px;
 }
 
-.flair-heidi {
+.flair-as5shea {
+    width: 152px;
+    height: 33px;
+    background-position: -141px -177px;
+}
+
+.flair-s12aiden {
     width: 142px;
     height: 33px;
     background-position: -5px -220px;
 }
 
-.flair-jackie {
-    width: 142px;
-    height: 33px;
-    background-position: -157px -5px;
-}
-
-.flair-jaida {
-    width: 142px;
-    height: 33px;
-    background-position: -157px -48px;
-}
-
-.flair-jan {
-    width: 142px;
-    height: 33px;
-    background-position: -157px -91px;
-}
-
-.flair-nicki {
-    width: 142px;
-    height: 33px;
-    background-position: -157px -134px;
-}
-
-.flair-rock {
-    width: 142px;
-    height: 33px;
-    background-position: -157px -177px;
-}
-
-.flair-widow {
+.flair-s12brita {
     width: 142px;
     height: 33px;
     background-position: -157px -220px;
+}
+
+.flair-s12crystal {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -263px;
+}
+
+.flair-s12dahlia {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -263px;
+}
+
+.flair-s12gigi {
+    width: 142px;
+    height: 33px;
+    background-position: -5px -306px;
+}
+
+.flair-s12heidi {
+    width: 142px;
+    height: 33px;
+    background-position: -157px -306px;
+}
+
+.flair-s12jackie {
+    width: 142px;
+    height: 33px;
+    background-position: -334px -5px;
+}
+
+.flair-s12jaida {
+    width: 142px;
+    height: 33px;
+    background-position: -352px -48px;
+}
+
+.flair-s12jan {
+    width: 142px;
+    height: 33px;
+    background-position: -324px -91px;
+}
+
+.flair-s12nicki {
+    width: 142px;
+    height: 33px;
+    background-position: -338px -134px;
+}
+
+.flair-s12rock {
+    width: 142px;
+    height: 33px;
+    background-position: -303px -177px;
+}
+
+.flair-s12widow {
+    width: 142px;
+    height: 33px;
+    background-position: -309px -220px;
 }
