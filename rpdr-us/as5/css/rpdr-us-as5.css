@@ -1852,7 +1852,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .side:before {
-    background: url(%%sidebar-as5%%);
+    background: url(%%sidebar-as5-jaida%%);
     content: "";
     display: block;
     position: absolute;
