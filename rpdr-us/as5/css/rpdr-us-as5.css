@@ -1182,7 +1182,7 @@ body .content .sitetable .link .title a:hover {
 
 .linkflair-mod .thumbnail.default,
 .linkflair-mod .thumbnail.self {
-    background: #1748b1 url(%%spritesheet%%) -208px -104px
+    background: #3b10a6 url(%%spritesheet%%) -208px -104px
 }
 
 body .content .thing.spam {
@@ -1286,12 +1286,12 @@ b {
 .thing.link.stickied a.title,
 .thing.link.stickied li a,
 .thing.link.stickied .entry li .comments {
-    color: #1748b1 !important
+    color: #3b10a6 !important
 }
 
 .thing.link.stickied .expando-button:hover {
-    background-color: #1748b1 !important;
-    border-color: #1748b1 !important
+    background-color: #3b10a6 !important;
+    border-color: #3b10a6 !important
 }
 
 .tagline .stickied-tagline {
@@ -1301,7 +1301,7 @@ b {
 
 .stickied.comment>.entry a,
 .stickied.comment .tagline .stickied-tagline {
-    color: #1748b1
+    color: #3b10a6
 }
 
 .content .spacer {
@@ -1780,7 +1780,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar {
-    background: #1748b1
+    background: #3b10a6
 }
 
 .reddit-infobar.with-icon.locked-infobar .md {
@@ -1792,7 +1792,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar:before {
-    background-color: #1748b1;
+    background-color: #3b10a6;
     border-right: 1px solid rgba(0, 0, 0, 0.08)
 }
 
@@ -1992,7 +1992,7 @@ div.titlebox span.number:after {
 }
 
 .titlebox .fancy-toggle-button .active.add {
-    background: #1748b1;
+    background: #3b10a6;
     color: #fff
 }
 
@@ -2189,7 +2189,7 @@ div.titlebox span.number:after {
     /* text button gradient */
     /* background: rgb(198,206,242);
     background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%); */
-    background: #7018bc; /* no gradient */
+    background: #3d2e89; /* no gradient */
 }
 
 .submit-text .morelink a:before {
@@ -2203,7 +2203,7 @@ div.titlebox span.number:after {
     /* link button gradient */
     /*background: rgb(198,206,242);
     background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);*/
-    background: #7018bc; /* no gradient */
+    background: #3d2e89; /* no gradient */
 }
 
 .submit-link .morelink a:before {
@@ -2689,7 +2689,7 @@ div.titlebox span.number:after {
 }
 
 .green {
-    color: #1748b1 !important;
+    color: #3b10a6 !important;
     font-weight: 700
 }
 
@@ -2734,7 +2734,7 @@ div.titlebox span.number:after {
 }
 
 .res-nightmode .stickied .thumbnail {
-    background: #1748b1 url(%%spritesheet%%) -96px -48px
+    background: #3b10a6 url(%%spritesheet%%) -96px -48px
 }
 
 .res-nightmode body,
@@ -4622,7 +4622,7 @@ body.other-discussions-page>.content,
 
 /* don't forget the plain flair! */
 .flair-plain {
-    color: #1748b1;
+    color: #3b10a6;
     padding: 0 4px;
     font-weight: 700;
     text-indent: 0;
