@@ -4753,3 +4753,12 @@ body.other-discussions-page>.content,
     height: 28px;
     background-position: -185px -43px;
 }
+
+/* changed readers and currently online text */
+.titlebox .subscribers .number:after { 
+     content: " Broc-allies"
+}
+.titlebox .users-online span.number:after
+{
+    content: ' currently looking over there';
+}
