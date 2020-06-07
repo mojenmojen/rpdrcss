@@ -4733,13 +4733,19 @@ body.other-discussions-page>.content,
 .flair-2-vanjie {
     width: 90px;
     height: 28px;
-    background-position: -186px -5px;
+    background-position: -5px -195px;
+}
+
+.flair-2-vlad {
+    width: 119px;
+    height: 28px;
+    background-position: -105px -195px;
 }
 
 .flair-2-whatprivilege {
     width: 181px;
     height: 28px;
-    background-position: -5px -195px;
+    background-position: -186px -5px;
 }
 
 .flair-2-yuhua {
