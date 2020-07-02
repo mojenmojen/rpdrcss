@@ -1,0 +1,65 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-anastarzia {
+    width: 140px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.sprite-boa {
+    width: 78px;
+    height: 32px;
+    background-position: -5px -47px;
+}
+
+.sprite-ilona {
+    width: 138px;
+    height: 32px;
+    background-position: -5px -89px;
+}
+
+.sprite-jimbo {
+    width: 88px;
+    height: 32px;
+    background-position: -93px -47px;
+}
+
+.sprite-juice-boxx {
+    width: 120px;
+    height: 32px;
+    background-position: -5px -131px;
+}
+
+.sprite-kiara {
+    width: 82px;
+    height: 32px;
+    background-position: -5px -173px;
+}
+
+.sprite-kyne {
+    width: 82px;
+    height: 32px;
+    background-position: -97px -173px;
+}
+
+.sprite-lemon {
+    width: 90px;
+    height: 32px;
+    background-position: -155px -5px;
+}
+
+.sprite-priyanka {
+    width: 104px;
+    height: 32px;
+    background-position: -191px -47px;
+}
+
+.sprite-ritabaga {
+    width: 104px;
+    height: 32px;
+    background-position: -153px -89px;
+}

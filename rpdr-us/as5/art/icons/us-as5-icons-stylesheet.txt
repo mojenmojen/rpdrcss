@@ -13,7 +13,7 @@
 .sprite-SpeakingOfficially {
     width: 75px;
     height: 75px;
-    background-position: -90px -5px;
+    	
 }
 
 .sprite-Spoiler {
