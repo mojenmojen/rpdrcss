@@ -1,0 +1,7 @@
+red: d7012a
+gold: e36442
+
+light red (upvote arrow): ca8080
+
+
+spoiler tag : CC0A2B
