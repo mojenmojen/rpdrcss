@@ -4617,7 +4617,7 @@ body.other-discussions-page>.content,
     cursor: default;
     padding: 0;
     border: 0;
-    background: url(%%can-s01-flairsheet%%) no-repeat -9999px;
+    background: url(%%can-s01-flairsheet-v02%%) no-repeat -9999px;
     text-indent: -9999em;
     white-space: nowrap;
 }
@@ -4641,55 +4641,67 @@ body.other-discussions-page>.content,
 .flair-boa {
     width: 78px;
     height: 32px;
-    background-position: -5px -47px;
+    background-position: -155px -5px;
 }
 
 .flair-ilona {
     width: 138px;
     height: 32px;
-    background-position: -5px -89px;
+    background-position: -5px -47px;
 }
 
 .flair-jimbo {
     width: 88px;
     height: 32px;
-    background-position: -93px -47px;
+    background-position: -5px -89px;
 }
 
 .flair-juice-boxx {
     width: 120px;
     height: 32px;
-    background-position: -5px -131px;
+    background-position: -103px -89px;
 }
 
 .flair-kiara {
     width: 82px;
     height: 32px;
-    background-position: -5px -173px;
+    background-position: -153px -47px;
 }
 
 .flair-kyne {
     width: 82px;
     height: 32px;
-    background-position: -97px -173px;
+    background-position: -5px -131px;
 }
 
 .flair-lemon {
     width: 90px;
     height: 32px;
-    background-position: -155px -5px;
+    background-position: -97px -131px;
 }
 
 .flair-priyanka {
     width: 104px;
     height: 32px;
-    background-position: -191px -47px;
+    background-position: -5px -173px;
 }
 
 .flair-ritabaga {
     width: 104px;
     height: 32px;
-    background-position: -153px -89px;
+    background-position: -119px -173px;
+}
+
+.flair-scarlett {
+    width: 138px;
+    height: 32px;
+    background-position: -243px -5px;
+}
+
+.flair-tynomi {
+    width: 140px;
+    height: 32px;
+    background-position: -245px -47px;
 }
 
 /* changed readers and currently online text */
