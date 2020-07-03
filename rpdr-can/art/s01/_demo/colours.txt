@@ -1,5 +1,7 @@
 red: d7012a
-gold: e36442
+gold: fedc74
+
+darker gold: f3bc16
 
 light red (upvote arrow): ca8080
 
