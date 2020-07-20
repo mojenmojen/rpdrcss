@@ -663,7 +663,7 @@ body>.content .link .rank,
 }
 
 .thumbnail.self {
-    background: url(%%can-s01-icons%%) no-repeat -248px -5px;
+    background: url(%%meme-icons%%) no-repeat -254px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -674,7 +674,7 @@ body>.content .link .rank,
 }
 
 .thumbnail.nsfw {
-    background: url(%%can-s01-icons%%) no-repeat -5px -5px;
+    background: url(%%meme-icons%%) no-repeat -5px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -689,7 +689,7 @@ body>.content .link .rank,
 }
 
 .stickied .thumbnail {
-    background: url(%%can-s01-icons%%) -86px -5px;
+    background: url(%%meme-icons%%) -88px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -700,14 +700,14 @@ body>.content .link .rank,
 }
 
 .over18 .thumbnail {
-    background: url(%%can-s01-icons%%) no-repeat -5px -5px;
+    background: url(%%meme-icons%%) no-repeat -5px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
 }
 
 .thumbnail.spoiler {
-    background: url(%%can-s01-icons%%) no-repeat -167px -5px;
+    background: url(%%meme-icons%%) no-repeat -171px -5px;
     width: 75px;
     height: 75px;
     border-radius: 0;
@@ -718,7 +718,7 @@ body>.content .link .rank,
     position: absolute;
     display: block;
     content: '';
-    background: url(%%can-s01-icons%%) no-repeat -5px -87px;
+    background: url(%%meme-icons%%) no-repeat -5px -90px;
     width: 386px;
     height: 21px;
 }
