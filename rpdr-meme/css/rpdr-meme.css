@@ -1182,7 +1182,7 @@ body .content .sitetable .link .title a:hover {
 
 .linkflair-mod .thumbnail.default,
 .linkflair-mod .thumbnail.self {
-    background: #f91400 url(%%spritesheet%%) -208px -104px
+    background: #2d173d url(%%spritesheet%%) -208px -104px
 }
 
 body .content .thing.spam {
@@ -1286,12 +1286,12 @@ b {
 .thing.link.stickied a.title,
 .thing.link.stickied li a,
 .thing.link.stickied .entry li .comments {
-    color: #f91400 !important
+    color: #2d173d !important
 }
 
 .thing.link.stickied .expando-button:hover {
-    background-color: #f91400 !important;
-    border-color: #f91400 !important
+    background-color: #2d173d !important;
+    border-color: #2d173d !important
 }
 
 .tagline .stickied-tagline {
@@ -1301,7 +1301,7 @@ b {
 
 .stickied.comment>.entry a,
 .stickied.comment .tagline .stickied-tagline {
-    color: #f91400
+    color: #2d173d
 }
 
 .content .spacer {
@@ -1780,7 +1780,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar {
-    background: #f91400
+    background: #2d173d
 }
 
 .reddit-infobar.with-icon.locked-infobar .md {
@@ -1792,7 +1792,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .reddit-infobar.with-icon.locked-infobar:before {
-    background-color: #f91400;
+    background-color: #2d173d;
     border-right: 1px solid rgba(0, 0, 0, 0.08)
 }
 
@@ -1992,7 +1992,7 @@ div.titlebox span.number:after {
 }
 
 .titlebox .fancy-toggle-button .active.add {
-    background: #f91400;
+    background: #2d173d;
     color: #fff
 }
 
@@ -2689,7 +2689,7 @@ div.titlebox span.number:after {
 }
 
 .green {
-    color: #f91400 !important;
+    color: #2d173d !important;
     font-weight: 700
 }
 
@@ -2734,7 +2734,7 @@ div.titlebox span.number:after {
 }
 
 .res-nightmode .stickied .thumbnail {
-    background: #f91400 url(%%spritesheet%%) -96px -48px
+    background: #2d173d url(%%spritesheet%%) -96px -48px
 }
 
 .res-nightmode body,
