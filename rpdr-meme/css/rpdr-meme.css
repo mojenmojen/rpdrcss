@@ -3265,7 +3265,7 @@ body.mod-toolbox .tb-action-button {
     position: relative;
     padding: 0;
     border: none;
-    background: #d7012ai;
+    background: #ea348b;
     border-radius: 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
 }
@@ -3283,7 +3283,7 @@ body.mod-toolbox .tb-action-button {
     letter-spacing: 2px;
     border: none;
     border-bottom: 4px solid transparent;
-    background-color: #d7012a;
+    background-color: #503650;
     color: #ccc;
 }
 
@@ -3292,7 +3292,7 @@ body.mod-toolbox .tb-action-button {
     background: none;
     color: #fff;
     border-bottom: 4px solid;
-    background-color: #e3b442;
+    background-color: #ea248b;
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab a:hover {
