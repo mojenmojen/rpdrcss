@@ -1852,7 +1852,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .side:before {
-    background: url(%%sidebar-s01%%);
+    background: url(%%sidebar-meme%%);
     content: "";
     display: block;
     position: absolute;
@@ -1899,7 +1899,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     height: 65px;
     width: 300px;
     margin-top: -5px;
-    background-image: url(%%sidelogo-s01%%);
+    background-image: url(%%sidelogo-meme%%);
     background-repeat: no-repeat;
     background-size: auto 100%;
     text-indent: -9999px;
