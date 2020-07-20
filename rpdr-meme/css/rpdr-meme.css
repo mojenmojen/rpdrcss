@@ -4606,105 +4606,7 @@ body.other-discussions-page>.content,
     }
 }
 
-
-
-/*** FLAIRS ***/
-.flair-plain:before {
-    content: normal;
-}
-
-.flair {
-    cursor: default;
-    padding: 0;
-    border: 0;
-    background: url(%%can-s01-flairsheet-v02%%) no-repeat -9999px;
-    text-indent: -9999em;
-    white-space: nowrap;
-}
-
-/* don't forget the plain flair! */
-.flair-plain {
-    color: #d7012a;
-    padding: 0 4px;
-    font-weight: 700;
-    text-indent: 0;
-    vertical-align: 0!important;
-}
-
-/* queen flairs */
-.flair-anastarzia {
-    width: 140px;
-    height: 32px;
-    background-position: -5px -5px;
-}
-
-.flair-boa {
-    width: 78px;
-    height: 32px;
-    background-position: -155px -5px;
-}
-
-.flair-ilona {
-    width: 138px;
-    height: 32px;
-    background-position: -5px -47px;
-}
-
-.flair-jimbo {
-    width: 88px;
-    height: 32px;
-    background-position: -5px -89px;
-}
-
-.flair-juice-boxx {
-    width: 120px;
-    height: 32px;
-    background-position: -103px -89px;
-}
-
-.flair-kiara {
-    width: 82px;
-    height: 32px;
-    background-position: -153px -47px;
-}
-
-.flair-kyne {
-    width: 82px;
-    height: 32px;
-    background-position: -5px -131px;
-}
-
-.flair-lemon {
-    width: 90px;
-    height: 32px;
-    background-position: -97px -131px;
-}
-
-.flair-priyanka {
-    width: 104px;
-    height: 32px;
-    background-position: -5px -173px;
-}
-
-.flair-ritabaga {
-    width: 104px;
-    height: 32px;
-    background-position: -119px -173px;
-}
-
-.flair-scarlett {
-    width: 138px;
-    height: 32px;
-    background-position: -243px -5px;
-}
-
-.flair-tynomi {
-    width: 140px;
-    height: 32px;
-    background-position: -245px -47px;
-}
-
-/* changed readers and currently online text */
+/* changed readers and currently online text 
 .titlebox .subscribers .number:after { 
      content: " enjoying free health care";
 }
@@ -4712,3 +4614,4 @@ body.other-discussions-page>.content,
 {
     content: " admiring Trudeau's socks";
 }
+*/
