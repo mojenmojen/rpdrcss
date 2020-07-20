@@ -2189,7 +2189,7 @@ div.titlebox span.number:after {
     /* text button gradient */
     /* background: rgb(198,206,242);
     background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%); */
-    background: #d70f15; /* no gradient */
+    background: #ea348b; /* no gradient */
 }
 
 .submit-text .morelink a:before {
@@ -2203,7 +2203,7 @@ div.titlebox span.number:after {
     /* link button gradient */
     /*background: rgb(198,206,242);
     background: linear-gradient(180deg, rgba(198,206,242,1) 0%, rgba(51,67,180,1) 100%);*/
-    background: #d70f15; /* no gradient */
+    background: #ea348b; /* no gradient */
 }
 
 .submit-link .morelink a:before {
