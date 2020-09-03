@@ -123,7 +123,8 @@ button:active,
     border: none;
     transition: all .15s ease;
     height: 24px;
-    line-height: 23px
+    line-height: 23px;
+    z-index: 1;
 }
 
 #sr-header-area .width-clip {
@@ -405,7 +406,7 @@ body:not(.loggedin) #header-bottom-right {
 
 #header .pagename a {
     position: absolute;
-    top: -200px;
+    /* top: -200px; */
     left: 0;
     bottom: 45px;
     right: 0;
