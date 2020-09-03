@@ -144,7 +144,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 #sr-header-area .separator,
 #sr-header-area .dropdown.srdrop .selected {
     background: none;
-    color: #7018bc;
+    color: #ffffff;
     transition: all .15s ease
 }
 
