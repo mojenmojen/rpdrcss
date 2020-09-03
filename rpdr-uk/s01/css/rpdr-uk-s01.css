@@ -123,7 +123,8 @@ button:active,
     border: none;
     transition: all .15s ease;
     height: 24px;
-    line-height: 23px
+    line-height: 23px;
+    z-index: 1;
 }
 
 #sr-header-area .width-clip {
@@ -405,7 +406,7 @@ body:not(.loggedin) #header-bottom-right {
 
 #header .pagename a {
     position: absolute;
-    top: -200px;
+    /* top: -200px; */
     left: 0;
     bottom: 45px;
     right: 0;
@@ -1832,7 +1833,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .side {
     margin: 282px 16px 108px 0;
-    padding-top: 305px;
+    padding-top: 270px;
     background: none;
     width: 320px
 }
@@ -1846,7 +1847,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     content: "";
     display: block;
     position: absolute;
-    top: 545px;
+    top: 500px;
     width: 320px;
     height: 320px;
     z-index: 1;
@@ -2164,8 +2165,8 @@ div.titlebox span.number:after {
 }
 
 .sidebox.submit.submit-text .morelink {
-    /* margin-left: 168px */
-    margin-top: 50px;
+    margin-left: 168px
+    /* margin-top: 50px; */
 }
 
 .morelink a {
@@ -2245,7 +2246,8 @@ div.titlebox span.number:after {
     position: absolute;
     top: 442px;
     font-size: 0;
-    width: 320px
+   /*  width: 320px */
+   width: 152px;
 }
 
 .wiki-page .wiki-page-content .discussionlink {
